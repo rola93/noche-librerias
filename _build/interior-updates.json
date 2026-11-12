@@ -1,0 +1,652 @@
+{
+ "sources": {
+  "idsj": {
+   "label": "Intendencia de San José (9/11)",
+   "url": "https://sanjose.gub.uy/26-11-09noche-librerias/"
+  },
+  "ladiaria-pay": {
+   "label": "la diaria, Paysandú (11/11)",
+   "url": "https://ladiaria.com.uy/paysandu/articulo/2026/11/la-noche-de-las-librerias-tendra-dos-propuestas-en-paysandu-con-libros-musica-y-actividades-para-toda-la-familia/"
+  },
+  "telegrafo-pay": {
+   "label": "El Telégrafo (11/11)",
+   "url": "https://www.eltelegrafo.com/2026/11/la-noche-de-las-librerias-vuelve-a-llenar-de-libros-musica-y-cultura-las-calles-de-paysandu/"
+  },
+  "salto": {
+   "label": "Intendencia de Salto",
+   "url": "https://www.salto.gub.uy/eventos/noche-de-las-librerias-2026-en-libreria-33-salto"
+  },
+  "tuti-bolivar": {
+   "label": "Tuti, agenda de La Paloma",
+   "url": "https://tuti.uy/actividades/bolivar-en-tres-actos-1824"
+  },
+  "topia": {
+   "label": "Editorial Topia (puntos de venta)",
+   "url": "https://www.editorialtopia.com/topia/faq"
+  },
+  "mvdportal-noctiluca": {
+   "label": "Montevideo Portal",
+   "url": "https://www.montevideo.com.uy/18-capitales/La-Kombi-libreria-que-recorrio-Uruguay-rompio-motor-ahora-busca-volver-a-la-ruta-uc969457"
+  },
+  "elpais-noctiluca": {
+   "label": "El País (26/6)",
+   "url": "https://www.elpais.com.uy/el-empresario/noctiluca-la-libreria-itinerante-sobre-ruedas-hizo-un-parate-en-montevideo-y-abrio-su-primer-local"
+  }
+ },
+ "places": {
+  "La Canasta": {
+   "src": "idsj",
+   "addr": "Rincón entre Asamblea y Ciganda",
+   "hours": [
+    "17:00",
+    "23:00"
+   ],
+   "acts": [
+    {
+     "start": "17:00",
+     "end": null,
+     "title": "Ilustraciones de «Mi abuelo Eloy»",
+     "desc": "Proyecto de ilustraciones basadas en el cuento “Mi abuelo Eloy” de Noelia García, a cargo de alumnos de la Escuela N.º 49 de Libertad.",
+     "tags": [
+      "ninos"
+     ],
+     "people": [
+      "Noelia García"
+     ]
+    },
+    {
+     "start": "19:30",
+     "end": null,
+     "title": "«La Casita y sus aventuras de Yoga»",
+     "desc": "Presentación del libro “La Casita y sus aventuras de Yoga”, del Club de niños La Casita.",
+     "tags": [
+      "presentacion",
+      "ninos"
+     ],
+     "people": []
+    },
+    {
+     "start": "20:00",
+     "end": null,
+     "title": "Taller «Una noche con el monstruo de los colores»",
+     "desc": "Taller a cargo de la psicóloga Flavia González (cupos limitados).",
+     "tags": [
+      "taller",
+      "ninos"
+     ],
+     "people": [
+      "Flavia González"
+     ]
+    },
+    {
+     "start": "20:30",
+     "end": null,
+     "title": "«Recreando Sueños»",
+     "desc": "Presentación del libro “Recreando Sueños”, a cargo de las maestras Sofía Pino y Mary López (Escuela N.º 1 de Bañado) e Isabel Criado (Escuela N.º 8 de Chamizo).",
+     "tags": [
+      "presentacion"
+     ],
+     "people": [
+      "Sofía Pino",
+      "Mary López",
+      "Isabel Criado"
+     ]
+    },
+    {
+     "start": "22:00",
+     "end": null,
+     "title": "Danzas folclóricas: El Timbó",
+     "desc": "Actuación del grupo de danzas folclóricas El Timbó.",
+     "tags": [],
+     "people": [
+      "El Timbó"
+     ]
+    }
+   ],
+   "note": "Programa completo de la Intendencia: empieza a las 17:00 (el MEC dice 18:00) en la calle Rincón entre Asamblea y Ciganda, y suma cuatro actividades a la única de la guía (el taller de Flavia González, ahora a las 20:00 y con cupos). Si llueve, se pasa al Mercado San José. El cierre a las 23:00 se toma de la guía del MEC."
+  },
+  "Puro Cuento Libercafé": {
+   "src": "idsj",
+   "addr": "18 de Julio 590 casi 25 de Mayo",
+   "hours": null,
+   "acts": [
+    {
+     "start": "18:30",
+     "end": null,
+     "title": "Narración de literatura infantil",
+     "desc": "Selección de cuentos de los libros de antología de Banda Oriental.",
+     "tags": [
+      "ninos",
+      "lectura"
+     ],
+     "people": [
+      "Bettina Ceriani"
+     ]
+    },
+    {
+     "start": "19:15",
+     "end": null,
+     "title": "Charla: educación sexual infantil",
+     "desc": "Charla sobre educación sexual infantil, a cargo de la Dra. Yamila Díaz.",
+     "tags": [
+      "charla"
+     ],
+     "people": [
+      "Yamila Díaz"
+     ]
+    },
+    {
+     "start": "20:15",
+     "end": null,
+     "title": "«Andenes», de Tatiana Oroño",
+     "desc": "Presentación del libro “Andenes” de Tatiana Oroño, a cargo del Prof. Pedro Peña con la presencia de la autora.",
+     "tags": [
+      "presentacion"
+     ],
+     "people": [
+      "Tatiana Oroño",
+      "Pedro Peña"
+     ]
+    },
+    {
+     "start": "21:00",
+     "end": null,
+     "title": "Orquesta Escarlata: «La música de Federico García Lorca»",
+     "desc": "Presentación artístico-musical a cargo de Martín Lazaroff.",
+     "tags": [
+      "musica"
+     ],
+     "people": [
+      "Orquesta Escarlata",
+      "Martin Lazaroff"
+     ]
+    },
+    {
+     "start": "21:45",
+     "end": null,
+     "title": "«Paisaje criollo»: Damián Cabrera y Pedro Peña",
+     "desc": "Música e interpretación: Damián Cabrera; letras: Pedro Peña.",
+     "tags": [
+      "musica"
+     ],
+     "people": [
+      "Damián Cabrera",
+      "Pedro Peña"
+     ]
+    },
+    {
+     "start": "23:00",
+     "end": null,
+     "title": "Libros y canciones",
+     "desc": "El público expone sobre un texto elegido y su vínculo con una canción.",
+     "tags": [
+      "lectura",
+      "musica"
+     ],
+     "people": []
+    }
+   ],
+   "note": "La Intendencia da la dirección 18 de Julio 590 (el MEC dice 570) e invierte los dos números musicales: Orquesta Escarlata a las 21:00 y Paisaje criollo a las 21:45 (el MEC dice 22:00 y 21:00). La narradora Bettina Ceriani sale de la guía del MEC; la Intendencia no la nombra."
+  },
+  "Entre Libros": {
+   "src": "idsj",
+   "addr": "Batlle y Ordóñez 643 entre Sarandí y Colón (escenario callejero)",
+   "hours": null,
+   "acts": [
+    {
+     "start": "18:00",
+     "end": null,
+     "title": "Jazz con Nadia Florio y Edgardo Nieves",
+     "desc": "Jazz en vivo.",
+     "tags": [
+      "musica"
+     ],
+     "people": [
+      "Nadia Florio",
+      "Edgardo Nieves"
+     ]
+    },
+    {
+     "start": "18:15",
+     "end": null,
+     "title": "Taller «Supervoz», con Clarisa Prince",
+     "desc": "Taller basado en el libro-álbum “Supervoz”.",
+     "tags": [
+      "taller",
+      "ninos"
+     ],
+     "people": [
+      "Clarisa Prince"
+     ]
+    },
+    {
+     "start": "19:00",
+     "end": null,
+     "title": "Tango: Minas, fulanas y pebetas y Gimena Batista",
+     "desc": "Baila el colectivo de tango Minas, fulanas y pebetas y canta Gimena Batista.",
+     "tags": [
+      "musica"
+     ],
+     "people": [
+      "Minas, fulanas y pebetas",
+      "Gimena Batista"
+     ]
+    },
+    {
+     "start": "19:30",
+     "end": null,
+     "title": "Dardo Sellanes lee poesías y cuentos",
+     "desc": "Lectura de poesías y cuentos de Dardo Sellanes.",
+     "tags": [
+      "lectura"
+     ],
+     "people": [
+      "Dardo Sellanes"
+     ]
+    },
+    {
+     "start": "19:45",
+     "end": null,
+     "title": "«Los inquilinos de arriba» y «Milagros para Leandro», de Carolina Silva",
+     "desc": "Presentación conjunta y comparativa de los dos libros de Carolina Silva.",
+     "tags": [
+      "presentacion"
+     ],
+     "people": [
+      "Carolina Silva"
+     ]
+    },
+    {
+     "start": null,
+     "end": null,
+     "title": "Irma Álvarez lee sus trabajos",
+     "desc": "Lectura de trabajos de Irma Álvarez.",
+     "tags": [
+      "lectura"
+     ],
+     "people": [
+      "Irma Álvarez"
+     ]
+    },
+    {
+     "start": "21:00",
+     "end": null,
+     "title": "Tributo a Rubén Rada",
+     "desc": "Versiones de Rada con Florio & Nieves.",
+     "tags": [
+      "musica"
+     ],
+     "people": [
+      "Florio & Nieves"
+     ]
+    },
+    {
+     "start": "21:30",
+     "end": null,
+     "title": "«Cosas que nadie me explicó», de César Altamirano",
+     "desc": "Presentación del libro de César Altamirano.",
+     "tags": [
+      "presentacion"
+     ],
+     "people": [
+      "César Altamirano"
+     ]
+    },
+    {
+     "start": "22:00",
+     "end": null,
+     "title": "Tributo a Los Beatles",
+     "desc": "Versiones de Los Beatles con Florio & Nieves.",
+     "tags": [
+      "musica"
+     ],
+     "people": [
+      "Florio & Nieves"
+     ]
+    },
+    {
+     "start": "22:15",
+     "end": null,
+     "title": "«Revolver 50: El nacimiento de un icono», de Klaus Voormann",
+     "desc": "Presentación del libro a cargo de Boris Faingola.",
+     "tags": [
+      "presentacion"
+     ],
+     "people": [
+      "Boris Faingola"
+     ]
+    },
+    {
+     "start": "23:00",
+     "end": null,
+     "title": "Canta La Gata Mara",
+     "desc": "Murga La Gata Mara.",
+     "tags": [
+      "musica"
+     ],
+     "people": [
+      "La Gata Mara"
+     ]
+    },
+    {
+     "start": "23:30",
+     "end": null,
+     "title": "Cierre: Leo Carlini (Pecho e’ Fierro)",
+     "desc": "Canciones que nacieron de musicalizar poemas de autores de San José.",
+     "tags": [
+      "musica"
+     ],
+     "people": [
+      "Leo Carlini"
+     ]
+    }
+   ],
+   "note": "La Intendencia mueve el tributo a Rada a las 21:00 (el MEC dice 20:45) y a Altamirano a las 21:30 (el MEC dice 21:45). Carolina Silva presenta también “Los inquilinos de arriba”, y el libro que comenta Faingola es “Revolver 50” de Klaus Voormann. Las actividades que la Intendencia agrupa “desde las 18:00” sin hora conservan la del MEC; Irma Álvarez queda sin hora porque el MEC la pone a las 21:00, cuando ahora empieza el tributo. La Intendencia no menciona al colectivo Minas, fulanas y pebetas (lo mantengo de la guía) y escribe “Leo Carolini”. Si llueve, se pasa al Instituto Cultural Español."
+  },
+  "Posta del Libro": {
+   "src": "ladiaria-pay",
+   "addr": null,
+   "hours": [
+    "18:00",
+    "00:30"
+   ],
+   "acts": [
+    {
+     "start": "18:00",
+     "end": null,
+     "title": "Ajedrez con la Escuela Sanducera de Ajedrez",
+     "desc": "Propuesta de ajedrez con la escuela que dirige Dionisio de Cuadro.",
+     "tags": [],
+     "people": []
+    },
+    {
+     "start": "18:30",
+     "end": null,
+     "title": "Academia de canto de Bruno Pina",
+     "desc": "Los alumnos comparten canciones.",
+     "tags": [
+      "musica"
+     ],
+     "people": [
+      "Escuela de Canto Bruno Pina"
+     ]
+    },
+    {
+     "start": "19:00",
+     "end": null,
+     "title": "Animación a la lectura, con Mabel De Agostini",
+     "desc": "Animación a la lectura para toda la familia y presentación de la Red de Biblioheladeras de Paysandú (se reciben libros para donar).",
+     "tags": [
+      "lectura"
+     ],
+     "people": [
+      "Mabel De Agostini"
+     ]
+    },
+    {
+     "start": "20:00",
+     "end": null,
+     "title": "«Bailando se mueve Paysandú»",
+     "desc": "Grupo infantil de danza urbana de la Intendencia de Paysandú.",
+     "tags": [],
+     "people": []
+    },
+    {
+     "start": "20:30",
+     "end": null,
+     "title": "«Tinto y pinta», de Fito Lacava",
+     "desc": "Presentación del libro infantil con música y animación.",
+     "tags": [
+      "presentacion",
+      "ninos",
+      "musica"
+     ],
+     "people": [
+      "Rodolfo Lacava"
+     ]
+    },
+    {
+     "start": "21:30",
+     "end": null,
+     "title": "«El infinito caballero», de Marcelo Estefanell",
+     "desc": "Presentación de “El infinito caballero: Don Quijote de la Mancha y la aventura de leerlo”.",
+     "tags": [
+      "presentacion"
+     ],
+     "people": [
+      "Marcelo Estefanell"
+     ]
+    },
+    {
+     "start": "22:30",
+     "end": null,
+     "title": "Cierre musical: Delfi Falco",
+     "desc": "Presentación en vivo de Delfi Falco.",
+     "tags": [
+      "musica"
+     ],
+     "people": [
+      "Delfi Falco"
+     ]
+    }
+   ],
+   "note": "Según la diaria, abre a las 18:00 con ajedrez (el MEC dice 18:30). Bruno Pina pasa a las 18:30, Mabel De Agostini a las 19:00, Bailando se mueve Paysandú a las 20:00 y Tinto y pinta a las 20:30 (en el MEC: 19:00, 18:30, 20:30 y 19:30). La diaria no menciona la robótica ni la exposición de artistas locales. El cierre a las 00:30 se toma de la guía del MEC."
+  },
+  "El Prisma de Lunares": {
+   "src": "ladiaria-pay",
+   "addr": null,
+   "hours": null,
+   "acts": [
+    {
+     "start": "19:15",
+     "end": null,
+     "title": "«Averno represión», de Santiago Meloni",
+     "desc": "Presentación de “Averno represión: el horror de lo que no queremos ver”, terror sanducero.",
+     "tags": [
+      "presentacion"
+     ],
+     "people": [
+      "Santiago Meloni"
+     ]
+    },
+    {
+     "start": "19:45",
+     "end": null,
+     "title": "Lanzamiento del festival Canción de Río",
+     "desc": "Lanzamiento oficial de la edición por los 11 años del festival, con gestores y artistas.",
+     "tags": [],
+     "people": []
+    },
+    {
+     "start": "20:30",
+     "end": null,
+     "title": "Conversatorio sobre Anne Carson",
+     "desc": "“Anne Carson: desacralizar lo sagrado, arqueología de la última premio nobel”, a cargo de Valeria Rodríguez y Laura Villalba.",
+     "tags": [
+      "charla"
+     ],
+     "people": [
+      "Valeria Rodríguez",
+      "Laura Villalba"
+     ]
+    },
+    {
+     "start": "21:00",
+     "end": null,
+     "title": "«No excluyentes I y II»",
+     "desc": "Conversación sobre las antologías y lecturas en vivo de autores emergentes; presenta Mario Pons.",
+     "tags": [
+      "presentacion",
+      "lectura"
+     ],
+     "people": [
+      "Mario Pons"
+     ]
+    },
+    {
+     "start": "21:45",
+     "end": null,
+     "title": "«Interioranos», de Editora del Norte",
+     "desc": "Con Margarita Heinzen, Pablo Márquez, Marco Rivero y Mario Pons.",
+     "tags": [
+      "presentacion"
+     ],
+     "people": [
+      "Margarita Heinzen",
+      "Pablo Márquez",
+      "Marco Rivero",
+      "Mario Pons"
+     ]
+    },
+    {
+     "start": "22:30",
+     "end": null,
+     "title": "Música en vivo: Hey Mujik!",
+     "desc": "Banda de Montevideo.",
+     "tags": [
+      "musica"
+     ],
+     "people": [
+      "Hey Mujik!"
+     ]
+    },
+    {
+     "start": "23:15",
+     "end": null,
+     "title": "Música en vivo: La Crisis Uruguaya",
+     "desc": "Banda de Paysandú.",
+     "tags": [
+      "musica"
+     ],
+     "people": [
+      "La Crisis Uruguaya"
+     ]
+    },
+    {
+     "start": null,
+     "end": null,
+     "title": "«Caballo», de Agustín Lucas",
+     "desc": "Presentación del libro “Caballo” de Agustín Lucas (Club Editora).",
+     "tags": [
+      "presentacion"
+     ],
+     "people": [
+      "Agustín Lucas"
+     ]
+    }
+   ],
+   "note": "Programa con horarios de la diaria. Suma una actividad que no está en el MEC (“No excluyentes I y II”, 21:00), agrega a Laura Villalba en la charla sobre Anne Carson y escribe la banda “Hey Mujic!”. La diaria no menciona a Agustín Lucas, pero El Telégrafo (11/11) confirma que viene desde Montevideo; queda sin hora. Ninguna de las dos fuentes nombra a Lectores del Norte. El horario general (19:00–00:00) se mantiene."
+  },
+  "Librería 33": {
+   "src": "salto",
+   "addr": null,
+   "hours": null,
+   "acts": [
+    {
+     "start": "09:00",
+     "end": "17:00",
+     "title": "Juegos literarios «al paso»",
+     "desc": "Juegos literarios, crucigramas y sopas de letras para resolver al paso.",
+     "tags": [],
+     "people": []
+    },
+    {
+     "start": "17:00",
+     "end": "19:00",
+     "title": "Taller de escritura creativa (desde 16 años)",
+     "desc": "Taller de escritura creativa para jóvenes y adultos.",
+     "tags": [
+      "taller"
+     ],
+     "people": []
+    },
+    {
+     "start": "19:30",
+     "end": null,
+     "title": "«California baby», de Marcos Llemes",
+     "desc": "Presentación del libro ganador del Premio Onetti 2025 en narrativa, a cargo de la profesora María Ana Pérez, con Luis do Santos como invitado especial.",
+     "tags": [
+      "presentacion"
+     ],
+     "people": [
+      "Marcos Llemes",
+      "Luis Do Santos"
+     ]
+    },
+    {
+     "start": "21:00",
+     "end": null,
+     "title": "Cierre musical: Mario Castro y Pedro Zeni",
+     "desc": "Presentación musical.",
+     "tags": [
+      "musica"
+     ],
+     "people": [
+      "Mario Castro",
+      "Pedro Zeni"
+     ]
+    }
+   ],
+   "note": "“Programación completa” de la Intendencia de Salto: el cierre musical es con Pedro Zeni, no con Denis Dutra; los juegos van de 9 a 17 (el MEC dice de 9 a 22) y se nombra el libro de Llemes (“California baby”). No menciona la convocatoria de lectura de poesía ni el registro de escritores salteños que figuran en la guía. El horario general no cambia."
+  },
+  "Bolivar": {
+   "src": "tuti-bolivar",
+   "addr": null,
+   "hours": [
+    "18:30",
+    "23:00"
+   ],
+   "acts": [
+    {
+     "start": "18:30",
+     "end": null,
+     "title": "«Farmear aura, poesía en el siglo XXI», de Nicolas Alberte",
+     "desc": "Poesía.",
+     "tags": [
+      "lectura"
+     ],
+     "people": [
+      "Nicolas Alberte"
+     ]
+    },
+    {
+     "start": "19:30",
+     "end": null,
+     "title": "Micrófono abierto",
+     "desc": "El público lee textos propios o elegidos.",
+     "tags": [
+      "lectura"
+     ],
+     "people": []
+    },
+    {
+     "start": "20:30",
+     "end": null,
+     "title": "Cuatro Cuartos, candombe en vivo",
+     "desc": "Candombe en vivo.",
+     "tags": [
+      "musica"
+     ],
+     "people": [
+      "Cuatro Cuartos"
+     ]
+    }
+   ],
+   "note": "La agenda de Tuti reproduce el anuncio del local (organiza @eloficiodelector): empieza a las 18:30 (el MEC dice 19:00), con horarios por actividad, y el grupo de candombe es “Cuatro Cuartos” (el MEC dice “Tres cuartos”). Habrá cerveza y vermut. El cierre a las 23:00 se toma del MEC."
+  },
+  "Ría Libre": {
+   "src": "topia",
+   "addr": "Uruguay 384",
+   "hours": null,
+   "acts": null,
+   "note": "Solo cambia la dirección: Editorial Topia (y directorios como yorugupino.com) la ubican en Uruguay 384 y el MEC en Uruguay 380. La fuente es débil (no es de la librería), así que conviene confirmar."
+  },
+  "Noctiluca kombi librería": {
+   "src": "mvdportal-noctiluca",
+   "addr": null,
+   "hours": null,
+   "acts": null,
+   "note": "No es un cambio confirmado. Montevideo Portal y El País (26/6) informaron que se fundió el motor de la kombi y que Noctiluca abrió un local fijo en Montevideo (Guayabos 1527); no encontré noticias de que la kombi esté reparada. La cobertura de la Expo Libro Durazno (12 al 15/11) no la menciona. Su presencia en Plaza Independencia está sin verificar."
+  }
+ }
+}

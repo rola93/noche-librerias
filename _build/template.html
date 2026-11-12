@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="es-UY">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0d1117">
+<meta name="color-scheme" content="dark">
+<meta name="description" content="Guía no oficial de la Noche de las Librerías en todo Uruguay: librerías, horarios, actividades y descuentos, filtrables por ciudad, barrio y tipo.">
+<title>Noche de las Librerías · Guía</title>
+<style>
+:root{--bg:#0d1117;--bg2:#161b22;--bg3:#21262d;--tx:#e6edf3;--mu:#9da7b3;--bd:#30363d;--bc:#6e7681;--ac:#58a6ff;--ok:#3fb950;--okt:#7ee787;--wa:#d29922;--sel:#0f2a4a}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}.cv{transition:transform .15s}}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;padding:0 env(safe-area-inset-right) 0 env(safe-area-inset-left);-webkit-tap-highlight-color:rgba(88,166,255,.15)}
+[hidden]{display:none!important}
+.w{max-width:760px;margin:0 auto;padding-left:16px;padding-right:16px}
+a{color:var(--ac);text-underline-offset:2px}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--ac);outline-offset:2px}
+h1:focus{outline:none}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:8px;top:-60px;background:var(--ac);color:var(--bg);padding:10px 14px;border-radius:8px;z-index:9;font-weight:600}
+.skip:focus{top:calc(8px + env(safe-area-inset-top))}
+header{padding-top:calc(10px + env(safe-area-inset-top));padding-bottom:8px}
+.top{display:flex;justify-content:flex-end;align-items:center;gap:2px;margin:0 -6px 2px 0}
+.tb{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 12px;border-radius:10px;border:1px solid var(--bc);background:transparent;font-weight:600;font-size:.875rem}
+.tb::before{content:"";width:14px;height:14px;border-radius:4px;border:2px solid var(--bc);flex:none;box-sizing:border-box}
+.tb[aria-pressed=true]{background:var(--sel);border-color:var(--ac)}
+.tb[aria-pressed=true]::before{background:var(--ac);border-color:var(--ac);box-shadow:inset 0 0 0 2px var(--sel)}
+.ib{width:44px;height:44px;display:grid;place-items:center;background:none;border:0;color:var(--mu);border-radius:10px}
+h1{font-size:1.625rem;line-height:1.15;margin:0 0 6px;letter-spacing:-.01em}
+.dt{margin:0 0 8px;color:var(--wa);font-weight:600}
+.lead{margin:0 0 8px}
+.disc{margin:0 0 4px;color:var(--mu);font-size:.9375rem}
+.offs{display:flex;flex-wrap:wrap;gap:0 16px}
+.cb{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 12px;margin:6px 0 2px;border-radius:10px;border:1px solid var(--ac);background:var(--sel);font-size:1rem}
+.cb strong{font-weight:700}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:44px;padding:0 14px;border-radius:10px;border:1px solid var(--bc);background:var(--bg3);color:var(--tx);text-decoration:none;font-weight:600;font-size:.9375rem}
+.btn.pr{background:var(--ac);border-color:var(--ac);color:var(--bg)}
+.btn svg{flex:none}
+.lk{background:none;border:0;color:var(--ac);font-weight:600;min-height:44px;padding:0 4px;text-decoration:underline;text-underline-offset:3px}
+.bar{position:sticky;top:0;z-index:5;background:rgba(13,17,23,.97);border-bottom:1px solid var(--bd);margin-top:8px}
+.bar .w{padding-top:8px;padding-bottom:4px}
+.sf{position:relative;flex:1;min-width:0}
+.sf input{width:100%;height:44px;border-radius:10px;border:1px solid var(--bc);background:var(--bg2);color:var(--tx);font:inherit;font-size:16px;padding:0 44px 0 40px;-webkit-appearance:none;appearance:none}
+.sf input::placeholder{color:#8b949e}
+.sf input::-webkit-search-cancel-button{display:none}
+.sf>svg{position:absolute;left:12px;top:12px;color:var(--mu);pointer-events:none}
+.qx{position:absolute;right:0;top:0;width:44px;height:44px;background:none;border:0;color:var(--mu);display:grid;place-items:center}
+.seg{display:flex;margin-top:8px;border:1px solid var(--bc);border-radius:10px;overflow:hidden}
+.seg button{flex:1;min-height:40px;border:0;background:var(--bg2);font-weight:600;font-size:.9375rem;color:var(--mu)}
+.seg button+button{border-left:1px solid var(--bc)}
+.seg button[aria-pressed=true]{background:var(--sel);color:var(--tx);box-shadow:inset 0 -3px 0 var(--ac)}
+.r2{display:flex;gap:6px;margin-top:8px;overflow-x:auto;scrollbar-width:none}
+.r2::-webkit-scrollbar{display:none}
+.gb{flex:1 0 auto;min-height:44px;border:1px solid var(--bc);background:var(--bg2);border-radius:10px;font-size:.9375rem;font-weight:600;padding:0 8px;display:inline-flex;align-items:center;justify-content:center;gap:5px}
+.gb.on{border-color:var(--ac);background:var(--sel)}
+.gb .n{background:var(--ac);color:var(--bg);border-radius:9px;min-width:19px;line-height:19px;padding:0 5px;font-size:.75rem;font-weight:700}
+.gb .n:empty{display:none}
+.cnt{margin:0;padding:6px 0 4px;font-size:.9375rem;line-height:1.3;color:var(--mu)}
+.cnt strong{color:var(--tx)}
+.r4{display:flex;align-items:center;gap:4px;margin-right:-4px}.xsc{flex:1;min-width:0;overflow-x:auto;scrollbar-width:none}.xsc::-webkit-scrollbar{display:none}.r4 .lk{flex:none;white-space:nowrap}
+.xcs{display:flex;gap:4px}
+.emp .xcs{flex-wrap:wrap;margin:8px 0 16px}
+.xc{flex:none;height:44px;background:none;border:0;padding:0}
+.xc>span{display:inline-flex;align-items:center;gap:6px;height:34px;padding:0 8px 0 12px;border-radius:17px;background:var(--sel);border:1px solid var(--ac);font-size:.875rem;white-space:nowrap}
+main{padding-top:12px;padding-bottom:24px}
+.lh{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:4px}
+.lh h2{margin:0;font-size:.9375rem;font-weight:600;color:var(--mu)}
+.lt{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.lg{margin:12px 0 -4px;font-size:.875rem;font-weight:700;color:var(--wa);text-transform:uppercase;letter-spacing:.04em}
+.cd{background:var(--bg2);border:1px solid var(--bd);border-radius:14px}
+.ch{padding:14px 16px 2px}
+.pn{margin:0;font-size:1.1875rem;font-weight:600;line-height:1.25}
+.ad{display:flex;gap:6px;align-items:flex-start;margin:4px 0 0;font-size:.9375rem}
+.ad svg{flex:none;margin-top:3px;color:var(--mu)}
+.pm{margin:2px 0 0;color:var(--mu);font-size:.9375rem;font-variant-numeric:tabular-nums}
+.chs{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.tg{display:inline-flex;align-items:center;gap:6px;font-size:.8125rem;line-height:1.2;padding:4px 9px;border-radius:999px;background:var(--b);color:var(--tx);font-weight:500}
+.tg::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--c);flex:none}
+.dc{display:inline-flex;align-items:center;gap:6px;margin-top:6px;padding:4px 10px;border-radius:8px;background:rgba(63,185,80,.12);border:1px solid rgba(63,185,80,.55);color:var(--okt);font-size:.875rem;font-weight:600}
+.mini{list-style:none;margin:10px 0 0;padding:8px 0 0;border-top:1px dashed var(--bd);display:grid;gap:6px}
+.mini li{display:grid;grid-template-columns:3.1rem 1fr;gap:8px;font-size:.9375rem;line-height:1.35}
+.mini .mt{font-variant-numeric:tabular-nums;font-weight:700;color:var(--mu)}
+.mini li.al{grid-template-columns:1fr}
+.mini .mx{grid-column:1/-1;color:var(--mu);font-size:.875rem}
+.mini .st{margin-left:6px;vertical-align:1px}
+.fin .mtt,.fin h3,.fin .an{color:var(--mu)}
+.vm{display:flex;align-items:center;justify-content:center;gap:6px;width:100%;min-height:46px;margin-top:10px;background:none;border:0;border-top:1px solid var(--bd);border-radius:0 0 14px 14px;color:var(--ac);font-weight:700}
+.vm[aria-expanded=true] .cv{transform:rotate(180deg)}
+.pb{padding:0 16px 4px}
+.loc{display:flex;flex-wrap:wrap;gap:8px;padding:12px 0}
+.dbox{border:1px solid rgba(63,185,80,.55);background:rgba(63,185,80,.08);border-radius:10px;padding:10px 12px;margin:0 0 12px}
+.dbox ul{margin:4px 0;padding-left:18px}
+.dh{margin:0;color:var(--okt);font-weight:600}
+.sm{margin:0;font-size:.875rem;color:var(--mu)}
+.nt{margin:0 0 12px;font-size:.9375rem}
+.fx{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:0 8px;margin:0;font-size:.9375rem;color:var(--mu)}
+.acts{list-style:none;margin:0;padding:0}
+.act{display:grid;grid-template-columns:4.5rem 1fr;gap:12px;padding:14px 0;border-top:1px solid var(--bd)}
+.tm{font-variant-numeric:tabular-nums;font-weight:700;font-size:1.125rem;line-height:1.2}
+.tm small{display:block;font-weight:500;font-size:.875rem;color:var(--mu);margin-top:2px}
+.tm.al{font-size:.875rem;color:var(--wa)}
+.ab{min-width:0}
+.act h3{font-size:1rem;margin:0 0 4px;line-height:1.35}
+.ds{margin:0;color:#c9d1d9;font-size:.9375rem}
+.ds.cl{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.mr{background:none;border:0;color:var(--ac);font-weight:600;min-height:44px;margin:-8px 0 -8px;padding:0 12px 0 0}
+.st{display:inline-block;font-size:.75rem;font-weight:700;line-height:1.5;padding:0 7px;border-radius:6px;white-space:nowrap}
+.st-p{color:#b1bac4;border:1px solid #484f58}
+.st-e{background:rgba(210,153,34,.22);color:#e3b341}
+.st-a{background:rgba(248,81,73,.22);color:#ffa198}
+.st-f{background:var(--bg3);color:#8b949e}
+.arow{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.atm{font-variant-numeric:tabular-nums;font-weight:700;font-size:1.0625rem}
+.atm.al{color:var(--wa);font-size:.9375rem}
+.an{margin:4px 0 0;font-size:1.0625rem;line-height:1.3}
+.pp,.src{margin:6px 0 0;font-size:.9375rem}
+.src{font-size:.8125rem;color:var(--mu)}
+.lks{display:flex;flex-wrap:wrap;gap:8px;padding:12px 0 8px;border-top:1px solid var(--bd)}
+.emp{background:var(--bg2);border:1px solid var(--bd);border-radius:14px;padding:16px}
+.emp h2{margin:0 0 4px;font-size:1.125rem}
+.emp p{margin:0;color:var(--mu)}
+footer{padding-top:16px;padding-bottom:calc(80px + env(safe-area-inset-bottom));border-top:1px solid var(--bd);color:var(--mu);font-size:.9375rem}
+footer ul{padding-left:18px;margin:4px 0 12px}
+footer li{margin:4px 0}
+.oss{margin-top:16px;padding:14px 16px;border:1px solid var(--bd);border-radius:14px;background:var(--bg2);color:var(--tx)}
+.oss p{margin:0 0 10px}
+.ossl{display:flex;flex-wrap:wrap;gap:8px}
+.tp{position:fixed;right:calc(16px + env(safe-area-inset-right));bottom:calc(16px + env(safe-area-inset-bottom));width:48px;height:48px;border-radius:50%;background:var(--bg3);border:1px solid var(--bc);z-index:6;display:grid;place-items:center;box-shadow:0 4px 14px rgba(0,0,0,.5)}
+dialog{border:0;border-top:1px solid var(--bc);padding:0;background:var(--bg2);color:var(--tx);width:100%;max-width:560px;max-height:85vh;max-height:85dvh;margin:auto auto 0;border-radius:16px 16px 0 0}
+dialog::backdrop{background:rgba(0,0,0,.65)}
+.sh{display:flex;flex-direction:column;max-height:85vh;max-height:85dvh}
+.shh{display:flex;align-items:center;justify-content:space-between;padding:6px 6px 6px 16px;border-bottom:1px solid var(--bd)}
+.shh h2{margin:0;font-size:1.125rem}
+.ic{width:44px;height:44px;background:none;border:0;display:grid;place-items:center;border-radius:10px}
+.shb{overflow:auto;padding:12px 16px 16px;overscroll-behavior:contain}
+.shb fieldset{border:0;margin:0;padding:0}
+.shb h3{margin:16px 0 8px;font-size:.875rem;color:var(--wa);text-transform:uppercase;letter-spacing:.04em}
+.hint{margin:0 0 12px;font-size:.875rem;color:var(--mu)}
+.ops{display:flex;flex-wrap:wrap;gap:8px}
+.op{position:relative}
+.op input{position:absolute;opacity:0;width:1px;height:1px}
+.op>span,.o1{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 14px;border-radius:22px;border:1px solid var(--bc);background:var(--bg3);cursor:pointer;font-size:1rem}
+.op input:checked+span,.o1.on{background:var(--sel);border-color:var(--ac);font-weight:600}
+.op input:checked+span::before,.o1.on::before{content:"✓";color:var(--ac)}
+.op input:focus-visible+span{outline:3px solid var(--ac);outline-offset:2px}
+.oc{color:var(--mu);font-size:.8125rem;font-weight:400}
+.cs{margin-bottom:12px}
+.il{list-style:none;margin:0 0 12px;padding:0;display:grid;gap:10px}
+.il li{display:grid;grid-template-columns:6.5rem 1fr;gap:10px;align-items:start}
+.il .st{justify-self:start;margin-top:2px}
+.shf{display:flex;gap:8px;padding:10px 16px calc(10px + env(safe-area-inset-bottom));border-top:1px solid var(--bd)}
+.shf .pr{flex:1}
+@media (min-width:600px){dialog{margin:auto;border:1px solid var(--bc);border-radius:16px}.shf{padding-bottom:10px}.pn{font-size:1.25rem}.act{grid-template-columns:5.5rem 1fr}h1{font-size:2rem}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Saltar a la guía</a>
+<header class="w">
+<div class="top"><button type="button" class="tb" id="hp" data-k="P" aria-pressed="false">Ocultar eventos pasados</button><button type="button" class="ib" data-k="I" aria-label="Qué significan los estados de las actividades" aria-haspopup="dialog"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 11v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="7.6" r="1.3" fill="currentColor"/></svg></button></div>
+<h1 id="ttl" tabindex="-1">Noche de las Librerías</h1>
+<p class="dt" id="dt"></p>
+<p class="lead">Librerías de todo Uruguay abren de noche con presentaciones, lecturas, charlas, música y actividades para niños.</p>
+<p class="disc">Guía no oficial armada a partir del mapa de la Intendencia de Montevideo y la guía del MEC; los horarios pueden cambiar.</p>
+<div class="offs" id="offs"></div>
+<button type="button" class="cb" id="cb" data-k="gc" aria-haspopup="dialog"></button>
+</header>
+<div class="bar">
+<div class="w" role="search">
+<div class="sf"><label for="q" class="sr">Buscar librería, autor, barrio o actividad</label>
+<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+<input id="q" type="search" placeholder="Buscá librería, autor, barrio…" autocomplete="off" enterkeyhint="search">
+<button type="button" class="qx" id="qx" aria-label="Borrar búsqueda" hidden><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button></div>
+<div class="seg" role="group" aria-label="Ver la guía"><button type="button" data-k="Vlib" aria-pressed="true">Por librería</button><button type="button" data-k="Vact" aria-pressed="false">Por actividad</button></div>
+<div class="r2">
+<button type="button" class="gb" id="gh" data-k="gh" aria-haspopup="dialog"><span class="gl">Horario</span><span class="n"></span></button>
+<button type="button" class="gb" id="gb" data-k="gb" aria-haspopup="dialog"><span class="gl">Barrio</span><span class="n"></span></button>
+<button type="button" class="gb" id="gt" data-k="gt" aria-haspopup="dialog"><span class="gl">Tipo</span><span class="n"></span></button>
+<button type="button" class="gb" id="gd" data-k="gd" aria-haspopup="dialog"><span class="gl">Descuento</span><span class="n"></span></button>
+</div>
+</div>
+<div class="w">
+<p class="cnt" id="cnt" aria-live="polite" aria-atomic="true"></p>
+<div class="r4" id="r4" hidden><div class="xsc"><div class="xcs" id="xcs" aria-label="Filtros activos" role="group"></div></div><button type="button" class="lk" id="clr" data-k="z">Limpiar filtros</button></div>
+</div>
+</div>
+<main id="main" class="w" tabindex="-1">
+<div class="lh" id="lh"><h2 id="lht"></h2><button type="button" class="lk" id="tga">Abrir todas</button></div>
+<div id="res"></div>
+</main>
+<footer class="w">
+<p style="margin:0">Fuentes consultadas:</p>
+<ul id="fsrc"></ul>
+<p>Los descuentos de tarjeta son, salvo que diga «especial», beneficios habituales publicados por cada banco; los «propios de la librería» fueron anunciados para esta noche. Guía no oficial; ante dudas, consultá el programa oficial o la librería.</p>
+<p>Actualizado: <span id="upd"></span></p>
+<div class="oss">
+<p><strong>Proyecto de código abierto.</strong> Esta guía es una iniciativa personal de Rodrigo Laguna, sin vínculo con los organizadores. ¿Falta una actividad, cambió un horario o encontraste un error? Sugerí cambios y actualizaciones:</p>
+<p class="ossl"><a class="btn" href="https://github.com/rola93/noche-librerias" target="_blank" rel="noopener">Código en GitHub ↗</a><a class="btn" href="mailto:r.laguna.queirolo@outlook.com?subject=Gu%C3%ADa%20Noche%20de%20las%20Librer%C3%ADas">Escribir un mail</a><a class="btn" href="https://www.linkedin.com/in/rodrigo-laguna/" target="_blank" rel="noopener">LinkedIn ↗</a></p>
+<p class="sm">r.laguna.queirolo@outlook.com</p>
+</div>
+</footer>
+<button type="button" class="tp" id="tp" aria-label="Volver arriba" hidden><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<dialog id="sh" aria-labelledby="sht">
+<div class="sh">
+<div class="shh"><h2 id="sht"></h2><button type="button" class="ic" data-close aria-label="Cerrar"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button></div>
+<div class="shb" id="shb"></div>
+<div class="shf" id="shf"><button type="button" class="btn" id="shc">Quitar selección</button><button type="button" class="btn pr" id="sho" data-close>Ver resultados</button></div>
+</div>
+</dialog>
+<noscript><p class="w">Esta guía necesita JavaScript activado para mostrar las librerías.</p></noscript>
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(()=>{'use strict';
+const D=JSON.parse(document.getElementById('data').textContent),$=s=>document.querySelector(s);
+const M=D.meta||{},TG=D.tags||{},IS=D.issuers||{},SR=D.sources||{};
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);
+const okU=u=>typeof u=='string'&&/^https?:\/\/\S+$/i.test(u.trim());
+const A=(u,t,c)=>okU(u)?`<a href="${esc(u.trim())}" target="_blank" rel="noopener"${c?` class="${c}"`:''}>${t}</a>`:t;
+const nz=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+const tm=s=>{const m=/^(\d{1,2}):(\d{2})$/.exec(s||'');return m?(+m[1]<6?1440:0)+m[1]*60+ +m[2]:null};
+const hh=v=>{v=((v%1440)+1440)%1440;return String(v/60|0).padStart(2,'0')+':'+String(v%60).padStart(2,'0')};
+const pl=(n,a,b)=>n+' '+(n==1?a:b);
+const LS=(k,v)=>{try{if(v===undefined)return localStorage.getItem(k);if(v===null)localStorage.removeItem(k);else localStorage.setItem(k,v)}catch(e){return null}};
+const cmp=(a,b)=>a.localeCompare(b,'es');
+const COL={ninos:'#f778ba',musica:'#a371f7',charla:'#58a6ff',presentacion:'#d29922',lectura:'#39c5cf',taller:'#f0883e'};
+const rgb=(h,a)=>{const n=parseInt(h.slice(1),16);return`rgba(${n>>16},${n>>8&255},${n&255},${a})`};
+const tag=k=>{const c=COL[k]||'#8b949e';return`<span class="tg" style="--c:${c};--b:${rgb(c,.2)}">${esc(TG[k]||k)}</span>`};
+const ISN=k=>(IS[k]&&IS[k].name)||k;
+const IX='<svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>';
+const CV='<svg class="cv" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+const PIN='<svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 10-14 0c0 5.8 7 12 7 12z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="2.5" fill="currentColor"/></svg>';
+const TAG='<svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12V4a1 1 0 011-1h8l9 9-9 9z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="8" cy="8" r="1.6" fill="currentColor"/></svg>';
+const ST={p:'Pendiente',e:'Empezando',a:'Ahora',f:'Finalizado'};
+const SL=[['18','Hasta las 19 h',0,1140]];for(let h=19;h<24;h++)SL.push([''+h,h+' h',h*60,h*60+60]);SL.push(['00','00 h y después',1440,1e4]);
+const ov=(a,s)=>a.s<s[3]&&a.e>s[2];
+const tord=Object.keys(TG);
+const P=(D.places||[]).map(d=>{
+const city=d.city||'Montevideo',dept=d.dept||city,H=d.hours||[],hs=tm(H[0]),he=tm(H[1]);
+const px=nz([d.name,d.barrio,city,dept,d.addr].join(' '));
+const acts=(d.acts||[]).map((a,j)=>{const s=tm(a.start);let e=tm(a.end);if(s==null||e!=null&&e<=s)e=null;
+return Object.assign({},a,{j,s0:s,e0:e,tags:a.tags||[],x:px+' '+nz([a.title,a.desc].concat((a.people||[]).map(p=>p.n)).join(' '))})});
+const starts=[...new Set(acts.map(a=>a.s0).filter(v=>v!=null))].sort((a,b)=>a-b);
+const ps=hs??(starts.length?starts[0]:1080);let pe=he;
+if(pe==null||pe<=ps){const en=acts.filter(a=>a.s0!=null).map(a=>a.e0??a.s0+60);pe=en.length?Math.max(...en):1500;if(pe<=ps)pe=ps+120}
+acts.forEach(a=>{if(a.s0==null){a.s=ps;a.e=pe;a.al=1}else{a.s=a.s0;const nx=starts.find(v=>v>a.s0);a.e=a.e0??Math.min(nx??1e9,a.s0+60)}});
+acts.sort((a,b)=>(b.al||0)-(a.al||0)||a.s-b.s||a.e-b.e);
+const ts=new Set(acts.flatMap(a=>a.tags)),st=acts.filter(a=>!a.al);
+const rg=hs!=null?hh(hs)+(he!=null?'–'+hh(he):' en adelante'):st.length?((x,y)=>x==y?hh(x):hh(x)+'–'+hh(y))(Math.min(...st.map(a=>a.s)),Math.max(...st.map(a=>a.e0??a.s))):acts.length?'Durante la noche':'';
+return{d,city,dept,acts,rg,ts:tord.filter(k=>ts.has(k)).concat([...ts].filter(k=>!TG[k])),k:nz(d.name).replace(/^(la\s+)?librerias?\s+/,'').trim()}}).sort((a,b)=>cmp(a.k,b.k));
+P.forEach((p,i)=>p.i=i);
+const dsc=p=>p.d.discounts||[];
+const CT={};P.forEach(p=>{const o=CT[p.dept]=CT[p.dept]||{};o[p.city]=(o[p.city]||0)+1});
+const DEP=Object.keys(CT).sort((a,b)=>(b=='Montevideo')-(a=='Montevideo')||cmp(a,b));
+const CITIES=new Set(P.map(p=>p.city));
+const DOC=DEP.flatMap(dp=>Object.keys(CT[dp]).sort((a,b)=>(b==dp)-(a==dp)||cmp(a,b)));
+const G={h:{l:'Horario',u:['actividad','actividades'],hint:'Incluye las actividades que se superponen con cada franja. Las que son «durante la noche» cuentan en todo el horario de la librería.'},
+b:{l:'Barrio',u:['librería','librerías']},
+t:{l:'Tipo',u:['actividad','actividades']},
+d:{l:'Descuento',u:['librería','librerías'],hint:'«Propio de la librería» son descuentos anunciados para esta noche. Los bancos son beneficios habituales de cada tarjeta publicados por el emisor. Confirmá en caja.'}};
+const S={q:'',h:new Set,b:new Set,t:new Set,d:new Set,c:'*',v:'lib',hp:LS('ndl-hp')=='1'},open=new Map,all=new Set,more=new Set;
+const inC=p=>S.c=='*'||p.city==S.c;
+function opts(){const PC=P.filter(inC),AC=PC.flatMap(p=>p.acts);
+G.h.o=SL.map(s=>[s[0],s[1],AC.filter(a=>ov(a,s)).length]);
+G.b.l=S.c=='Montevideo'?'Barrio':'Zona';
+G.b.o=S.c=='*'?[]:[...new Set(PC.map(p=>p.d.barrio).filter(Boolean))].sort(cmp).map(b=>[b,b,PC.filter(p=>p.d.barrio==b).length]);
+G.t.o=tord.map(k=>[k,TG[k],AC.filter(a=>a.tags.includes(k)).length]);
+G.d.o=[['any','Cualquier medio',PC.filter(p=>dsc(p).length).length]].concat(Object.keys(IS).map(k=>[k,ISN(k),PC.filter(p=>dsc(p).some(x=>x.issuer==k)).length]));
+for(const g in G){G[g].o=G[g].o.filter(o=>o[2]>0);const ok=new Set(G[g].o.map(o=>o[0]));S[g].forEach(v=>{if(!ok.has(v))S[g].delete(v)});
+const b=$('#g'+g);b.hidden=!G[g].o.length||g=='b'&&G[g].o.length<2;b.querySelector('.gl').textContent=G[g].l}}
+const lab=(g,v)=>g=='b'?v:g=='t'?TG[v]||v:g=='d'?(v=='any'?'Cualquier descuento':'Descuento '+ISN(v)):(SL.find(s=>s[0]==v)||[,v])[1];
+function rHash(){const m={};location.hash.slice(1).split('&').forEach(x=>{const i=x.indexOf('=');if(i>0)m[x.slice(0,i)]=x.slice(i+1)});
+const dec=v=>{try{return decodeURIComponent(v)}catch(e){return''}};S.q=m.q?dec(m.q):'';S.v=m.v=='act'?'act':'lib';
+if(m.c){const c=dec(m.c);if(c=='todo')S.c='*';else if(CITIES.has(c))S.c=c}
+for(const g in G){S[g]=new Set;if(m[g])m[g].split(',').map(dec).filter(Boolean).forEach(v=>S[g].add(v))}
+return!!m.c}
+function wHash(){const p=[],e=encodeURIComponent;p.push('c='+e(S.c=='*'?'todo':S.c));if(S.v=='act')p.push('v=act');if(S.q.trim())p.push('q='+e(S.q.trim()));for(const g in G)if(S[g].size)p.push(g+'='+[...S[g]].map(e).join(','));
+try{history.replaceState(null,'','#'+p.join('&'))}catch(e){}}
+const EV=(/^(\d{4})-(\d\d)-(\d\d)$/.exec(M.day||'2026-11-13')||[0,2026,11,13]).slice(1).map(Number);
+function nowM(){const t=/[?&]ahora=(\d\d:\d\d)/.exec(location.search);if(t)return tm(t[1]);
+let y,mo,d,h,mi;const n=new Date();
+try{const f=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Montevideo',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(n),g=k=>+f.find(x=>x.type==k).value;y=g('year');mo=g('month');d=g('day');h=g('hour')%24;mi=g('minute')}
+catch(e){y=n.getFullYear();mo=n.getMonth()+1;d=n.getDate();h=n.getHours();mi=n.getMinutes()}
+return Math.round((Date.UTC(y,mo-1,d)-Date.UTC(EV[0],EV[1]-1,EV[2]))/864e5)*1440+h*60+mi}
+const stt=(a,n)=>n<a.s-10?'p':n<a.s+10?'e':n<a.e+15?'a':'f';
+const badge=k=>`<span class="st st-${k}">${ST[k]}</span>`;
+function mA(a,q,now){if(S.hp&&stt(a,now)=='f')return false;
+if(S.h.size&&!SL.some(s=>S.h.has(s[0])&&ov(a,s)))return false;
+if(S.t.size&&!a.tags.some(t=>S.t.has(t)))return false;
+return q.every(w=>a.x.includes(w))}
+function mP(p){if(!inC(p))return false;if(S.b.size&&!S.b.has(p.d.barrio))return false;const ds=dsc(p);return!S.d.size||S.d.has('any')&&ds.length>0||ds.some(x=>S.d.has(x.issuer))}
+function chips(){const L=[],q=S.q.trim();if(q)L.push(['xq','“'+q+'”']);if(S.hp)L.push(['xp','Sin eventos pasados']);
+for(const g in G)for(const v of S[g])L.push(['x'+g+':'+v,lab(g,v)]);
+return L.map(([k,l])=>`<button type="button" class="xc" data-k="${esc(k)}" aria-label="Quitar filtro: ${esc(l)}"><span>${esc(l)}${IX}</span></button>`).join('')}
+function loc(p){const d=p.d,r=[d.addr];if(d.barrio&&d.barrio!=p.city)r.push(d.barrio);if(S.c=='*'||p.city!=S.c){r.push(p.city);if(p.dept!=p.city)r.push(p.dept)}return esc(r.filter(Boolean).join(', '))}
+const mapU=p=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent([p.d.addr,p.city,p.dept!=p.city?p.dept:'','Uruguay'].filter(Boolean).join(', '));
+const goB=p=>p.d.addr?`<a class="btn" href="${esc(mapU(p))}" target="_blank" rel="noopener">${PIN}Cómo llegar</a>`:'';
+const lks=p=>(p.d.links||[]).filter(l=>l&&okU(l.url)).map(l=>A(l.url,esc(l.label||'Enlace')+' ↗','btn')).join('');
+const issT=p=>[...new Set(dsc(p).map(x=>x.issuer=='libreria'?'propio':ISN(x.issuer)))];
+const dch=p=>{const t=issT(p);return t.length?`<span class="dc">${TAG}Descuento ${esc(t.join(' · '))}</span>`:''};
+function dbox(p){const ds=dsc(p);return ds.length?`<div class="dbox"><p class="dh">Descuentos</p><ul>${ds.map(x=>{const own=x.issuer=='libreria';return`<li><strong>${own?'De la librería, esta noche':esc(ISN(x.issuer))}:</strong> ${esc(x.text)}${okU(x.url)?' · '+A(x.url,own?'ver fuente':'ver en el banco'):''}</li>`}).join('')}</ul><p class="sm">${ds.some(x=>x.issuer!='libreria')?'Salvo que diga «especial», los de tarjeta son beneficios habituales del emisor. ':''}Confirmá en caja.</p></div>`:''}
+const ppl=a=>(a.people||[]).filter(x=>x&&x.n&&(x.u||!nz(a.title).includes(nz(x.n)))).map(x=>A(x.u,esc(x.n))).join(', ');
+const srcs=a=>(a.src||[]).map(s=>SR[s]?A(SR[s].url,esc(SR[s].label||s)):esc(s)).join(' · ');
+function desc(k,a){if(!a.desc)return'';const lg=a.desc.length>160,mo=more.has(k);return`<p class="ds${lg&&!mo?' cl':''}" id="d${k}">${esc(a.desc)}</p>${lg?`<button type="button" class="mr" data-k="m${k}" aria-expanded="${mo}" aria-controls="d${k}">${mo?'menos':'más'}</button>`:''}`}
+function act(i,a,now){const k=i+'-'+a.j,s=stt(a,now);
+const t=a.al?'<div class="tm al">Durante la noche</div>':`<div class="tm">${hh(a.s)}${a.e0!=null?`<small><span class="sr">a </span>–${hh(a.e0)}</small>`:''}</div>`;
+const pp=ppl(a),sr=srcs(a);
+return`<li class="act${s=='f'?' fin':''}">${t}<div class="ab"><h3>${esc(a.title)} ${badge(s)}</h3>${desc(k,a)}${a.tags.length?`<div class="chs">${a.tags.map(tag).join('')}</div>`:''}${pp?`<p class="pp">Con ${pp}</p>`:''}${sr?`<p class="src">Fuente: ${sr}</p>`:''}</div></li>`}
+const vmB=(k,o,lbl)=>`<button type="button" class="vm" data-k="o${k}" aria-expanded="${o}" aria-controls="b${k}">${o?'Ver menos':'Ver más'}<span class="sr"> ${esc(lbl)}</span>${CV}</button>`;
+function card(p,m,af,auto,now){const i=p.i,d=p.d,k='p'+i,o=open.has(k)?open.get(k):auto,sa=all.has(i),n=p.acts.length,part=af&&m.length<n,ls=part&&!sa?m:p.acts;
+const meta=[p.rg,part?`${m.length} de ${pl(n,'actividad','actividades')}`:pl(n,'actividad','actividades')].filter(Boolean).join(' · ');
+const base=part?m:p.acts,live=base.filter(a=>stt(a,now)!='f'),mv=(live.length?live:base),mn=mv.slice(0,3),rest=base.length-mn.length;
+const mini=`<ul class="mini" id="m${k}"${o?' hidden':''}>${mn.map(a=>{const s=stt(a,now);return`<li class="${s=='f'?'fin':''}${a.al?' al':''}">${a.al?'':`<span class="mt">${hh(a.s)}</span>`}<span><span class="mtt">${esc(a.title)}</span>${a.al?' <span class="oc">· durante la noche</span>':''} ${badge(s)}</span></li>`}).join('')}${rest>0?`<li><span class="mx">y ${pl(rest,'actividad más','actividades más')}</span></li>`:''}</ul>`;
+return`<li class="cd"><div class="ch"><h2 class="pn">${esc(d.name)}</h2><p class="ad">${PIN}<span>${loc(p)}</span></p><p class="pm">${meta}</p>${p.ts.length?`<div class="chs">${p.ts.map(tag).join('')}</div>`:''}${dch(p)}${mini}</div>
+<div class="pb" id="b${k}"${o?'':' hidden'}><div class="loc">${goB(p)}</div>${dbox(p)}${d.note?`<p class="nt">${esc(d.note)}</p>`:''}${part?`<p class="fx"><span>${sa?'Mostrando todas las actividades':`Coinciden ${m.length} de ${n}`}</span><button type="button" class="lk" data-k="a${i}">${sa?'Ver solo las que coinciden':'Ver todas'}</button></p>`:''}
+<ol class="acts">${ls.map(a=>act(i,a,now)).join('')}</ol>${lks(p)?`<div class="lks">${lks(p)}</div>`:''}</div>${vmB(k,o,d.name)}</li>`}
+function acard(p,a,now){const k='a'+p.i+'-'+a.j,o=!!open.get(k),s=stt(a,now),pp=ppl(a),sr=srcs(a);
+const t=a.al?`<span class="atm al">Durante la noche</span><span class="oc">${esc(p.rg)}</span>`:`<span class="atm">${hh(a.s)}${a.e0!=null?'–'+hh(a.e0):''}</span>`;
+return`<li class="cd${s=='f'?' fin':''}"><div class="ch"><div class="arow">${t}${badge(s)}</div><h2 class="an">${esc(a.title)}</h2><p class="ad">${PIN}<span><strong>${esc(p.d.name)}</strong> · ${loc(p)}</span></p>${a.tags.length?`<div class="chs">${a.tags.map(tag).join('')}</div>`:''}${dch(p)}</div>
+<div class="pb" id="b${k}"${o?'':' hidden'}>${desc(p.i+'-'+a.j,a)}${pp?`<p class="pp">Con ${pp}</p>`:''}${sr?`<p class="src">Fuente: ${sr}</p>`:''}<div class="loc">${goB(p)}</div>${dbox(p)}${p.d.note?`<p class="nt">${esc(p.d.note)}</p>`:''}${lks(p)?`<div class="lks">${lks(p)}</div>`:''}</div>${vmB(k,o,a.title)}</li>`}
+function keep(fn){const ae=document.activeElement,k=ae&&ae.dataset&&ae.dataset.k,par=ae&&ae.parentNode,ci=ae&&ae.classList.contains('xc')?[...par.children].indexOf(ae):-1;
+fn();const c=document.activeElement;if(c&&c!==document.body)return;
+let el=k&&document.querySelector(`[data-k="${CSS.escape(k)}"]`);
+if(!el&&ci>=0){const cs=par.isConnected?par.querySelectorAll('.xc'):[];el=cs[Math.min(ci,cs.length-1)]||$('#gh')}
+if(el)el.focus({preventScroll:true})}
+const res=$('#res'),tga=$('#tga'),sh=$('#sh'),qi=$('#q'),qx=$('#qx');let last=0,sg='';
+const cityL=()=>S.c=='*'?'Todo el país':S.c;
+function render(){opts();const q=nz(S.q).split(/\s+/).filter(Boolean),now=nowM(),af=!!(S.h.size||S.t.size||q.length||S.hp),any=af||S.b.size>0||S.d.size>0;
+const R=[];let na=0;
+for(const p of P){if(!mP(p))continue;const m=af?p.acts.filter(a=>mA(a,q,now)):p.acts;if(af&&!m.length)continue;R.push([p,m]);na+=m.length}
+last=S.v=='act'?na:R.length;
+let html='';
+if(S.v=='act'){const L=R.flatMap(([p,m])=>m.map(a=>[p,a])).sort((x,y)=>x[1].s-y[1].s||(x[1].al||0)-(y[1].al||0)||cmp(x[0].k,y[0].k));html=L.map(([p,a])=>acard(p,a,now)).join('')}
+else{const auto=any&&R.length<=3;
+if(S.c=='*'){const by=new Map;R.forEach(r=>{const c=r[0].city;by.has(c)||by.set(c,[]);by.get(c).push(r)});
+for(const c of DOC)if(by.has(c)){const p0=by.get(c)[0][0];html+=`<li><h2 class="lg">${esc(c)}${p0.dept!=c?' · '+esc(p0.dept):''}</h2></li>`+by.get(c).map(([p,m])=>card(p,m,af,auto,now)).join('')}}
+else html=R.map(([p,m])=>card(p,m,af,auto,now)).join('')}
+keep(()=>{res.innerHTML=R.length?`<ul class="lt">${html}</ul>`:
+`<div class="emp"><h2>No encontramos actividades con estos filtros</h2><p>${any?'Quitá alguno tocándolo:':'Probá con otra ciudad.'}</p><div class="xcs">${chips()}</div>${any?'<button type="button" class="btn pr" data-k="z">Quitar todos los filtros</button>':'<button type="button" class="btn pr" data-k="gc">Cambiar de ciudad</button>'}</div>`;
+$('#xcs').innerHTML=chips()});
+$('#cnt').innerHTML=(S.v=='act'?`<strong>${pl(na,'actividad','actividades')}</strong> en ${pl(R.length,'librería','librerías')}`:`<strong>${pl(R.length,'librería','librerías')}</strong> · ${pl(na,'actividad','actividades')}`)+` · ${esc(cityL())}`;
+$('#r4').hidden=!any;
+for(const g in G){const n=S[g].size,b=$('#g'+g);b.classList.toggle('on',n>0);b.querySelector('.n').innerHTML=n?`<span class="sr">, </span>${n}<span class="sr"> ${n==1?'seleccionado':'seleccionados'}</span>`:''}
+$('#cb').innerHTML=`${PIN}Ciudad: <strong>${esc(cityL())}</strong>${CV}`;
+$('#hp').setAttribute('aria-pressed',S.hp);
+document.querySelectorAll('.seg button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.k.slice(1)==S.v));
+$('#lh').hidden=!R.length;$('#lht').textContent=S.v=='act'?'Actividades por hora':'Librerías de la A a la Z';upAll();
+if(sh.open&&G[sg])$('#sho').textContent='Ver '+(S.v=='act'?pl(last,'actividad','actividades'):pl(last,'librería','librerías'))}
+function upAll(){const bs=[...res.querySelectorAll('.vm')],o=bs.length>0&&bs.every(b=>b.getAttribute('aria-expanded')=='true');tga.textContent=o?'Cerrar todas':'Abrir todas';tga.dataset.o=o?'1':'';tga.hidden=bs.length>60}
+function setO(b,v){const k=b.dataset.k.slice(1);open.set(k,v);b.setAttribute('aria-expanded',v);b.firstChild.textContent=v?'Ver menos':'Ver más';$('#b'+k).hidden=!v;const m=$('#m'+k);if(m)m.hidden=v}
+function toList(){const y=$('#main').getBoundingClientRect().top+scrollY-$('.bar').offsetHeight;if(scrollY>y+4)scrollTo(0,y)}
+function change(inSheet){wHash();render();if(!inSheet)toList()}
+function clearAll(){S.q='';qi.value='';qx.hidden=true;S.hp=false;LS('ndl-hp','0');for(const g in G)S[g].clear();change()}
+function setCity(c){S.c=c;LS('ndl-c',c=='*'?'todo':c);S.b.clear();open.clear();all.clear();if(sh.open)sh.close();change()}
+function cityBody(){const tot=P.length;
+return`<p class="hint">Mostramos las librerías de la ciudad que elijas. La recordamos para la próxima vez y podés cambiarla desde «Ciudad».</p>
+<div class="sf cs"><label for="cq" class="sr">Buscar ciudad</label><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><input id="cq" type="search" placeholder="Buscá tu ciudad o departamento…" autocomplete="off"></div>
+<div class="ops"><button type="button" class="o1${S.c=='*'?' on':''}" data-k="C*" aria-pressed="${S.c=='*'}">Todo el país <span class="oc">${pl(tot,'librería','librerías')}</span></button></div>
+${DEP.map(dp=>{const cs=Object.keys(CT[dp]).sort((a,b)=>(b==dp)-(a==dp)||cmp(a,b));return`<section data-n="${esc(nz(dp))}"><h3>${esc(dp)}</h3><div class="ops">${cs.map(c=>`<button type="button" class="o1${S.c==c?' on':''}" data-k="C${esc(c)}" data-n="${esc(nz(c+' '+dp))}" aria-pressed="${S.c==c}">${esc(c)} <span class="oc">${CT[dp][c]}</span></button>`).join('')}</div></section>`}).join('')}`}
+function infoBody(){return`<p class="hint">Cada actividad muestra un estado según la hora de Uruguay en tu dispositivo, y se actualiza solo.</p>
+<ul class="il"><li>${badge('p')}<span>Falta más de 10 minutos para que empiece.</span></li><li>${badge('e')}<span>Desde 10 minutos antes hasta 10 minutos después de la hora de inicio.</span></li><li>${badge('a')}<span>En curso: hasta 15 minutos después de la hora de fin.</span></li><li>${badge('f')}<span>Pasaron más de 15 minutos de la hora de fin.</span></li></ul>
+<p class="hint">Si una actividad no tiene hora de fin, la estimamos hasta la siguiente actividad de la misma librería, con un máximo de una hora. Las que son «durante la noche» toman el horario de apertura de la librería.</p>
+<p class="hint">«Ocultar eventos pasados» esconde las actividades finalizadas. Los horarios pueden cambiar: ante dudas, confirmá con la librería.</p>`}
+function sheet(g){sg=g;const f=$('#shf');
+if(g=='c'){$('#sht').textContent='Elegí tu ciudad';$('#shb').innerHTML=cityBody();f.hidden=true}
+else if(g=='i'){$('#sht').textContent='Estados de las actividades';$('#shb').innerHTML=infoBody();f.hidden=true}
+else{f.hidden=false;$('#sht').textContent=G[g].l;
+$('#shb').innerHTML=`${G[g].hint?`<p class="hint">${esc(G[g].hint)}</p>`:''}<fieldset><legend class="sr">${G[g].l}</legend><div class="ops">${G[g].o.map(([v,l,c])=>`<label class="op"><input type="checkbox" value="${esc(v)}"${S[g].has(v)?' checked':''}><span>${esc(l)}<span class="oc">${c}<span class="sr"> ${G[g].u[c==1?0:1]}</span></span></span></label>`).join('')}</div></fieldset>`;
+$('#sho').textContent='Ver '+(S.v=='act'?pl(last,'actividad','actividades'):pl(last,'librería','librerías'))}
+$('#shb').scrollTop=0;sh.showModal()}
+$('#shb').addEventListener('change',e=>{const i=e.target;if(!G[sg]||i.type!='checkbox')return;i.checked?S[sg].add(i.value):S[sg].delete(i.value);change(1)});
+$('#shb').addEventListener('input',e=>{if(e.target.id!='cq')return;const w=nz(e.target.value).trim();
+$('#shb').querySelectorAll('section').forEach(s=>{let n=0;s.querySelectorAll('.o1').forEach(b=>{const v=!w||b.dataset.n.includes(w);b.hidden=!v;n+=v});s.hidden=!n})});
+$('#shc').onclick=()=>{S[sg].clear();$('#shb').querySelectorAll('input').forEach(i=>i.checked=false);change(1)};
+sh.addEventListener('click',e=>{if(e.target===sh||e.target.closest('[data-close]'))sh.close()});
+sh.addEventListener('close',()=>{if(G[sg])toList()});
+document.addEventListener('click',e=>{const b=e.target.closest('[data-k]');if(!b)return;const k=b.dataset.k,t=k[0],v=k.slice(1);
+if(t=='o'){setO(b,b.getAttribute('aria-expanded')!='true');upAll()}
+else if(t=='a'){const i=+v;all.has(i)?all.delete(i):all.add(i);render()}
+else if(t=='m'){const o=!more.has(v);o?more.add(v):more.delete(v);b.setAttribute('aria-expanded',o);b.textContent=o?'menos':'más';$('#d'+v).classList.toggle('cl',!o)}
+else if(t=='g')sheet(v);
+else if(t=='C')setCity(v);
+else if(t=='V'){if(S.v!=v){S.v=v;change()}}
+else if(t=='P'){S.hp=!S.hp;LS('ndl-hp',S.hp?'1':'0');change(1)}
+else if(t=='I')sheet('i');
+else if(t=='x'){const g=v[0];if(g=='q'){S.q='';qi.value='';qx.hidden=true}else if(g=='p'){S.hp=false;LS('ndl-hp','0')}else S[g].delete(v.slice(2));change()}
+else if(t=='z')clearAll()});
+tga.onclick=()=>{const v=!tga.dataset.o;res.querySelectorAll('.vm').forEach(b=>setO(b,v));upAll()};
+let qt;qi.addEventListener('input',()=>{qx.hidden=!qi.value;clearTimeout(qt);qt=setTimeout(()=>{S.q=qi.value;change()},150)});
+qi.addEventListener('keydown',e=>{if(e.key=='Enter'){e.preventDefault();qi.blur()}});
+qx.onclick=()=>{qi.value='';qx.hidden=true;S.q='';change();qi.focus()};
+const tp=$('#tp');let rf=0;addEventListener('scroll',()=>{if(!rf)rf=requestAnimationFrame(()=>{rf=0;tp.hidden=scrollY<1000})},{passive:true});
+tp.onclick=()=>{scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});$('#ttl').focus({preventScroll:true})};
+addEventListener('hashchange',()=>{rHash();qi.value=S.q;qx.hidden=!S.q;render()});
+const ttl=M.title||'Noche de las Librerías';document.title=ttl+' · Guía no oficial';$('#ttl').textContent=ttl;
+$('#dt').textContent=[M.date,M.hours].filter(Boolean).join(' · ');
+$('#offs').innerHTML=(M.official||[]).filter(o=>okU(o.url)).map(o=>`<a class="lk" style="padding:0;display:inline-flex;align-items:center" href="${esc(o.url)}" target="_blank" rel="noopener">${esc(o.label)} ↗</a>`).join('');
+$('#fsrc').innerHTML=Object.keys(SR).map(k=>`<li>${A(SR[k].url,esc(SR[k].label||k))}</li>`).join('');
+const um=/^(\d{4})-(\d\d)-(\d\d)$/.exec(M.updated||'');$('#upd').textContent=um?`${um[3]}/${um[2]}/${um[1]}`:(M.updated||'—');
+let first=false;
+if(!rHash()){const c=LS('ndl-c');if(c=='todo')S.c='*';else if(c&&CITIES.has(c))S.c=c;else first=true}
+qi.value=S.q;qx.hidden=!S.q;wHash();render();
+if(first)sheet('c');
+setInterval(render,60000);
+})();
+</script>
+</body>
+</html>
