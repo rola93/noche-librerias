@@ -29,6 +29,7 @@ SOURCES = {
         "url": "https://www.elobservador.com.uy/cultura-y-espectaculos/alejandro-zambra-viene-montevideo-y-es-el-momento-volver-bonsai-su-primera-novela-n6062874",
     },
     "infouruguay": {"label": "InfoUruguay", "url": "https://infouruguay.com.uy/noticias/3834-que-hacer-este-fin-de-semana-en-montevideo-y-canelones"},
+    "migas-ig": {"label": "Migas de Papel (Instagram)", "url": "https://www.instagram.com/p/DfOEd42tQUN/"},
 }
 
 NOT_IN_MEC = {
@@ -84,7 +85,7 @@ PLACES = [
     {
         "name": "América Latina", "barrio": "Cordón", "addr": "Av. 18 de Julio 2089",
         "acts": [
-            A("19:00", None, "Cinco claves inútiles para elegir un libro para otro", "El Colectivo Migas de Papel propone un laboratorio sobre los criterios y sensibilidades al elegir una lectura para regalar o recomendar.", ["taller", "charla"], ["Colectivo Migas de Papel"]),
+            A("19:00", "20:30", "Cinco claves inútiles para elegir un libro para otro", "Último laboratorio de mediación lectora del año del Colectivo Migas de Papel: sin listas de tips, una conversación sobre los matices menos visibles de elegir un libro para otra persona, con aportes de referentes teóricos. Gratis y sin inscripción; el material teórico se pide antes a migasdepapel@gmail.com.", ["taller", "charla"], ["Colectivo Migas de Papel"], ["imm", "migas-ig"]),
             A("21:00", None, "Hacia un tejido lector", "Joanna Peluffo y Maite González Vallejo, impulsoras de la Red Nacional de Clubes de Lectura, conversan sobre su libro y sobre crear espacios de lectura compartida.", ["presentacion", "charla"], ["Joanna Peluffo", "Maite González Vallejo"]),
         ],
     },

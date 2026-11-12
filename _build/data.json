@@ -81,6 +81,10 @@
    "label": "InfoUruguay",
    "url": "https://infouruguay.com.uy/noticias/3834-que-hacer-este-fin-de-semana-en-montevideo-y-canelones"
   },
+  "migas-ig": {
+   "label": "Migas de Papel (Instagram)",
+   "url": "https://www.instagram.com/p/DfOEd42tQUN/"
+  },
   "idsj": {
    "label": "Intendencia de San José (9/11)",
    "url": "https://sanjose.gub.uy/26-11-09noche-librerias/"
@@ -397,9 +401,9 @@
    "acts": [
     {
      "start": "19:00",
-     "end": null,
+     "end": "20:30",
      "title": "Cinco claves inútiles para elegir un libro para otro",
-     "desc": "El Colectivo Migas de Papel propone un laboratorio sobre los criterios y sensibilidades al elegir una lectura para regalar o recomendar.",
+     "desc": "Último laboratorio de mediación lectora del año del Colectivo Migas de Papel: sin listas de tips, una conversación sobre los matices menos visibles de elegir un libro para otra persona, con aportes de referentes teóricos. Gratis y sin inscripción; el material teórico se pide antes a migasdepapel@gmail.com.",
      "tags": [
       "taller",
       "charla"
@@ -412,7 +416,8 @@
      ],
      "src": [
       "imm",
-      "mec"
+      "mec",
+      "migas-ig"
      ]
     },
     {
