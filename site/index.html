@@ -3,16 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#0d1117">
+<meta name="theme-color" content="#001247">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23001247'/%3E%3Cpath d='M30 12A20 20 0 0 0 30 52' fill='none' stroke='%23ff5a1f' stroke-width='5' stroke-linecap='round'/%3E%3Cpath d='M30 32L38 12M30 32L46 17M30 32L51 25M30 32L53 32M30 32L51 39M30 32L46 47M30 32L38 52' stroke='%23fff' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;800&display=swap">
 <meta name="color-scheme" content="dark">
 <meta name="description" content="Guía no oficial de la Noche de las Librerías en todo Uruguay: librerías, horarios, actividades y descuentos, filtrables por ciudad, barrio y tipo.">
 <title>Noche de las Librerías · Guía</title>
 <style>
-:root{--bg:#0d1117;--bg2:#161b22;--bg3:#21262d;--tx:#e6edf3;--mu:#9da7b3;--bd:#30363d;--bc:#6e7681;--ac:#58a6ff;--ok:#3fb950;--okt:#7ee787;--wa:#d29922;--sel:#0f2a4a}
+:root{--bg:#001247;--bg2:#0a1d5e;--bg3:#16297a;--tx:#fff;--mu:#aeb8e0;--bd:#26398a;--bc:#5566b0;--ac:#ff7a45;--or:#ff5a1f;--ok:#3fb950;--okt:#7ee787;--wa:#ffe500;--sel:#3a2463;--hf:"Outfit",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 @media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}.cv{transition:transform .15s}}
-body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;padding:0 env(safe-area-inset-right) 0 env(safe-area-inset-left);-webkit-tap-highlight-color:rgba(88,166,255,.15)}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;padding:0 env(safe-area-inset-right) 0 env(safe-area-inset-left);-webkit-tap-highlight-color:rgba(255,122,69,.18)}
 [hidden]{display:none!important}
 .w{max-width:760px;margin:0 auto;padding-left:16px;padding-right:16px}
 a{color:var(--ac);text-underline-offset:2px}
@@ -22,34 +26,43 @@ h1:focus{outline:none}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .skip{position:absolute;left:8px;top:-60px;background:var(--ac);color:var(--bg);padding:10px 14px;border-radius:8px;z-index:9;font-weight:600}
 .skip:focus{top:calc(8px + env(safe-area-inset-top))}
-header{padding-top:calc(10px + env(safe-area-inset-top));padding-bottom:8px}
-.top{display:flex;justify-content:flex-end;align-items:center;gap:2px;margin:0 -6px 2px 0}
+header{position:relative;padding-top:calc(10px + env(safe-area-inset-top));padding-bottom:8px}
+.hb{position:relative;overflow:hidden;background:var(--bg)}
+.hb::after{content:"";position:absolute;left:-10%;right:-10%;bottom:-64px;height:84px;border-radius:50%;background:#022c76;z-index:0}
+.hb header{z-index:1;padding-bottom:30px}
+.fan{position:absolute;right:-18px;top:calc(44px + env(safe-area-inset-top));width:150px;height:166px;pointer-events:none;opacity:.95}
+.top{position:relative;display:flex;justify-content:flex-end;align-items:center;gap:2px;margin:0 -6px 2px 0}
+.ed{position:relative;margin:6px 0 2px;font-family:var(--hf);font-weight:700;font-size:.875rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ac)}
+.tl{position:relative;margin:4px 0 12px;font-family:var(--hf);font-weight:700;font-size:.8125rem;line-height:1.35;letter-spacing:.14em;text-transform:uppercase;color:var(--ac)}
 .tb{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 12px;border-radius:10px;border:1px solid var(--bc);background:transparent;font-weight:600;font-size:.875rem}
 .tb::before{content:"";width:14px;height:14px;border-radius:4px;border:2px solid var(--bc);flex:none;box-sizing:border-box}
 .tb[aria-pressed=true]{background:var(--sel);border-color:var(--ac)}
 .tb[aria-pressed=true]::before{background:var(--ac);border-color:var(--ac);box-shadow:inset 0 0 0 2px var(--sel)}
 .ib{width:44px;height:44px;display:grid;place-items:center;background:none;border:0;color:var(--mu);border-radius:10px}
-h1{font-size:1.625rem;line-height:1.15;margin:0 0 6px;letter-spacing:-.01em}
-.dt{margin:0 0 8px;color:var(--wa);font-weight:600}
-.lead{margin:0 0 8px}
-.disc{margin:0 0 4px;color:var(--mu);font-size:.9375rem}
-.offs{display:flex;flex-wrap:wrap;gap:0 16px}
-.cb{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 12px;margin:6px 0 2px;border-radius:10px;border:1px solid var(--ac);background:var(--sel);font-size:1rem}
+h1{position:relative;font-family:var(--hf);font-size:2.5rem;font-weight:800;line-height:.95;margin:0 0 10px;letter-spacing:-.01em;text-transform:uppercase;max-width:15ch}
+h1 span{display:block}
+.dt{position:relative;margin:0 0 8px;color:var(--wa);font-family:var(--hf);font-weight:700;font-size:1.0625rem}
+.lead{position:relative;margin:0 0 8px}
+.disc{position:relative;margin:0 0 4px;color:var(--mu);font-size:.9375rem}
+.offs{position:relative;display:flex;flex-wrap:wrap;gap:0 16px}
+.cb{position:relative;display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 12px;margin:6px 0 2px;border-radius:10px;border:1px solid var(--ac);background:var(--sel);font-size:1rem}
 .cb strong{font-weight:700}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:44px;padding:0 14px;border-radius:10px;border:1px solid var(--bc);background:var(--bg3);color:var(--tx);text-decoration:none;font-weight:600;font-size:.9375rem}
 .btn.pr{background:var(--ac);border-color:var(--ac);color:var(--bg)}
 .btn svg{flex:none}
 .lk{background:none;border:0;color:var(--ac);font-weight:600;min-height:44px;padding:0 4px;text-decoration:underline;text-underline-offset:3px}
-.bar{position:sticky;top:0;z-index:5;background:rgba(13,17,23,.97);border-bottom:1px solid var(--bd);margin-top:8px}
+.bar{position:sticky;top:0;z-index:5;background:rgba(0,18,71,.97);border-bottom:1px solid var(--bd)}
 .bar .w{padding-top:8px;padding-bottom:4px}
 .sf{position:relative;flex:1;min-width:0}
 .sf input{width:100%;height:44px;border-radius:10px;border:1px solid var(--bc);background:var(--bg2);color:var(--tx);font:inherit;font-size:16px;padding:0 44px 0 40px;-webkit-appearance:none;appearance:none}
-.sf input::placeholder{color:#8b949e}
+.sf input::placeholder{color:#9aa6d6}
 .sf input::-webkit-search-cancel-button{display:none}
 .sf>svg{position:absolute;left:12px;top:12px;color:var(--mu);pointer-events:none}
 .qx{position:absolute;right:0;top:0;width:44px;height:44px;background:none;border:0;color:var(--mu);display:grid;place-items:center}
 .seg{display:flex;margin-top:8px;border:1px solid var(--bc);border-radius:10px;overflow:hidden}
-.seg button{flex:1;min-height:40px;border:0;background:var(--bg2);font-weight:600;font-size:.9375rem;color:var(--mu)}
+.seg button{flex:1;min-height:40px;border:0;background:var(--bg2);font-weight:600;font-size:.875rem;color:var(--mu);padding:0 4px;display:inline-flex;align-items:center;justify-content:center;gap:5px}
+.seg .n{background:var(--wa);color:var(--bg);border-radius:9px;min-width:19px;line-height:19px;padding:0 5px;font-size:.75rem;font-weight:700}
+.seg .n:empty{display:none}
 .seg button+button{border-left:1px solid var(--bc)}
 .seg button[aria-pressed=true]{background:var(--sel);color:var(--tx);box-shadow:inset 0 -3px 0 var(--ac)}
 .r2{display:flex;gap:6px;margin-top:8px;overflow-x:auto;scrollbar-width:none}
@@ -69,10 +82,11 @@ main{padding-top:12px;padding-bottom:24px}
 .lh{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:4px}
 .lh h2{margin:0;font-size:.9375rem;font-weight:600;color:var(--mu)}
 .lt{list-style:none;margin:0;padding:0;display:grid;gap:12px}
-.lg{margin:12px 0 -4px;font-size:.875rem;font-weight:700;color:var(--wa);text-transform:uppercase;letter-spacing:.04em}
+.lg{margin:12px 0 -4px;font-family:var(--hf);font-size:.875rem;font-weight:700;color:var(--wa);text-transform:uppercase;letter-spacing:.04em}
 .cd{background:var(--bg2);border:1px solid var(--bd);border-radius:14px}
 .ch{padding:14px 16px 2px}
-.pn{margin:0;font-size:1.1875rem;font-weight:600;line-height:1.25}
+.cd{border-left:3px solid var(--or)}
+.pn{margin:0;font-family:var(--hf);font-size:1.1875rem;font-weight:700;line-height:1.25}
 .ad{display:flex;gap:6px;align-items:flex-start;margin:4px 0 0;font-size:.9375rem}
 .ad svg{flex:none;margin-top:3px;color:var(--mu)}
 .pm{margin:2px 0 0;color:var(--mu);font-size:.9375rem;font-variant-numeric:tabular-nums}
@@ -86,6 +100,11 @@ main{padding-top:12px;padding-bottom:24px}
 .mini li.al{grid-template-columns:1fr}
 .mini .mx{grid-column:1/-1;color:var(--mu);font-size:.875rem}
 .mini .st{margin-left:6px;vertical-align:1px}
+.fm{color:var(--wa);margin-right:4px}
+.fv{flex:none;width:44px;height:44px;margin:-10px -10px -10px 0;display:grid;place-items:center;background:none;border:0;border-radius:10px;color:var(--mu)}
+.fv path{fill:none;stroke:currentColor;stroke-width:1.8;stroke-linejoin:round}
+.fv[aria-pressed=true]{color:var(--wa)}
+.fv[aria-pressed=true] path{fill:currentColor}
 .fin .mtt,.fin h3,.fin .an{color:var(--mu)}
 .vm{display:flex;align-items:center;justify-content:center;gap:6px;width:100%;min-height:46px;margin-top:10px;background:none;border:0;border-top:1px solid var(--bd);border-radius:0 0 14px 14px;color:var(--ac);font-weight:700}
 .vm[aria-expanded=true] .cv{transform:rotate(180deg)}
@@ -98,21 +117,24 @@ main{padding-top:12px;padding-bottom:24px}
 .nt{margin:0 0 12px;font-size:.9375rem}
 .fx{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:0 8px;margin:0;font-size:.9375rem;color:var(--mu)}
 .acts{list-style:none;margin:0;padding:0}
-.act{display:grid;grid-template-columns:4.5rem 1fr;gap:12px;padding:14px 0;border-top:1px solid var(--bd)}
+.act{display:grid;grid-template-columns:4.5rem 1fr auto;gap:12px;padding:14px 0;border-top:1px solid var(--bd)}
 .tm{font-variant-numeric:tabular-nums;font-weight:700;font-size:1.125rem;line-height:1.2}
 .tm small{display:block;font-weight:500;font-size:.875rem;color:var(--mu);margin-top:2px}
 .tm.al{font-size:.875rem;color:var(--wa)}
 .ab{min-width:0}
 .act h3{font-size:1rem;margin:0 0 4px;line-height:1.35}
-.ds{margin:0;color:#c9d1d9;font-size:.9375rem}
+.ds{margin:0;color:#dde3f7;font-size:.9375rem}
 .ds.cl{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .mr{background:none;border:0;color:var(--ac);font-weight:600;min-height:44px;margin:-8px 0 -8px;padding:0 12px 0 0}
 .st{display:inline-block;font-size:.75rem;font-weight:700;line-height:1.5;padding:0 7px;border-radius:6px;white-space:nowrap}
-.st-p{color:#b1bac4;border:1px solid #484f58}
-.st-e{background:rgba(210,153,34,.22);color:#e3b341}
-.st-a{background:rgba(248,81,73,.22);color:#ffa198}
-.st-f{background:var(--bg3);color:#8b949e}
+.st-p{color:#c3cbec;border:1px solid var(--bc)}
+.st-e{background:rgba(255,229,0,.18);color:#ffd84d}
+.st-a{background:rgba(255,90,31,.25);color:#ffb08f}
+.st-f{background:var(--bg3);color:#9aa6d6}
 .arow{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.arow .fv{margin-left:auto}
+.an{font-family:var(--hf);font-weight:700}
+.fvn{margin:0 0 12px;padding:10px 12px;border:1px dashed var(--bc);border-radius:10px;font-size:.875rem;color:var(--mu)}
 .atm{font-variant-numeric:tabular-nums;font-weight:700;font-size:1.0625rem}
 .atm.al{color:var(--wa);font-size:.9375rem}
 .an{margin:4px 0 0;font-size:1.0625rem;line-height:1.3}
@@ -133,7 +155,7 @@ dialog{border:0;border-top:1px solid var(--bc);padding:0;background:var(--bg2);c
 dialog::backdrop{background:rgba(0,0,0,.65)}
 .sh{display:flex;flex-direction:column;max-height:85vh;max-height:85dvh}
 .shh{display:flex;align-items:center;justify-content:space-between;padding:6px 6px 6px 16px;border-bottom:1px solid var(--bd)}
-.shh h2{margin:0;font-size:1.125rem}
+.shh h2{margin:0;font-family:var(--hf);font-size:1.125rem}
 .ic{width:44px;height:44px;background:none;border:0;display:grid;place-items:center;border-radius:10px}
 .shb{overflow:auto;padding:12px 16px 16px;overscroll-behavior:contain}
 .shb fieldset{border:0;margin:0;padding:0}
@@ -153,28 +175,33 @@ dialog::backdrop{background:rgba(0,0,0,.65)}
 .il .st{justify-self:start;margin-top:2px}
 .shf{display:flex;gap:8px;padding:10px 16px calc(10px + env(safe-area-inset-bottom));border-top:1px solid var(--bd)}
 .shf .pr{flex:1}
-@media (min-width:600px){dialog{margin:auto;border:1px solid var(--bc);border-radius:16px}.shf{padding-bottom:10px}.pn{font-size:1.25rem}.act{grid-template-columns:5.5rem 1fr}h1{font-size:2rem}}
+@media (min-width:600px){dialog{margin:auto;border:1px solid var(--bc);border-radius:16px}.shf{padding-bottom:10px}.pn{font-size:1.25rem}.act{grid-template-columns:5.5rem 1fr auto}h1{font-size:3.25rem}.fan{width:220px;height:244px;right:0}}
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Saltar a la guía</a>
+<div class="hb">
+<svg class="fan" viewBox="-30 0 180 200" aria-hidden="true" focusable="false"><path d="M50 22A78 78 0 0 0 50 178" fill="none" stroke="#ff5a1f" stroke-width="7" stroke-linecap="round"/><path d="M61.7 92.2L76.3 23.3M62.8 92.5L86.1 30.8M63.9 93L102.6 24.2M64.9 93.7L104.3 43.4M65.8 94.5L121.1 42.4M66.6 95.4L125.4 54.8M67.2 96.5L124.3 68.7M67.6 97.6L139.4 75.2M67.9 98.8L130.2 89.3M68 100L141.3 100M67.9 101.2L131 110.8M67.6 102.4L129.1 121.6M67.2 103.5L132.8 135.5M66.6 104.6L135.3 152M65.8 105.5L113.3 150.2M64.9 106.3L106.7 159.7M63.9 107L102.3 175.2M62.8 107.5L93.4 188.6M61.7 107.8L77.7 183.1" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/></svg>
 <header class="w">
 <div class="top"><button type="button" class="tb" id="hp" data-k="P" aria-pressed="false">Ocultar eventos pasados</button><button type="button" class="ib" data-k="I" aria-label="Qué significan los estados de las actividades" aria-haspopup="dialog"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 11v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="7.6" r="1.3" fill="currentColor"/></svg></button></div>
-<h1 id="ttl" tabindex="-1">Noche de las Librerías</h1>
+<p class="ed">10.ª edición · Guía no oficial</p>
+<h1 id="ttl" tabindex="-1"><span>Noche</span> <span>de las</span> <span>Librerías</span></h1>
 <p class="dt" id="dt"></p>
+<p class="tl">El país se encuentra<br>en sus librerías</p>
 <p class="lead">Librerías de todo Uruguay abren de noche con presentaciones, lecturas, charlas, música y actividades para niños.</p>
 <p class="disc">Guía no oficial armada a partir del mapa de la Intendencia de Montevideo y la guía del MEC; los horarios pueden cambiar.</p>
 <div class="offs" id="offs"></div>
 <button type="button" class="cb" id="cb" data-k="gc" aria-haspopup="dialog"></button>
 </header>
+</div>
 <div class="bar">
 <div class="w" role="search">
 <div class="sf"><label for="q" class="sr">Buscar librería, autor, barrio o actividad</label>
 <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
 <input id="q" type="search" placeholder="Buscá librería, autor, barrio…" autocomplete="off" enterkeyhint="search">
 <button type="button" class="qx" id="qx" aria-label="Borrar búsqueda" hidden><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button></div>
-<div class="seg" role="group" aria-label="Ver la guía"><button type="button" data-k="Vlib" aria-pressed="true">Por librería</button><button type="button" data-k="Vact" aria-pressed="false">Por actividad</button></div>
-<div class="r2">
+<div class="seg" role="group" aria-label="Ver la guía"><button type="button" data-k="Vlib" aria-pressed="true">Por librería</button><button type="button" data-k="Vact" aria-pressed="false">Por actividad</button><button type="button" data-k="Vfav" aria-pressed="false"><svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8L3.5 9.7l5.9-.9z" fill="currentColor"/></svg>Favoritos<span class="n" id="fvc"></span></button></div>
+<div class="r2" id="r2">
 <button type="button" class="gb" id="gh" data-k="gh" aria-haspopup="dialog"><span class="gl">Horario</span><span class="n"></span></button>
 <button type="button" class="gb" id="gb" data-k="gb" aria-haspopup="dialog"><span class="gl">Barrio</span><span class="n"></span></button>
 <button type="button" class="gb" id="gt" data-k="gt" aria-haspopup="dialog"><span class="gl">Tipo</span><span class="n"></span></button>
@@ -182,7 +209,7 @@ dialog::backdrop{background:rgba(0,0,0,.65)}
 </div>
 </div>
 <div class="w">
-<p class="cnt" id="cnt" aria-live="polite" aria-atomic="true"></p>
+<p class="cnt" id="cnt" aria-live="polite" aria-atomic="true"></p><p class="sr" id="ann" aria-live="polite"></p>
 <div class="r4" id="r4" hidden><div class="xsc"><div class="xcs" id="xcs" aria-label="Filtros activos" role="group"></div></div><button type="button" class="lk" id="clr" data-k="z">Limpiar filtros</button></div>
 </div>
 </div>
@@ -240,7 +267,7 @@ const P=(D.places||[]).map(d=>{
 const city=d.city||'Montevideo',dept=d.dept||city,H=d.hours||[],hs=tm(H[0]),he=tm(H[1]);
 const px=nz([d.name,d.barrio,city,dept,d.addr].join(' '));
 const acts=(d.acts||[]).map((a,j)=>{const s=tm(a.start);let e=tm(a.end);if(s==null||e!=null&&e<=s)e=null;
-return Object.assign({},a,{j,s0:s,e0:e,tags:a.tags||[],x:px+' '+nz([a.title,a.desc].concat((a.people||[]).map(p=>p.n)).join(' '))})});
+return Object.assign({},a,{j,s0:s,e0:e,tags:a.tags||[],fk:(d.id||nz(d.name))+'|'+(a.start||'')+'|'+nz(a.title),x:px+' '+nz([a.title,a.desc].concat((a.people||[]).map(p=>p.n)).join(' '))})});
 const starts=[...new Set(acts.map(a=>a.s0).filter(v=>v!=null))].sort((a,b)=>a-b);
 const ps=hs??(starts.length?starts[0]:1080);let pe=he;
 if(pe==null||pe<=ps){const en=acts.filter(a=>a.s0!=null).map(a=>a.e0??a.s0+60);pe=en.length?Math.max(...en):1500;if(pe<=ps)pe=ps+120}
@@ -260,6 +287,10 @@ b:{l:'Barrio',u:['librería','librerías']},
 t:{l:'Tipo',u:['actividad','actividades']},
 d:{l:'Descuento',u:['librería','librerías'],hint:'«Propio de la librería» son descuentos anunciados para esta noche. Los bancos son beneficios habituales de cada tarjeta publicados por el emisor. Confirmá en caja.'}};
 const S={q:'',h:new Set,b:new Set,t:new Set,d:new Set,c:'*',v:'lib',hp:LS('ndl-hp')=='1'},open=new Map,all=new Set,more=new Set;
+const rFav=()=>{try{const v=JSON.parse(LS('ndl-fav')||'[]');return new Set(Array.isArray(v)?v.filter(x=>typeof x=='string'):[])}catch(e){return new Set}};
+let FAV=rFav();
+const STAR='<svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8L3.5 9.7l5.9-.9z"/></svg>';
+const fvB=(p,a)=>{const on=FAV.has(a.fk);return`<button type="button" class="fv" data-k="f${p.i}-${a.j}" aria-pressed="${on}" aria-label="Favorito: ${esc(a.title)}">${STAR}</button>`};
 const inC=p=>S.c=='*'||p.city==S.c;
 function opts(){const PC=P.filter(inC),AC=PC.flatMap(p=>p.acts);
 G.h.o=SL.map(s=>[s[0],s[1],AC.filter(a=>ov(a,s)).length]);
@@ -271,11 +302,11 @@ for(const g in G){G[g].o=G[g].o.filter(o=>o[2]>0);const ok=new Set(G[g].o.map(o=
 const b=$('#g'+g);b.hidden=!G[g].o.length||g=='b'&&G[g].o.length<2;b.querySelector('.gl').textContent=G[g].l}}
 const lab=(g,v)=>g=='b'?v:g=='t'?TG[v]||v:g=='d'?(v=='any'?'Cualquier descuento':'Descuento '+ISN(v)):(SL.find(s=>s[0]==v)||[,v])[1];
 function rHash(){const m={};location.hash.slice(1).split('&').forEach(x=>{const i=x.indexOf('=');if(i>0)m[x.slice(0,i)]=x.slice(i+1)});
-const dec=v=>{try{return decodeURIComponent(v)}catch(e){return''}};S.q=m.q?dec(m.q):'';S.v=m.v=='act'?'act':'lib';
+const dec=v=>{try{return decodeURIComponent(v)}catch(e){return''}};S.q=m.q?dec(m.q):'';S.v=m.v=='act'||m.v=='fav'?m.v:'lib';
 if(m.c){const c=dec(m.c);if(c=='todo')S.c='*';else if(CITIES.has(c))S.c=c}
 for(const g in G){S[g]=new Set;if(m[g])m[g].split(',').map(dec).filter(Boolean).forEach(v=>S[g].add(v))}
 return!!m.c}
-function wHash(){const p=[],e=encodeURIComponent;p.push('c='+e(S.c=='*'?'todo':S.c));if(S.v=='act')p.push('v=act');if(S.q.trim())p.push('q='+e(S.q.trim()));for(const g in G)if(S[g].size)p.push(g+'='+[...S[g]].map(e).join(','));
+function wHash(){const p=[],e=encodeURIComponent;p.push('c='+e(S.c=='*'?'todo':S.c));if(S.v!='lib')p.push('v='+S.v);if(S.q.trim())p.push('q='+e(S.q.trim()));for(const g in G)if(S[g].size)p.push(g+'='+[...S[g]].map(e).join(','));
 try{history.replaceState(null,'','#'+p.join('&'))}catch(e){}}
 const EV=(/^(\d{4})-(\d\d)-(\d\d)$/.exec(M.day||'2026-11-13')||[0,2026,11,13]).slice(1).map(Number);
 function nowM(){const t=/[?&]ahora=(\d\d:\d\d)/.exec(location.search);if(t)return tm(t[1]);
@@ -293,7 +324,7 @@ function mP(p){if(!inC(p))return false;if(S.b.size&&!S.b.has(p.d.barrio))return 
 function chips(){const L=[],q=S.q.trim();if(q)L.push(['xq','“'+q+'”']);if(S.hp)L.push(['xp','Sin eventos pasados']);
 for(const g in G)for(const v of S[g])L.push(['x'+g+':'+v,lab(g,v)]);
 return L.map(([k,l])=>`<button type="button" class="xc" data-k="${esc(k)}" aria-label="Quitar filtro: ${esc(l)}"><span>${esc(l)}${IX}</span></button>`).join('')}
-function loc(p){const d=p.d,r=[d.addr];if(d.barrio&&d.barrio!=p.city)r.push(d.barrio);if(S.c=='*'||p.city!=S.c){r.push(p.city);if(p.dept!=p.city)r.push(p.dept)}return esc(r.filter(Boolean).join(', '))}
+function loc(p){const d=p.d,r=[d.addr];if(d.barrio&&d.barrio!=p.city)r.push(d.barrio);if(S.v=='fav'||S.c=='*'||p.city!=S.c){r.push(p.city);if(p.dept!=p.city)r.push(p.dept)}return esc(r.filter(Boolean).join(', '))}
 const mapU=p=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent([p.d.addr,p.city,p.dept!=p.city?p.dept:'','Uruguay'].filter(Boolean).join(', '));
 const goB=p=>p.d.addr?`<a class="btn" href="${esc(mapU(p))}" target="_blank" rel="noopener">${PIN}Cómo llegar</a>`:'';
 const lks=p=>(p.d.links||[]).filter(l=>l&&okU(l.url)).map(l=>A(l.url,esc(l.label||'Enlace')+' ↗','btn')).join('');
@@ -306,18 +337,18 @@ function desc(k,a){if(!a.desc)return'';const lg=a.desc.length>160,mo=more.has(k)
 function act(i,a,now){const k=i+'-'+a.j,s=stt(a,now);
 const t=a.al?'<div class="tm al">Durante la noche</div>':`<div class="tm">${hh(a.s)}${a.e0!=null?`<small><span class="sr">a </span>–${hh(a.e0)}</small>`:''}</div>`;
 const pp=ppl(a),sr=srcs(a);
-return`<li class="act${s=='f'?' fin':''}">${t}<div class="ab"><h3>${esc(a.title)} ${badge(s)}</h3>${desc(k,a)}${a.tags.length?`<div class="chs">${a.tags.map(tag).join('')}</div>`:''}${pp?`<p class="pp">Con ${pp}</p>`:''}${sr?`<p class="src">Fuente: ${sr}</p>`:''}</div></li>`}
+return`<li class="act${s=='f'?' fin':''}">${t}<div class="ab"><h3>${esc(a.title)} ${badge(s)}</h3>${desc(k,a)}${a.tags.length?`<div class="chs">${a.tags.map(tag).join('')}</div>`:''}${pp?`<p class="pp">Con ${pp}</p>`:''}${sr?`<p class="src">Fuente: ${sr}</p>`:''}</div>${fvB(P[i],a)}</li>`}
 const vmB=(k,o,lbl)=>`<button type="button" class="vm" data-k="o${k}" aria-expanded="${o}" aria-controls="b${k}">${o?'Ver menos':'Ver más'}<span class="sr"> ${esc(lbl)}</span>${CV}</button>`;
 function card(p,m,af,auto,now){const i=p.i,d=p.d,k='p'+i,o=open.has(k)?open.get(k):auto,sa=all.has(i),n=p.acts.length,part=af&&m.length<n,ls=part&&!sa?m:p.acts;
 const meta=[p.rg,part?`${m.length} de ${pl(n,'actividad','actividades')}`:pl(n,'actividad','actividades')].filter(Boolean).join(' · ');
 const base=part?m:p.acts,live=base.filter(a=>stt(a,now)!='f'),mv=(live.length?live:base),mn=mv.slice(0,3),rest=base.length-mn.length;
-const mini=`<ul class="mini" id="m${k}"${o?' hidden':''}>${mn.map(a=>{const s=stt(a,now);return`<li class="${s=='f'?'fin':''}${a.al?' al':''}">${a.al?'':`<span class="mt">${hh(a.s)}</span>`}<span><span class="mtt">${esc(a.title)}</span>${a.al?' <span class="oc">· durante la noche</span>':''} ${badge(s)}</span></li>`}).join('')}${rest>0?`<li><span class="mx">y ${pl(rest,'actividad más','actividades más')}</span></li>`:''}</ul>`;
+const mini=`<ul class="mini" id="m${k}"${o?' hidden':''}>${mn.map(a=>{const s=stt(a,now);return`<li class="${s=='f'?'fin':''}${a.al?' al':''}">${a.al?'':`<span class="mt">${hh(a.s)}</span>`}<span>${FAV.has(a.fk)?'<span class="fm" role="img" aria-label="Favorito">★</span>':''}<span class="mtt">${esc(a.title)}</span>${a.al?' <span class="oc">· durante la noche</span>':''} ${badge(s)}</span></li>`}).join('')}${rest>0?`<li><span class="mx">y ${pl(rest,'actividad más','actividades más')}</span></li>`:''}</ul>`;
 return`<li class="cd"><div class="ch"><h2 class="pn">${esc(d.name)}</h2><p class="ad">${PIN}<span>${loc(p)}</span></p><p class="pm">${meta}</p>${p.ts.length?`<div class="chs">${p.ts.map(tag).join('')}</div>`:''}${dch(p)}${mini}</div>
 <div class="pb" id="b${k}"${o?'':' hidden'}><div class="loc">${goB(p)}</div>${dbox(p)}${d.note?`<p class="nt">${esc(d.note)}</p>`:''}${part?`<p class="fx"><span>${sa?'Mostrando todas las actividades':`Coinciden ${m.length} de ${n}`}</span><button type="button" class="lk" data-k="a${i}">${sa?'Ver solo las que coinciden':'Ver todas'}</button></p>`:''}
 <ol class="acts">${ls.map(a=>act(i,a,now)).join('')}</ol>${lks(p)?`<div class="lks">${lks(p)}</div>`:''}</div>${vmB(k,o,d.name)}</li>`}
 function acard(p,a,now){const k='a'+p.i+'-'+a.j,o=!!open.get(k),s=stt(a,now),pp=ppl(a),sr=srcs(a);
 const t=a.al?`<span class="atm al">Durante la noche</span><span class="oc">${esc(p.rg)}</span>`:`<span class="atm">${hh(a.s)}${a.e0!=null?'–'+hh(a.e0):''}</span>`;
-return`<li class="cd${s=='f'?' fin':''}"><div class="ch"><div class="arow">${t}${badge(s)}</div><h2 class="an">${esc(a.title)}</h2><p class="ad">${PIN}<span><strong>${esc(p.d.name)}</strong> · ${loc(p)}</span></p>${a.tags.length?`<div class="chs">${a.tags.map(tag).join('')}</div>`:''}${dch(p)}</div>
+return`<li class="cd${s=='f'?' fin':''}"><div class="ch"><div class="arow">${t}${badge(s)}${fvB(p,a)}</div><h2 class="an">${esc(a.title)}</h2><p class="ad">${PIN}<span><strong>${esc(p.d.name)}</strong> · ${loc(p)}</span></p>${a.tags.length?`<div class="chs">${a.tags.map(tag).join('')}</div>`:''}${dch(p)}</div>
 <div class="pb" id="b${k}"${o?'':' hidden'}>${desc(p.i+'-'+a.j,a)}${pp?`<p class="pp">Con ${pp}</p>`:''}${sr?`<p class="src">Fuente: ${sr}</p>`:''}<div class="loc">${goB(p)}</div>${dbox(p)}${p.d.note?`<p class="nt">${esc(p.d.note)}</p>`:''}${lks(p)?`<div class="lks">${lks(p)}</div>`:''}</div>${vmB(k,o,a.title)}</li>`}
 function keep(fn){const ae=document.activeElement,k=ae&&ae.dataset&&ae.dataset.k,par=ae&&ae.parentNode,ci=ae&&ae.classList.contains('xc')?[...par.children].indexOf(ae):-1;
 fn();const c=document.activeElement;if(c&&c!==document.body)return;
@@ -326,7 +357,19 @@ if(!el&&ci>=0){const cs=par.isConnected?par.querySelectorAll('.xc'):[];el=cs[Mat
 if(el)el.focus({preventScroll:true})}
 const res=$('#res'),tga=$('#tga'),sh=$('#sh'),qi=$('#q'),qx=$('#qx');let last=0,sg='';
 const cityL=()=>S.c=='*'?'Todo el país':S.c;
-function render(){opts();const q=nz(S.q).split(/\s+/).filter(Boolean),now=nowM(),af=!!(S.h.size||S.t.size||q.length||S.hp),any=af||S.b.size>0||S.d.size>0;
+const favL=()=>P.flatMap(p=>p.acts.filter(a=>FAV.has(a.fk)).map(a=>[p,a])).sort((x,y)=>x[1].s-y[1].s||(x[1].al||0)-(y[1].al||0)||cmp(x[0].k,y[0].k));
+function ui(){const fv=$('.sf').hidden=$('#r2').hidden=S.v=='fav';if(fv)$('#r4').hidden=true;
+const nf=favL().length;$('#fvc').innerHTML=nf?`<span class="sr">, </span>${nf}<span class="sr"> ${nf==1?'guardado':'guardados'}</span>`:'';
+$('#cb').innerHTML=`${PIN}Ciudad: <strong>${esc(cityL())}</strong>${CV}`;
+$('#hp').setAttribute('aria-pressed',S.hp);
+document.querySelectorAll('.seg button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.k.slice(1)==S.v))}
+function renderFav(now){const L0=favL(),L=S.hp?L0.filter(([p,a])=>stt(a,now)!='f'):L0,hid=L0.length-L.length;last=L.length;
+const note='<p class="fvn">Tus favoritos se guardan solo en este navegador, sin cuenta ni registro. Si borrás los datos del sitio o usás otro dispositivo, no van a aparecer. Se muestran de todas las ciudades, ordenados por hora.</p>';
+keep(()=>{res.innerHTML=L.length?note+`<ul class="lt">${L.map(([p,a])=>acard(p,a,now)).join('')}</ul>`:
+`<div class="emp"><h2>${L0.length?'Todos tus favoritos ya terminaron':'Todavía no guardaste favoritos'}</h2><p>${L0.length?'Desactivá «Ocultar eventos pasados» para verlos.':'Tocá la estrella de cualquier actividad para guardarla acá. Se guardan solo en este navegador.'}</p><p style="margin-top:12px"><button type="button" class="btn pr" data-k="${L0.length?'P':'Vact'}">${L0.length?'Mostrar eventos pasados':'Ver actividades'}</button></p></div>`});
+$('#cnt').innerHTML=`<strong>${pl(L.length,'favorito','favoritos')}</strong>`+(hid?` · ${pl(hid,'finalizado oculto','finalizados ocultos')}`:'');
+$('#lh').hidden=!L.length;$('#lht').textContent='Tus favoritos por hora';ui();upAll()}
+function render(){opts();const now=nowM();if(S.v=='fav')return renderFav(now);const q=nz(S.q).split(/\s+/).filter(Boolean),af=!!(S.h.size||S.t.size||q.length||S.hp),any=af||S.b.size>0||S.d.size>0;
 const R=[];let na=0;
 for(const p of P){if(!mP(p))continue;const m=af?p.acts.filter(a=>mA(a,q,now)):p.acts;if(af&&!m.length)continue;R.push([p,m]);na+=m.length}
 last=S.v=='act'?na:R.length;
@@ -342,9 +385,7 @@ $('#xcs').innerHTML=chips()});
 $('#cnt').innerHTML=(S.v=='act'?`<strong>${pl(na,'actividad','actividades')}</strong> en ${pl(R.length,'librería','librerías')}`:`<strong>${pl(R.length,'librería','librerías')}</strong> · ${pl(na,'actividad','actividades')}`)+` · ${esc(cityL())}`;
 $('#r4').hidden=!any;
 for(const g in G){const n=S[g].size,b=$('#g'+g);b.classList.toggle('on',n>0);b.querySelector('.n').innerHTML=n?`<span class="sr">, </span>${n}<span class="sr"> ${n==1?'seleccionado':'seleccionados'}</span>`:''}
-$('#cb').innerHTML=`${PIN}Ciudad: <strong>${esc(cityL())}</strong>${CV}`;
-$('#hp').setAttribute('aria-pressed',S.hp);
-document.querySelectorAll('.seg button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.k.slice(1)==S.v));
+ui();
 $('#lh').hidden=!R.length;$('#lht').textContent=S.v=='act'?'Actividades por hora':'Librerías de la A a la Z';upAll();
 if(sh.open&&G[sg])$('#sho').textContent='Ver '+(S.v=='act'?pl(last,'actividad','actividades'):pl(last,'librería','librerías'))}
 function upAll(){const bs=[...res.querySelectorAll('.vm')],o=bs.length>0&&bs.every(b=>b.getAttribute('aria-expanded')=='true');tga.textContent=o?'Cerrar todas':'Abrir todas';tga.dataset.o=o?'1':'';tga.hidden=bs.length>60}
@@ -378,6 +419,8 @@ sh.addEventListener('close',()=>{if(G[sg])toList()});
 document.addEventListener('click',e=>{const b=e.target.closest('[data-k]');if(!b)return;const k=b.dataset.k,t=k[0],v=k.slice(1);
 if(t=='o'){setO(b,b.getAttribute('aria-expanded')!='true');upAll()}
 else if(t=='a'){const i=+v;all.has(i)?all.delete(i):all.add(i);render()}
+else if(t=='f'){const[i,j]=v.split('-').map(Number),a=P[i]&&P[i].acts.find(x=>x.j==j);if(!a)return;const on=!FAV.has(a.fk);on?FAV.add(a.fk):FAV.delete(a.fk);LS('ndl-fav',JSON.stringify([...FAV]));
+$('#ann').textContent=(on?'Guardado en favoritos: ':'Quitado de favoritos: ')+a.title;render()}
 else if(t=='m'){const o=!more.has(v);o?more.add(v):more.delete(v);b.setAttribute('aria-expanded',o);b.textContent=o?'menos':'más';$('#d'+v).classList.toggle('cl',!o)}
 else if(t=='g')sheet(v);
 else if(t=='C')setCity(v);
@@ -392,8 +435,9 @@ qi.addEventListener('keydown',e=>{if(e.key=='Enter'){e.preventDefault();qi.blur(
 qx.onclick=()=>{qi.value='';qx.hidden=true;S.q='';change();qi.focus()};
 const tp=$('#tp');let rf=0;addEventListener('scroll',()=>{if(!rf)rf=requestAnimationFrame(()=>{rf=0;tp.hidden=scrollY<1000})},{passive:true});
 tp.onclick=()=>{scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});$('#ttl').focus({preventScroll:true})};
+addEventListener('storage',e=>{if(e.key=='ndl-fav'){FAV=rFav();render()}});
 addEventListener('hashchange',()=>{rHash();qi.value=S.q;qx.hidden=!S.q;render()});
-const ttl=M.title||'Noche de las Librerías';document.title=ttl+' · Guía no oficial';$('#ttl').textContent=ttl;
+const ttl=M.title||'Noche de las Librerías';document.title=ttl+' · Guía no oficial';
 $('#dt').textContent=[M.date,M.hours].filter(Boolean).join(' · ');
 $('#offs').innerHTML=(M.official||[]).filter(o=>okU(o.url)).map(o=>`<a class="lk" style="padding:0;display:inline-flex;align-items:center" href="${esc(o.url)}" target="_blank" rel="noopener">${esc(o.label)} ↗</a>`).join('');
 $('#fsrc').innerHTML=Object.keys(SR).map(k=>`<li>${A(SR[k].url,esc(SR[k].label||k))}</li>`).join('');
