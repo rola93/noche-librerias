@@ -1,0 +1,98 @@
+{
+ "DAP Libros": [
+  {
+   "issuer": "libreria",
+   "text": "Kermesse desde las 18:00: los descuentos en artículos de la librería se ganan en juegos (tiro de aros, ruleta china, rueda de premios).",
+   "url": "https://www.gub.uy/ministerio-educacion-cultura/sites/ministerio-educacion-cultura/files/documentos/noticias/Programacion-Noche_de_las_librerias-2026.pdf"
+  }
+ ],
+ "Ronda Espacio Creativo": [
+  {
+   "issuer": "libreria",
+   "text": "Descuentos en todos los libros desde las 16:00, aproximadamente.",
+   "url": "https://www.gub.uy/ministerio-educacion-cultura/sites/ministerio-educacion-cultura/files/documentos/noticias/Programacion-Noche_de_las_librerias-2026.pdf"
+  }
+ ],
+ "Escaramuza": [
+  {
+   "issuer": "itau",
+   "text": "Especial Noche de las Librerías: 25% con todas las tarjetas de crédito Itaú y débito Personal Bank, del 11 al 14 de noviembre.",
+   "url": "https://www.itau.com.uy/inst/beneficios.html"
+  },
+  {
+   "issuer": "itau",
+   "text": "Habitual: 20% con crédito Platinum; 25% con débito y crédito Personal Bank.",
+   "url": "https://www.itau.com.uy/inst/beneficios.html"
+  }
+ ],
+ "Librería El Virrey": [
+  {
+   "issuer": "itau",
+   "text": "20% con crédito Platinum; 25% con débito y crédito Personal Bank.",
+   "url": "https://www.itau.com.uy/inst/beneficios.html"
+  }
+ ],
+ "Feltrinelli": [
+  {
+   "issuer": "scotia",
+   "text": "15% con crédito y débito; 25% con Platinum, Infinite, Gold y Débito Premium. Tope de compra: $10.000.",
+   "url": "https://www.scotiabank.com.uy/Personas/Tarjetas/Beneficios"
+  }
+ ],
+ "Adagio Librería Café": [
+  {
+   "issuer": "scotia",
+   "text": "15% con crédito y débito; 25% con Platinum, Infinite, Gold y Débito Premium. Tope de compra: $10.000.",
+   "url": "https://www.scotiabank.com.uy/Personas/Tarjetas/Beneficios"
+  }
+ ],
+ "El Yelmo de Mambrino": [
+  {
+   "issuer": "bbva",
+   "text": "20% con crédito Internacional, Oro, Pymes y Corporativas; 30% con Platinum, Black e Infinite. No aplica pagando con Mercado Pago o POS Handy.",
+   "url": "https://www.bbva.com.uy/personas/productos/tarjetas/descuentos/librerias-y-papelerias/el-yelmo-de-mambrino.html"
+  }
+ ],
+ "Isadora Libros": [
+  {
+   "issuer": "bbva",
+   "text": "20% con crédito Internacional, Oro, Pymes y Corporativas; 30% con Platinum, Black e Infinite. No aplica pagando con Mercado Pago o POS Handy.",
+   "url": "https://www.bbva.com.uy/personas/productos/tarjetas/descuentos/librerias-y-papelerias/Isadora_libros.html"
+  }
+ ],
+ "Puro Verso": [
+  {
+   "issuer": "bbva",
+   "text": "20% con crédito Internacional, Oro, Pymes y Corporativas; 30% con Platinum, Black e Infinite. No aplica pagando con Mercado Pago o POS Handy.",
+   "url": "https://www.bbva.com.uy/personas/productos/tarjetas/descuentos/librerias-y-papelerias/puro-verso.html"
+  }
+ ],
+ "Librería Cultural Alfabeta": [
+  {
+   "issuer": "bbva",
+   "text": "20% con débito y con crédito Internacional, Oro, Pymes y Corporativas; 30% con Platinum, Black e Infinite. No aplica pagando con Mercado Pago o POS Handy.",
+   "url": "https://www.bbva.com.uy/personas/productos/tarjetas/descuentos/librerias-y-papelerias/Alfabeta.html"
+  }
+ ],
+ "Librería Fundación de Cultura Universitaria": [
+  {
+   "issuer": "brou",
+   "text": "En noviembre: 15% con crédito y débito BROU VISA y BROU Recompensa. Tope: $500 por mes.",
+   "url": "https://www.beneficios.brou.com.uy/ensenanza/fundacion-de-cultura-universitaria"
+  }
+ ],
+ "Libros del Paso": [
+  {
+   "issuer": "oca",
+   "text": "15% pagando en POS Handy con crédito OCA u OCA Blue, y 5% extra pagando con el celular (tope: $500 por mes).",
+   "url": "https://oca.uy/HandyOCA/"
+  }
+ ],
+ "La Libélula Libros & Café": [
+  {
+   "issuer": "oca",
+   "text": "15% pagando en POS Handy con crédito OCA u OCA Blue, y 5% extra pagando con el celular (tope: $500 por mes).",
+   "url": "https://oca.uy/HandyOCA/"
+  }
+ ]
+}

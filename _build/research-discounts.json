@@ -1,0 +1,183 @@
+{
+  "verified": [
+    {
+      "place": "Escaramuza",
+      "issuer": "itau",
+      "issuer_name": "Itaú",
+      "text": "25% menos en Noche de las librerías: 25% menos en Escaramuza con todas las tarjetas de crédito Itaú y para tarjetas de débito Personal Bank del 11 al 14 de noviembre. (Tarjetas crédito Visa y Mastercard emitidas por Banco Itaú Uruguay S.A. y débito Personal Bank; descuento al momento de la compra; no se acumula con otras campañas vigentes. Vigencia: 11/11/2026 al 14/11/2026.)",
+      "days": "11 al 14 de noviembre de 2026 (incluye el viernes 13)",
+      "url": "https://www.itau.com.uy/inst/beneficios.html",
+      "url_data": "https://www.itau.com.uy/inst/aci/inst_camp.xml",
+      "scope": "noche"
+    },
+    {
+      "place": "Escaramuza",
+      "issuer": "itau",
+      "issuer_name": "Itaú",
+      "text": "25% menos en Librerías: 25% de descuento todos los días pagando con tarjetas de débito y crédito Personal Bank (incluye Infinite y Black), en web o locales de El Virrey, Escaramuza, Wonder Works y Libros Libros Punta del Este. Solo tarjetas Visa emitidas por Banco Itaú Uruguay. Vigencia: 01/09/2026 al 30/11/2026.",
+      "days": "todos los días",
+      "url": "https://www.itau.com.uy/inst/beneficios.html",
+      "url_data": "https://www.itau.com.uy/inst/aci/inst_camp.xml",
+      "scope": "habitual"
+    },
+    {
+      "place": "Escaramuza",
+      "issuer": "itau",
+      "issuer_name": "Itaú",
+      "text": "20% menos en Librerías: 20% de descuento todos los días pagando con tarjeta de crédito Platinum (Visa y Mastercard emitidas por Banco Itaú Uruguay), en web o locales de El Virrey, Escaramuza, Wonder Works y Libros Libros Punta del Este. Vigencia: 01/09/2026 al 30/11/2026.",
+      "days": "todos los días",
+      "url": "https://www.itau.com.uy/inst/beneficios.html",
+      "url_data": "https://www.itau.com.uy/inst/aci/inst_camp.xml",
+      "scope": "habitual"
+    },
+    {
+      "place": "Librería El Virrey",
+      "issuer": "itau",
+      "issuer_name": "Itaú",
+      "text": "25% menos en Librerías: 25% de descuento todos los días pagando con tarjetas de débito y crédito Personal Bank (incluye Infinite y Black), en web o locales de El Virrey, Escaramuza, Wonder Works y Libros Libros Punta del Este. Solo tarjetas Visa emitidas por Banco Itaú Uruguay. Vigencia: 01/09/2026 al 30/11/2026.",
+      "days": "todos los días",
+      "url": "https://www.itau.com.uy/inst/beneficios.html",
+      "url_data": "https://www.itau.com.uy/inst/aci/inst_camp.xml",
+      "scope": "habitual"
+    },
+    {
+      "place": "Librería El Virrey",
+      "issuer": "itau",
+      "issuer_name": "Itaú",
+      "text": "20% menos en Librerías: 20% de descuento todos los días pagando con tarjeta de crédito Platinum (Visa y Mastercard emitidas por Banco Itaú Uruguay), en web o locales de El Virrey, Escaramuza, Wonder Works y Libros Libros Punta del Este. Vigencia: 01/09/2026 al 30/11/2026.",
+      "days": "todos los días",
+      "url": "https://www.itau.com.uy/inst/beneficios.html",
+      "url_data": "https://www.itau.com.uy/inst/aci/inst_camp.xml",
+      "scope": "habitual"
+    },
+    {
+      "place": "Feltrinelli",
+      "issuer": "scotia",
+      "issuer_name": "Scotiabank",
+      "text": "Todos los días, 25% de ahorro con tarjetas de Crédito Platinum, Infinite, Gold y Débito Premium y 15% de ahorro con tarjetas de Crédito y Débito. Descuento al momento de la compra. Tope de compra $10.000. Tarjetas emitidas por Scotiabank Uruguay S.A. (Ficha vigente desde 2023-03-27, sin fecha de fin próxima.)",
+      "days": "todos los días",
+      "url": "https://www.scotiabank.com.uy/Personas/Tarjetas/Beneficios",
+      "scope": "habitual"
+    },
+    {
+      "place": "Adagio Librería Café",
+      "issuer": "scotia",
+      "issuer_name": "Scotiabank",
+      "text": "Todos los días 25% de descuento con tarjetas de Crédito Platinum, Infinite, Gold y Débito Premium y 15% de descuento con tarjetas de crédito y débito Scotiabank. Descuento al momento de la compra. Tope de $10.000 por compra. No aplica a ventas por PedidosYa, Rappi, Mercado Pago, etc. (Ficha vigente 2026-01-12 a 2030-12-23.)",
+      "days": "todos los días",
+      "url": "https://www.scotiabank.com.uy/Personas/Tarjetas/Beneficios",
+      "scope": "habitual"
+    },
+    {
+      "place": "El Yelmo de Mambrino",
+      "issuer": "bbva",
+      "issuer_name": "BBVA",
+      "text": "20% Off con Tarjetas de Crédito Internacional, Oro, Pymes y Corporativas; 30% Off con Tarjetas de Crédito Platinum, Black e Infinite. Local (Canelones 1716) y web. Mitad en punto de venta y mitad en estado de cuenta (tope de devolución $2.000 / $3.000 por cierre). No válido para débito ni prepagas; no aplica vía Mercado Pago, Mercado Libre ni Handy. Vigencia: 01/01/2026 al 31/12/2026.",
+      "days": "sin restricción de día publicada",
+      "url": "https://www.bbva.com.uy/personas/productos/tarjetas/descuentos/librerias-y-papelerias/el-yelmo-de-mambrino.html",
+      "scope": "habitual"
+    },
+    {
+      "place": "Isadora Libros",
+      "issuer": "bbva",
+      "issuer_name": "BBVA",
+      "text": "20% Off con Tarjetas de Crédito Internacional, Oro, Pymes y Corporativas; 30% Off con Tarjetas de Crédito Platinum, Black e Infinite. Solo en el local (Ellauri 661), no en la web. Mitad en punto de venta y mitad en estado de cuenta (tope de devolución $4.000 / $6.000 por cierre). No válido para débito ni prepagas; no aplica vía Mercado Pago, Mercado Libre ni Handy. Vigencia: 01/05/2026 al 30/04/2027.",
+      "days": "sin restricción de día publicada",
+      "url": "https://www.bbva.com.uy/personas/productos/tarjetas/descuentos/librerias-y-papelerias/Isadora_libros.html",
+      "scope": "habitual"
+    },
+    {
+      "place": "Puro Verso",
+      "issuer": "bbva",
+      "issuer_name": "BBVA",
+      "text": "20% Off con Tarjetas de Crédito Internacional, Oro, Pymes y Corporativas; 30% Off con Tarjetas de Crédito Platinum, Black e Infinite. Local 18 de Julio 1199 y web. Mitad en punto de venta y mitad en estado de cuenta (tope de devolución $4.000 / $6.000 por cierre). No válido para débito ni prepagas; no aplica vía Mercado Pago, Mercado Libre ni Handy. Vigencia: 01/07/2026 al 30/06/2027.",
+      "days": "sin restricción de día publicada",
+      "url": "https://www.bbva.com.uy/personas/productos/tarjetas/descuentos/librerias-y-papelerias/puro-verso.html",
+      "scope": "habitual"
+    },
+    {
+      "place": "Librería Cultural Alfabeta",
+      "issuer": "bbva",
+      "issuer_name": "BBVA",
+      "text": "20% Off con Tarjetas de Débito; 20% Off con Tarjetas de Crédito Internacional, Oro, Pymes y Corporativas; 30% Off con Tarjetas de Crédito Platinum, Black e Infinite. Solo en el local (Miguel Barreiro 3231). Descuento en punto de venta, sin tope. No aplica vía Mercado Pago, Mercado Libre ni Handy. Vigencia: 01/07/2026 al 31/08/2027.",
+      "days": "sin restricción de día publicada",
+      "url": "https://www.bbva.com.uy/personas/productos/tarjetas/descuentos/librerias-y-papelerias/Alfabeta.html",
+      "scope": "habitual"
+    },
+    {
+      "place": "Fundación de Cultura Universitaria (FCU)",
+      "issuer": "brou",
+      "issuer_name": "BROU",
+      "text": "Con tarjetas de crédito y débito BROU VISA y BROU Recompensa Mastercard: 25% de dto. durante marzo, abril y agosto; 15% de dto. durante el resto de los meses (aplica 15% en noviembre). Tope en el resto de los meses: $500 mensuales por cuenta. Descuento en el estado de cuenta. Vigencia: 01/08/2026 al 31/07/2027.",
+      "days": "sin restricción de día publicada (15% en noviembre)",
+      "url": "https://www.beneficios.brou.com.uy/ensenanza/fundacion-de-cultura-universitaria",
+      "scope": "habitual"
+    },
+    {
+      "place": "Libros del Paso",
+      "issuer": "oca",
+      "issuer_name": "OCA",
+      "text": "Handy: hasta 20% de dto. + 5% de dto. extra pagando con el celular. Pagá en comercios adheridos con POS Handy con tarjetas de crédito OCA y OCA Blue y accedé a 10%, 15% o 20% según el comercio; Libros del Paso figura con 15% (sucursales 18 de Julio 1308 y Agraciada 4132). +5% extra con App OCA (NFC Android), Apple Pay o Google Pay, tope $500 por cuenta por mes. Solo compras procesadas por POS Handy. Vigencia de la campaña: 01/07/2026 al 31/12/2026.",
+      "days": "todos los días",
+      "url": "https://oca.uy/HandyOCA/",
+      "url_data": "https://oca.uy/download/bdhandy.csv",
+      "scope": "habitual"
+    },
+    {
+      "place": "La Libélula Libros & Café",
+      "issuer": "oca",
+      "issuer_name": "OCA",
+      "text": "Handy: hasta 20% de dto. + 5% de dto. extra pagando con el celular. Pagá en comercios adheridos con POS Handy con tarjetas de crédito OCA y OCA Blue y accedé a 10%, 15% o 20% según el comercio; La Libélula Libros (Av. Rivera 2298) figura con 15%. +5% extra con App OCA (NFC Android), Apple Pay o Google Pay, tope $500 por cuenta por mes. Solo compras procesadas por POS Handy. Vigencia de la campaña: 01/07/2026 al 31/12/2026.",
+      "days": "todos los días",
+      "url": "https://oca.uy/HandyOCA/",
+      "url_data": "https://oca.uy/download/bdhandy.csv",
+      "scope": "habitual"
+    }
+  ],
+  "no_verificado": [
+    {
+      "place": "Librería El Virrey",
+      "issuer": "itau",
+      "text": "15% de ahorro todos los días con tarjetas de crédito Itaú y débito Volar (también: '15% con tarjetas de crédito Itaú, 20% con Itaú Platinum y 25% con Itaú Infinite y Black')",
+      "url": "https://uruguaydescuentos.com/rubro/librerias/",
+      "why": "Solo en agregadores (uruguaydescuentos.com, cambio-uruguay.com/bankos). En la fuente de beneficios de Itaú vista (inst_camp.xml) solo figuran el 20% con Platinum y el 25% con Personal Bank; no aparece el 15% para todas las tarjetas de crédito."
+    },
+    {
+      "place": "Amuleto – Libros de la Arena (Malvín)",
+      "issuer": "bbva",
+      "text": "Libros de la Arena Malvín: 20% Off con Tarjetas de Crédito Internacional, Oro, Pymes y Corporativas; 30% con Platinum, Black e Infinite. Solo en el local Orinoco 4964. Vigencia: 30 de noviembre 2026.",
+      "url": "https://www.bbva.com.uy/personas/productos/tarjetas/descuentos/librerias-y-papelerias/libros-dela-arena-malvin.html",
+      "why": "El texto aparece en el índice de un buscador, pero al consultarla el 11/11/2026 la página de BBVA devuelve 404 y la ficha no figura en el listado vivo de Librerías y papelerías de BBVA. Podría haber sido dada de baja; confirmar en caja."
+    },
+    {
+      "place": "Fundación de Cultura Universitaria (FCU)",
+      "issuer": "santander",
+      "text": "20% de descuento durante marzo, abril y agosto con tarjetas de Débito y Crédito Santander, tope de devolución $1500; 15% de descuento todo el año con tarjetas de Débito y Crédito Santander, tope de devolución $500",
+      "url": "https://fcu.edu.uy/beneficios",
+      "why": "Publicado por el comercio (FCU), no por el emisor. En santander.com.uy/beneficios no figura FCU y la URL https://www.santander.com.uy/beneficios/fundacion-de-cultura-universitaria devuelve 403."
+    },
+    {
+      "place": "Librería Montevideo",
+      "issuer": "scotia",
+      "text": "Librería Montevideo · Scotiabank (15%/25% con tarjetas Scotiabank)",
+      "url": "https://cambio-uruguay.com/descuentos-con-tarjeta-uruguay/rubro/librerias-y-papelerias",
+      "why": "Solo en agregador. Scotiabank no tiene ficha 'Librería Montevideo'; lo más parecido es 'La Librería' de Grupo Libros (Montevideo Shopping / Tres Cruces), que no es la Librería Montevideo participante (Tristán Narvaja 1536, según el mapa oficial). Probable homónimo."
+    },
+    {
+      "place": "América Latina",
+      "issuer": "scotia",
+      "text": "Librería América Latina: 25% de ahorro con tarjetas de Crédito Platinum, Infinite, Gold y Débito Premium; 15% de ahorro con tarjetas de Crédito y Débito. Tope de descuento $2.500 por compra.",
+      "url": "https://www.scotiabank.com.uy/Personas/Tarjetas/Beneficios",
+      "why": "La ficha sigue en el código de la página de Scotiabank, pero con fecha de fin 'hasta: 2026-10-01': vencida el 13/11/2026. El agregador cambio-uruguay la sigue listando."
+    },
+    {
+      "place": "Librería Cultural Alfabeta",
+      "issuer": "scotia",
+      "text": "Cultural Alfabeta: 25% de ahorro con Tarjetas Platinum, Infinite, Gold y Débito Premium; 15% con Tarjetas de Crédito y Débito (gastronomía y librería), tope de compra $20.000.",
+      "url": "https://www.scotiabank.com.uy/Personas/Tarjetas/Beneficios",
+      "why": "La ficha figura en la página de Scotiabank con fecha de fin 'hasta: 2026-07-31': vencida en noviembre de 2026. (Alfabeta sí tiene beneficio BBVA vigente, ver verified.)"
+    }
+  ],
+  "event_wide": [],
+  "notes": "Relevamiento hecho el 11-12/11/2026 para el viernes 13/11/2026. (1) No se encontró ninguna promoción general de medio de pago para el evento: la página de la IM (https://montevideo.gub.uy/noche-de-las-librerias) y el mapa oficial (Google My Maps mid=1unh4KD7uo9wdVfES4n5EXEobNB1S4HA, enlazado desde https://cooltivarte.com/portal/noche-de-las-librerias/) dicen solo, en la bajada, 'con actividades culturales y descuentos en librerías de Montevideo y del interior'. Ninguna de las 43 fichas del mapa detalla descuentos ni bancos. Tampoco aparecen promociones del MEC, del CCE ni de la Cámara Uruguaya del Libro. La única campaña bancaria atada al evento es la de Itaú 'Noche de las librerías', y aplica solo en Escaramuza (11 al 14/11). (2) Grupos: el 'Grupo Libros' de Scotiabank abarca Libros Libros, La Librería y DbD (según https://grupolibros.com.uy/tiendas); ninguna de esas tiendas participa. La campaña de librerías de Itaú cubre El Virrey, Escaramuza, Wonder Works y Libros Libros Punta del Este; de esas, solo El Virrey (sede 21 de Setiembre 2747, según el mapa) y Escaramuza participan. Libros de la Arena: no se halló beneficio vigente verificado para Amuleto (Malvín) ni para Pocitos. (3) Homónimos descartados: 'Isadora' y 'Ronda' en santander.com.uy son una tienda de accesorios en shoppings y un restaurante de Mercedes, no Isadora Libros ni Ronda Espacio Creativo. 'Trazos Papelería' (Scotiabank, además vencida el 2026-08-30) no es Librería Trazo. 'El Pocho' (OCA Handy, San José) no es Librería Pocho. (4) Descartados por día o vigencia: Club El País en Escaramuza (20% online, 'primer martes de cada mes'; https://www.clubelpais.com.uy/comercio/libreria-escaramuza/) no aplica el viernes 13. El 'Día del Club' de Club El País es el 19 y 20/11. La campaña OCA de viernes 'Los mejores comercios de tu ciudad' (20%, https://oca.uy/tiendas-de-tu-ciudad/) cubre solo comercios del interior y no incluye librerías participantes. (5) Sin beneficios hallados en librerías participantes para: Santander (sus librerías son Bookshop, Difusión y Renart), HSBC (solo una campaña escolar de 2016), Banco Heritage, Prex (solo DirecTV, Cabify y Grupocine según el agregador), Midinero (página de beneficios sin librerías de Montevideo; solo TADI Libros y Papelería Azul en Rocha), ANDA (el sitio no respondió; no se pudo verificar), Creditel y Cabal (no se encontraron páginas de beneficios de consumo), Mercado Pago y campañas generales de Visa/Mastercard. (6) Condiciones a tener en cuenta: los beneficios BBVA no aplican si se paga vía Mercado Pago, Mercado Libre o POS Handy. El de OCA, al revés, exige POS Handy. El de Adagio (Scotiabank) excluye Mercado Pago. La campaña noche de Itaú no se acumula con otras campañas vigentes. Para BBVA y BROU la página no publica restricción de días: se asume que vale todos los días, incluido el viernes. (7) Otros clubes que no son medios de pago, mencionados solo como referencia: beneficios.ladiaria.com.uy publica 15% para suscriptores en La Libélula, FCU, Guarida y otras, y 15% web en El Virrey. No se incluyeron porque no son descuentos por medio de pago. (8) Datos técnicos de origen: Scotiabank publica vigencias (campos desde/hasta) en el código de https://www.scotiabank.com.uy/Personas/Tarjetas/Beneficios. Itaú carga sus beneficios desde https://www.itau.com.uy/inst/aci/inst_camp.xml (fecha del archivo 2026-11-11). OCA publica sus beneficios vía Contentstack (Handy: date_ini 2026-07-01, date_end 2026-12-31, todos los días) y la lista de comercios Handy en https://oca.uy/download/bdhandy.csv."
+}

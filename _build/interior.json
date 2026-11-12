@@ -1,0 +1,2445 @@
+[
+ {
+  "name": "Librería Quimera",
+  "dept": "Artigas",
+  "city": "Artigas",
+  "barrio": "Centro",
+  "addr": "Herrera 262, entre Lecueder y Garzón",
+  "hours": [
+   "20:00",
+   "00:00"
+  ],
+  "note": "Stands de emprendedores.",
+  "discount": "Ofertas de libros",
+  "acts": [
+   {
+    "start": null,
+    "end": null,
+    "title": "Música en vinilos",
+    "desc": "Música en vinilos durante la noche.",
+    "tags": [
+     "musica"
+    ],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Talleres",
+    "desc": "Talleres durante la noche.",
+    "tags": [
+     "taller"
+    ],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Presentaciones de danza",
+    "desc": "Presentaciones de danza.",
+    "tags": [],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Sandra Costabel",
+    "desc": "Participación de Sandra Costabel.",
+    "tags": [],
+    "people": [
+     "Sandra Costabel"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Librería Martín Fierro",
+  "dept": "Canelones",
+  "city": "Atlántida",
+  "barrio": "Atlántida",
+  "addr": "Calle 1 y Ciudad de Montevideo",
+  "hours": [
+   "16:00",
+   "23:00"
+  ],
+  "note": null,
+  "discount": null,
+  "acts": [
+   {
+    "start": "18:00",
+    "end": null,
+    "title": "Apertura de la jornada",
+    "desc": "Apertura de la jornada.",
+    "tags": [],
+    "people": []
+   },
+   {
+    "start": "19:00",
+    "end": "20:00",
+    "title": "Teatro: 4R Conventillo",
+    "desc": "Presentación de la obra teatral.",
+    "tags": [],
+    "people": [
+     "4R Conventillo"
+    ]
+   },
+   {
+    "start": "20:30",
+    "end": "21:45",
+    "title": "«El libro como espacio de encuentro»",
+    "desc": "Conferencia e intercambio sobre el libro, la lectura y su importancia cultural y educativa, con la participación de profesores y/o estudiantes del Centro Regional de Profesores del Sur.",
+    "tags": [
+     "charla"
+    ],
+    "people": []
+   },
+   {
+    "start": "22:00",
+    "end": "23:00",
+    "title": "Música en vivo: dúo Inición Sesiada",
+    "desc": "Presentación acústica del dúo Inición Sesiada, integrado por Jas Canziani e Ismael Schiavone.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Inición Sesiada",
+     "Jas Canziani",
+     "Ismael Schiavone"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Ganesha Libros",
+  "dept": "Canelones",
+  "city": "Canelones",
+  "barrio": "Canelones",
+  "addr": "Treinta y tres 641",
+  "hours": [
+   "19:30",
+   "01:00"
+  ],
+  "note": "Feria artesanal y gastronómica.",
+  "discount": null,
+  "acts": [
+   {
+    "start": "19:30",
+    "end": null,
+    "title": "Bienvenida y apertura de la feria",
+    "desc": "Bienvenida y apertura de la Feria artesanal y gastronómica.",
+    "tags": [],
+    "people": []
+   },
+   {
+    "start": "20:00",
+    "end": null,
+    "title": "Presentación de la revista literaria «Fuga»",
+    "desc": "Presentación de la revista literaria “Fuga”.",
+    "tags": [
+     "presentacion"
+    ],
+    "people": []
+   },
+   {
+    "start": "20:30",
+    "end": null,
+    "title": "Teatro: «Los cuentos de la llama lectora»",
+    "desc": "Teatro: “Los cuentos de la llama lectora”.",
+    "tags": [],
+    "people": []
+   },
+   {
+    "start": "21:15",
+    "end": null,
+    "title": "«No te apretés, carajo», de Jean Georges Almendras",
+    "desc": "Presentación del libro “No te apretés, carajo”, de Jean Georges Almendras.",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Jean Georges Almendras"
+    ]
+   },
+   {
+    "start": "21:45",
+    "end": null,
+    "title": "Canciones de Tatiana Tree",
+    "desc": "Canciones de Tatiana Tree.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Tatiana Tree"
+    ]
+   },
+   {
+    "start": "22:00",
+    "end": null,
+    "title": "«Letras que nos habitan II»",
+    "desc": "Presentación del libro “Letras que nos habitan II”.",
+    "tags": [
+     "presentacion"
+    ],
+    "people": []
+   },
+   {
+    "start": "22:30",
+    "end": null,
+    "title": "Coro de CLAP",
+    "desc": "Coro de CLAP.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Coro de CLAP"
+    ]
+   },
+   {
+    "start": "23:00",
+    "end": null,
+    "title": "Banda «Al fondo hay espacio»",
+    "desc": "Banda “Al fondo hay espacio”.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Al fondo hay espacio"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Libros De la Arena",
+  "dept": "Canelones",
+  "city": "El Pinar",
+  "barrio": "El Pinar",
+  "addr": "Rambla Costanera M194 S9",
+  "hours": [
+   "19:00",
+   "23:00"
+  ],
+  "note": null,
+  "discount": null,
+  "acts": [
+   {
+    "start": "19:00",
+    "end": null,
+    "title": "«Cuentos salvajes», de Martín Otheguy",
+    "desc": "Presentación del libro “Cuentos salvajes” de Martín Otheguy con proyección de fotografías de nuestra fauna a cargo del fotógrafo Marcelo Casacuberta. Dialogarán sobre las diferentes maneras de acercarse a nuestra fauna desde la investigación, la ciencia y el arte.",
+    "tags": [
+     "presentacion",
+     "charla"
+    ],
+    "people": [
+     "Martín Otheguy",
+     "Marcelo Casacuberta"
+    ]
+   },
+   {
+    "start": "20:30",
+    "end": null,
+    "title": "«El filtro de la evolución», de Eduardo Blasina",
+    "desc": "Presentación del libro “El filtro de la evolución” de Eduardo Blasina.",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Eduardo Blasina"
+    ]
+   },
+   {
+    "start": "21:30",
+    "end": null,
+    "title": "«Entretejidos»: narración, música y poesía",
+    "desc": "Pieza escénica de narración, música y poesía a cargo de Gaby Piña, Lila Jan, Isabel Pena y Angelo Primon.",
+    "tags": [
+     "lectura",
+     "musica"
+    ],
+    "people": [
+     "Gaby Piña",
+     "Lila Jan",
+     "Isabel Pena",
+     "Angelo Primon"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Mirlo",
+  "dept": "Canelones",
+  "city": "Jaureguiberry",
+  "barrio": "Jaureguiberry",
+  "addr": "Palo Palo 8",
+  "hours": [
+   "18:30",
+   "23:00"
+  ],
+  "note": null,
+  "discount": null,
+  "acts": [
+   {
+    "start": null,
+    "end": null,
+    "title": "Taller de historietas para infancias",
+    "desc": "Taller de historietas para infancias.",
+    "tags": [
+     "taller",
+     "ninos"
+    ],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Lecturas",
+    "desc": "Lecturas.",
+    "tags": [
+     "lectura"
+    ],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Charlas",
+    "desc": "Charlas.",
+    "tags": [
+     "charla"
+    ],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Micrófono abierto",
+    "desc": "Micrófono abierto.",
+    "tags": [
+     "lectura"
+    ],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Música",
+    "desc": "Música.",
+    "tags": [
+     "musica"
+    ],
+    "people": []
+   }
+  ]
+ },
+ {
+  "name": "El Altillo",
+  "dept": "Canelones",
+  "city": "Lagomar",
+  "barrio": "Lagomar",
+  "addr": "Giannattasio km 21400 acera norte, casi Almenara",
+  "hours": [
+   "13:30",
+   "23:00"
+  ],
+  "note": null,
+  "discount": null,
+  "acts": [
+   {
+    "start": "13:30",
+    "end": null,
+    "title": "«Dulces trillizas», de Sandra Escames",
+    "desc": "Extensión cultural: presentación de escritoras vecinas de la ciudad y sus libros. “Dulces trillizas” de Sandra Escames (Ed. Urano).",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Sandra Escames"
+    ]
+   },
+   {
+    "start": "15:30",
+    "end": null,
+    "title": "«Elefantín», de Samantha Navarro",
+    "desc": "Extensión cultural: presentación de escritoras vecinas de la ciudad y sus libros. “Elefantín” de Samantha Navarro (Ed. Alfaguara).",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Samantha Navarro"
+    ]
+   },
+   {
+    "start": "18:45",
+    "end": null,
+    "title": "«Solo digo mi canción», de Pablo Oroño",
+    "desc": "Presentación de autores vecinos de la ciudad y sus libros. “Solo digo mi canción” de Pablo Oroño (ed. del Autor).",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Pablo Oroño"
+    ]
+   },
+   {
+    "start": "19:30",
+    "end": null,
+    "title": "«Tres de la madrugada en Tapia», de Silvio Flores",
+    "desc": "Presentación de autores vecinos de la ciudad y sus libros. “Tres de la madrugada en Tapia” de Silvio Flores (Ed. del Autor).",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Silvio Flores"
+    ]
+   },
+   {
+    "start": "20:30",
+    "end": null,
+    "title": "Recital de Rubén Olivera",
+    "desc": "Gran cierre: recital de Rubén Olivera en el marco de la presentación de su libro “Cuando el pasado deja de ser reciente” (Ediciones Brecha, 2026).",
+    "tags": [
+     "musica",
+     "presentacion"
+    ],
+    "people": [
+     "Rubén Olivera"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Salvando Libros",
+  "dept": "Canelones",
+  "city": "Las Piedras",
+  "barrio": "Las Piedras",
+  "addr": "Baltasar Brum 703",
+  "hours": [
+   "18:00",
+   "01:00"
+  ],
+  "note": null,
+  "discount": null,
+  "acts": [
+   {
+    "start": "18:00",
+    "end": null,
+    "title": "Apertura de la librería",
+    "desc": "Apertura de la librería.",
+    "tags": [],
+    "people": []
+   },
+   {
+    "start": "19:00",
+    "end": null,
+    "title": "Títeres: Los Aquí Presentes",
+    "desc": "Actividad para infancias a cargo del grupo de títeres «Los Aquí Presentes».",
+    "tags": [
+     "ninos"
+    ],
+    "people": [
+     "Los Aquí Presentes"
+    ]
+   },
+   {
+    "start": "20:00",
+    "end": null,
+    "title": "Documental «Libreras y lectoras en red»",
+    "desc": "Proyección del segundo episodio del documental «Libreras y lectoras en red: mujeres, libros y territorios de la palabra», de Verónica Horminoguez.",
+    "tags": [],
+    "people": [
+     "Verónica Horminoguez"
+    ]
+   },
+   {
+    "start": "20:30",
+    "end": null,
+    "title": "Proyección de «Recopilado: Un conjunto de vivencias»",
+    "desc": "Proyección de «Recopilado: Un conjunto de vivencias», de Luizana Fleitas y Rocío Ruiz.",
+    "tags": [],
+    "people": [
+     "Luizana Fleitas",
+     "Rocío Ruiz"
+    ]
+   },
+   {
+    "start": "21:00",
+    "end": null,
+    "title": "«Cuadernos y Canciones», de Nahual Santiago Cossarini",
+    "desc": "«Cuadernos y Canciones», presentación de Nahual Santiago Cossarini.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Nahual Santiago Cossarini"
+    ]
+   },
+   {
+    "start": "22:30",
+    "end": null,
+    "title": "La Miel del Oso Murga",
+    "desc": "Presentación de La Miel del Oso Murga.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "La Miel del Oso Murga"
+    ]
+   },
+   {
+    "start": "23:30",
+    "end": null,
+    "title": "«Poesía musical», con Sol Rey",
+    "desc": "«Poesía musical», intervención de Sol Rey.",
+    "tags": [
+     "lectura",
+     "musica"
+    ],
+    "people": [
+     "Sol Rey"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Amigo invisible literario",
+    "desc": "Durante toda la jornada habrá un espacio destinado a que cada asistente deje un libro (envuelto y, si desean, con una linda dedicatoria). Al finalizar la jornada cada persona podrá tomar un libro sorpresa.",
+    "tags": [],
+    "people": []
+   }
+  ]
+ },
+ {
+  "name": "Tienda Canica",
+  "dept": "Canelones",
+  "city": "Las Piedras",
+  "barrio": "Las Piedras",
+  "addr": "República Argentina 549, esq. Tomas Berreta",
+  "hours": [
+   "19:30",
+   "23:00"
+  ],
+  "note": "En caso de lluvia se modifica la grilla.",
+  "discount": "Descuentos en libros durante toda la noche",
+  "acts": [
+   {
+    "start": "19:30",
+    "end": null,
+    "title": "Taller de poesía y collage, con RABBIT",
+    "desc": "Explorando los vínculos a través de la poesía y el collage. A cargo de RABBIT.",
+    "tags": [
+     "taller",
+     "lectura"
+    ],
+    "people": [
+     "RABBIT"
+    ]
+   },
+   {
+    "start": "20:30",
+    "end": null,
+    "title": "«Afrodita Venus»: tarot de Mónica Batalla",
+    "desc": "Mónica Batalla, tarotista y terapeuta holística pedrense, presenta su tarot dedicado a Afrodita.",
+    "tags": [],
+    "people": [
+     "Mónica Batalla"
+    ]
+   },
+   {
+    "start": "21:30",
+    "end": null,
+    "title": "Poesía performática: Vulcana",
+    "desc": "La poeta y performer Vulcana presenta sus poesías amorosas.",
+    "tags": [
+     "lectura"
+    ],
+    "people": [
+     "Vulcana"
+    ]
+   },
+   {
+    "start": "22:00",
+    "end": null,
+    "title": "Micrófono abierto",
+    "desc": "Tu oportunidad para presentar al público eso que haces: poesía, canción, interpretación, stand up… Inscripción durante la jornada hasta las 21:59 h.",
+    "tags": [
+     "lectura"
+    ],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Cierre: grupo de Canto de Tienda Canica",
+    "desc": "Cierra el grupo de Canto de Tienda Canica.",
+    "tags": [
+     "musica"
+    ],
+    "people": []
+   }
+  ]
+ },
+ {
+  "name": "OfiPando",
+  "dept": "Canelones",
+  "city": "Pando",
+  "barrio": "Pando",
+  "addr": "Independencia 984",
+  "hours": [
+   "18:00",
+   "23:00"
+  ],
+  "note": null,
+  "discount": null,
+  "acts": [
+   {
+    "start": "18:00",
+    "end": null,
+    "title": "Taller de monstruos: «Criaturas de la campaña rural»",
+    "desc": "Taller de monstruos para niños. Una actividad creativa para niños y niñas a partir de los 3 años.",
+    "tags": [
+     "taller",
+     "ninos"
+    ],
+    "people": []
+   },
+   {
+    "start": "20:00",
+    "end": null,
+    "title": "«Tacuruses», con Camilo Baraibar",
+    "desc": "Charla literaria y presentación de “Tacuruses”, edición Ocho Ojos, a cargo de Camilo Baraibar.",
+    "tags": [
+     "charla",
+     "presentacion"
+    ],
+    "people": [
+     "Camilo Baraibar"
+    ]
+   },
+   {
+    "start": "21:00",
+    "end": null,
+    "title": "Folclore y canción popular: Dúo Coames",
+    "desc": "Espectáculo musical de folclore y canción popular uruguaya con Dúo Coames (Vanessa y Natalia Rodriguez). Final de la jornada.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Dúo Coames",
+     "Vanessa Rodriguez",
+     "Natalia Rodriguez"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Cambalache Leonardo Librero",
+  "dept": "Canelones",
+  "city": "Parque del Plata",
+  "barrio": "Parque del Plata Sur",
+  "addr": "Calle 21 esq 50 metros",
+  "hours": [
+   "18:00",
+   null
+  ],
+  "note": "Según la guía del MEC: solo figura “18:00 h”, sin hora de cierre ni hora explícita de la actividad.",
+  "discount": null,
+  "acts": [
+   {
+    "start": null,
+    "end": null,
+    "title": "«Monstruos en la librería»",
+    "desc": "Por una tarde la librería se llena de monstruos para jugar y divertirse con el miedo y el absurdo. Mediación lectora y actividad plástica para niños y niñas entre 5 y 10 años con temática “monstruosa”.",
+    "tags": [
+     "ninos",
+     "lectura"
+    ],
+    "people": []
+   }
+  ]
+ },
+ {
+  "name": "La Madriguera libros",
+  "dept": "Canelones",
+  "city": "Santa Lucía",
+  "barrio": "Santa Lucía",
+  "addr": "Rivera 480",
+  "hours": [
+   "19:30",
+   "23:30"
+  ],
+  "note": "Gastronomía: Magnolia café; Focafocaccia; El duende cervecero.",
+  "discount": null,
+  "acts": [
+   {
+    "start": "19:30",
+    "end": null,
+    "title": "«11/11 la llave de la verdad», de Yanina Urtiaga",
+    "desc": "Presentación de “11/11 la llave de la verdad”, de Yanina Urtiaga.",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Yanina Urtiaga"
+    ]
+   },
+   {
+    "start": "20:00",
+    "end": null,
+    "title": "«El Ángel. Justicia», de Alejandra Grifini",
+    "desc": "Presentación de “El Ángel. Justicia”, de Alejandra Grifini.",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Alejandra Grifini"
+    ]
+   },
+   {
+    "start": "20:30",
+    "end": null,
+    "title": "«Contemplando el silencio», de Daniel Peluas",
+    "desc": "Presentación de “Contemplando el silencio. Cementerio Central de Montevideo”, de Daniel Peluas.",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Daniel Peluas"
+    ]
+   },
+   {
+    "start": "21:00",
+    "end": null,
+    "title": "«La mueca oblicua», de Dante Carlini",
+    "desc": "Presentación de “La mueca oblicua”, de Dante Carlini.",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Dante Carlini"
+    ]
+   },
+   {
+    "start": "21:30",
+    "end": null,
+    "title": "«Autóctonos», de Diego Batiste",
+    "desc": "Presentación de “Autóctonos. Conozcamos y preservemos nuestra fauna”, de Diego Batiste.",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Diego Batiste"
+    ]
+   },
+   {
+    "start": "22:00",
+    "end": null,
+    "title": "Cuarteto Murmullo",
+    "desc": "Cuarteto Murmullo.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Cuarteto Murmullo"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Ajedrez con Juan Bellón",
+    "desc": "Durante la noche: ajedrez, Juan Bellón.",
+    "tags": [],
+    "people": [
+     "Juan Bellón"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Tarot con Soledad Alfaro",
+    "desc": "Durante la noche: Soledad Alfaro, máster en Tarot Marsella (talleres, cursos), registros akáshicos, PNL y coach certificada.",
+    "tags": [],
+    "people": [
+     "Soledad Alfaro"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Les bulles burbujas",
+    "desc": "Durante la noche: Les bulles burbujas.",
+    "tags": [],
+    "people": [
+     "Les bulles burbujas"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "PALAM",
+  "dept": "Cerro Largo",
+  "city": "Melo",
+  "barrio": "Melo",
+  "addr": "Muniz 808",
+  "hours": [
+   "18:30",
+   "21:30"
+  ],
+  "note": "Exposición y venta de libros de autores uruguayos y latinoamericanos.",
+  "discount": null,
+  "acts": [
+   {
+    "start": null,
+    "end": null,
+    "title": "Grupo Tombe y Safe",
+    "desc": "Participación del Grupo Tombe y Safe.",
+    "tags": [],
+    "people": [
+     "Grupo Tombe y Safe"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Talleres con artistas plásticos",
+    "desc": "Talleres con artistas plásticos para que el público pueda disfrutar del arte plástico y la literatura.",
+    "tags": [
+     "taller"
+    ],
+    "people": []
+   }
+  ]
+ },
+ {
+  "name": "Ría Libre",
+  "dept": "Colonia",
+  "city": "Carmelo",
+  "barrio": "Carmelo",
+  "addr": "Uruguay 380",
+  "hours": [
+   "20:15",
+   "22:00"
+  ],
+  "note": null,
+  "discount": null,
+  "acts": [
+   {
+    "start": null,
+    "end": null,
+    "title": "«Tango»: Salvador Biko, Kundeké González y Karina Sosa",
+    "desc": "El escritor Salvador Biko, junto al bajista Kundeké González, se une a la cantautora Karina Sosa para presentar un repertorio de profundo espíritu arrabalero, donde confluyen poesía, música, canto y actuación. La propuesta acompaña la presentación del librillo “Tango”, una antología de la obra de Salvador Biko, registrada por el periodista y locutor Juan Cruz Guido para Radio Nacional Argentina – 2x4, en el año 2023. Palabra, música e interpretación se entrelazan en escena.",
+    "tags": [
+     "musica",
+     "lectura",
+     "presentacion"
+    ],
+    "people": [
+     "Salvador Biko",
+     "Kundeké González",
+     "Karina Sosa"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Río de Libros",
+  "dept": "Colonia",
+  "city": "Colonia del Sacramento",
+  "barrio": "Colonia del Sacramento",
+  "addr": "Calle de Sta. Rita 37",
+  "hours": [
+   "20:00",
+   "23:00"
+  ],
+  "note": "El evento se desarrolla en 3 momentos integrados, sin horarios individuales en la guía.",
+  "discount": null,
+  "acts": [
+   {
+    "start": null,
+    "end": null,
+    "title": "Bienvenida y ficción literaria",
+    "desc": "En la puerta de la librería, un cartel invita a “entrar”. Mediante una dinámica lúdica junto a Javier (el librero), los asistentes son recibidos uno a uno como parte de un ritual de acceso al espacio.",
+    "tags": [],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Experiencia inmersiva DUNA, con Tunda Prada",
+    "desc": "En la terraza con vista al río, Tunda Prada (voz, guitarra y loops), junto a Francisco Cuello (bajo/sonido) y Francisco Mattos (video mapping), interpreta canciones de raíz folclórica mientras ilustra en vivo sobre una mesa de arena. La cámara cenital proyecta el arte efímero en tiempo real, entrelazando música, narrativa y memoria.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Tunda Prada",
+     "Francisco Cuello",
+     "Francisco Mattos"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Cierre: encuentro con el público",
+    "desc": "Encuentro e intercambio final con el público.",
+    "tags": [],
+    "people": []
+   }
+  ]
+ },
+ {
+  "name": "Noctiluca kombi librería",
+  "dept": "Durazno",
+  "city": "Durazno",
+  "barrio": "Durazno",
+  "addr": "Plaza Independencia",
+  "hours": [
+   "10:00",
+   "23:00"
+  ],
+  "note": "Según la guía del MEC: no se indica ciudad; solo departamento y “Plaza Independencia”.",
+  "discount": null,
+  "acts": [
+   {
+    "start": null,
+    "end": null,
+    "title": "Expo Libro Durazno",
+    "desc": "Expo Libro Durazno.",
+    "tags": [],
+    "people": []
+   }
+  ]
+ },
+ {
+  "name": "Casa Muñiz",
+  "dept": "Flores",
+  "city": "Trinidad",
+  "barrio": "Trinidad",
+  "addr": "Alfredo J. Puig 749 esquina Treinta y Tres",
+  "hours": [
+   "18:30",
+   "00:00"
+  ],
+  "note": "Durante la jornada habrá exposición y venta de libros, encuentros con autores y propuestas gastronómicas. Horarios sujetos a posibles ajustes de organización.",
+  "discount": null,
+  "acts": [
+   {
+    "start": "18:30",
+    "end": null,
+    "title": "Apertura y librería a cielo abierto",
+    "desc": "Apertura de la Noche de las Librerías y librería a cielo abierto.",
+    "tags": [],
+    "people": []
+   },
+   {
+    "start": "19:30",
+    "end": null,
+    "title": "«Una mascota para mi gato», de Susana Besio",
+    "desc": "Susana Besio: presentación del libro “Una mascota para mi gato”.",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Susana Besio"
+    ]
+   },
+   {
+    "start": "20:15",
+    "end": null,
+    "title": "Música en vivo: Felipe Burgos",
+    "desc": "Felipe Burgos: música en vivo.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Felipe Burgos"
+    ]
+   },
+   {
+    "start": "20:20",
+    "end": null,
+    "title": "Diego Rossberg: libros, conversación y canciones",
+    "desc": "Diego Rossberg: primer encuentro, libros, conversación y canciones.",
+    "tags": [
+     "charla",
+     "musica"
+    ],
+    "people": [
+     "Diego Rossberg"
+    ]
+   },
+   {
+    "start": "21:15",
+    "end": null,
+    "title": "«Luces de Invierno», de Paula Placeres",
+    "desc": "Paula Placeres: presentación de “Luces de Invierno”.",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Paula Placeres"
+    ]
+   },
+   {
+    "start": "21:55",
+    "end": null,
+    "title": "«Misterioso Uruguay», de Sebastián Pedroso",
+    "desc": "Sebastián Pedroso: presentación de “Misterioso Uruguay”.",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Sebastián Pedroso"
+    ]
+   },
+   {
+    "start": "22:00",
+    "end": null,
+    "title": "Concierto de Diego Rossberg con tamborileros",
+    "desc": "Diego Rossberg: concierto con participación de tamborileros locales.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Diego Rossberg"
+    ]
+   },
+   {
+    "start": "00:00",
+    "end": null,
+    "title": "Cierre",
+    "desc": "Cierre.",
+    "tags": [],
+    "people": []
+   }
+  ]
+ },
+ {
+  "name": "Florida Tienda de Libros",
+  "dept": "Florida",
+  "city": "Florida",
+  "barrio": "Florida",
+  "addr": "Independencia y Rodó",
+  "hours": [
+   "17:00",
+   "21:00"
+  ],
+  "note": "Organizaciones que participan: Uni Florida, Sociedad Italiana, Biblioteca Departamental, Taller Literario IDF, Club de Lectura infantil. Organiza y apoya: Espacios MEC Florida. Según la guía del MEC: no se indica ciudad; se asume Florida.",
+  "discount": null,
+  "acts": [
+   {
+    "start": null,
+    "end": null,
+    "title": "Ludoteca y recreación",
+    "desc": "Espacio de ludoteca y recreación.",
+    "tags": [],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Intercambio y recomendación de libros",
+    "desc": "Intercambio y recomendación de libros.",
+    "tags": [],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Búsqueda del tesoro literaria",
+    "desc": "Búsqueda del tesoro literaria.",
+    "tags": [],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Taller de plástica",
+    "desc": "Taller de plástica.",
+    "tags": [
+     "taller"
+    ],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Creación de sellos y cartas",
+    "desc": "Creación de sellos y cartas.",
+    "tags": [],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Micrófono abierto para autores",
+    "desc": "Micrófono abierto para autores.",
+    "tags": [
+     "lectura"
+    ],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Club de lectura infantil",
+    "desc": "Club de lectura infantil.",
+    "tags": [
+     "ninos",
+     "lectura"
+    ],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Espectáculo artístico",
+    "desc": "Espectáculo artístico.",
+    "tags": [],
+    "people": []
+   }
+  ]
+ },
+ {
+  "name": "RoMaCa Libros",
+  "dept": "Lavalleja",
+  "city": "Minas",
+  "barrio": "Minas",
+  "addr": "Avenida Artigas 1153bis",
+  "hours": [
+   "19:00",
+   "23:00"
+  ],
+  "note": "Actividades dentro del local y simultáneamente fuera, en la vereda y en la calle.",
+  "discount": null,
+  "acts": [
+   {
+    "start": "19:00",
+    "end": null,
+    "title": "Payaso Mañongo",
+    "desc": "Actividad que fomenta la interacción a partir de la lectura, generando una dinámica de mucha participación y desafiando la imaginación de las infancias (espacio abierto).",
+    "tags": [
+     "ninos",
+     "lectura"
+    ],
+    "people": [
+     "Payaso Mañongo"
+    ]
+   },
+   {
+    "start": "19:45",
+    "end": null,
+    "title": "«El Condenado», de Juan Scuarcia",
+    "desc": "Juan Scuarcia presentará el libro “El Condenado” (dentro del local).",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Juan Scuarcia"
+    ]
+   },
+   {
+    "start": "20:00",
+    "end": null,
+    "title": "Coro de la Escuela Técnica de Minas",
+    "desc": "Presentación del Coro de la Escuela Técnica de Minas (espacio abierto).",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Coro de la Escuela Técnica de Minas"
+    ]
+   },
+   {
+    "start": "20:45",
+    "end": null,
+    "title": "«El Mochilero», de Juanchi Le Poe",
+    "desc": "Presentación del libro “El Mochilero” de Juanchi Le Poe (dentro del local).",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Juanchi Le Poe"
+    ]
+   },
+   {
+    "start": "20:45",
+    "end": null,
+    "title": "Micrófono abierto para músicos emergentes",
+    "desc": "Micrófono abierto: espacio para músicos emergentes (espacio abierto).",
+    "tags": [
+     "musica"
+    ],
+    "people": []
+   },
+   {
+    "start": "21:45",
+    "end": null,
+    "title": "«Bombeia el Norte. Poéticas de frontera»",
+    "desc": "“Bombeia el Norte. Poéticas de frontera” (espacio abierto).",
+    "tags": [],
+    "people": []
+   }
+  ]
+ },
+ {
+  "name": "Cuéntame un Cuento",
+  "dept": "Maldonado",
+  "city": "Las Flores",
+  "barrio": "Las Flores",
+  "addr": "Calle 5 y Ruta 71",
+  "hours": [
+   "15:30",
+   "19:30"
+  ],
+  "note": "Ambas actividades con inscripción previa.",
+  "discount": null,
+  "acts": [
+   {
+    "start": "15:30",
+    "end": "16:45",
+    "title": "«Nido Lector» (0 a 24 meses)",
+    "desc": "Cuentos que nos encuentran: propuestas literarias para infancias y sus familias. Dirigido a niñas y niños de 0 a 24 meses junto con un referente adulto. Un nido donde cuerpo, voz, afecto y palabra se entrelazan para descubrir el mundo en compañía. Coordina: María Saravia, mediadora de Cuéntame un Cuento. Duración: 1 hora y 15 minutos.",
+    "tags": [
+     "ninos",
+     "lectura"
+    ],
+    "people": [
+     "María Saravia"
+    ]
+   },
+   {
+    "start": "17:30",
+    "end": "19:30",
+    "title": "«Tu cuento en un teatrito de papel»",
+    "desc": "Propuesta abierta a infancias de todas las edades. Coordina: Electra Turk. Duración: 2 horas.",
+    "tags": [
+     "ninos",
+     "taller"
+    ],
+    "people": [
+     "Electra Turk"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "IRAKURRI libros",
+  "dept": "Maldonado",
+  "city": "Las Flores",
+  "barrio": "Las Flores",
+  "addr": "Calle Madreselva esquina Ruta 10",
+  "hours": [
+   "18:00",
+   "22:00"
+  ],
+  "note": "Degustación de cocina de autor a cargo de Sandro Foge. Según la guía del MEC: figura sin encabezado de localidad propio, a continuación de LAS FLORES.",
+  "discount": null,
+  "acts": [
+   {
+    "start": null,
+    "end": null,
+    "title": "Taller: las huellas de Circe Maia y Gladys Castelvecchi",
+    "desc": "Taller “Siguiendo las huellas de dos poetas uruguayas: Circe Maia y Gladys Castelvecchi”, a cargo de Gabriela Jiménez y Virginia Cordovés Bella.",
+    "tags": [
+     "taller"
+    ],
+    "people": [
+     "Gabriela Jiménez",
+     "Virginia Cordovés Bella"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Música: Yurak Sisa",
+    "desc": "Presentación musical de Yurak Sisa.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Yurak Sisa"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Micrófono abierto de poesía",
+    "desc": "Micrófono abierto para lectura de poesías.",
+    "tags": [
+     "lectura"
+    ],
+    "people": []
+   }
+  ]
+ },
+ {
+  "name": "La letra Libros",
+  "dept": "Maldonado",
+  "city": "Piriápolis",
+  "barrio": "Piriápolis",
+  "addr": "Celedonio Rojas 1018",
+  "hours": [
+   "17:00",
+   "00:00"
+  ],
+  "note": "Según la guía del MEC: “A partir de las 17 h” podría referirse al taller o a toda la programación posterior.",
+  "discount": "Descuentos en todos los libros",
+  "acts": [
+   {
+    "start": null,
+    "end": null,
+    "title": "Suelta de libros",
+    "desc": "Suelta de libros al mediodía.",
+    "tags": [],
+    "people": []
+   },
+   {
+    "start": "17:00",
+    "end": null,
+    "title": "Taller de postales poéticas",
+    "desc": "Taller de postales poéticas. Temática: transformación, símbolo y búsqueda del oro interno.",
+    "tags": [
+     "taller"
+    ],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "«Cruzar», de Giorgina Cerutti",
+    "desc": "Presentación del libro “Cruzar” de la autora Giorgina Cerutti, a cargo de Luciana Prudente.",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Giorgina Cerutti",
+     "Luciana Prudente"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Música en vivo",
+    "desc": "Música en vivo.",
+    "tags": [
+     "musica"
+    ],
+    "people": []
+   }
+  ]
+ },
+ {
+  "name": "El Virrey Punta del Este",
+  "dept": "Maldonado",
+  "city": "Punta del Este",
+  "barrio": "Punta del Este",
+  "addr": "Calle 30 y Gorlero",
+  "hours": [
+   "19:00",
+   "01:00"
+  ],
+  "note": null,
+  "discount": null,
+  "acts": [
+   {
+    "start": null,
+    "end": null,
+    "title": "La edición artesanal en Uruguay: Dos pájaros editorial",
+    "desc": "La edición artesanal en Uruguay y presentación de Dos pájaros editorial con Natacha Amaya.",
+    "tags": [
+     "charla",
+     "presentacion"
+    ],
+    "people": [
+     "Natacha Amaya"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "«Desnudo», de Álvaro Ojeda",
+    "desc": "Presentación del poemario “Desnudo” de Álvaro Ojeda.",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Álvaro Ojeda"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "«Las primeras ciudadanas», de Elena Risso",
+    "desc": "Presentación de “Las primeras ciudadanas” de Elena Risso.",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Elena Risso"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Cierre musical: Santiago Cutinella y Florencia Lanzaro",
+    "desc": "Cierre musical con Santiago Cutinella y Florencia Lanzaro.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Santiago Cutinella",
+     "Florencia Lanzaro"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Librería Wonder Works",
+  "dept": "Maldonado",
+  "city": "Punta del Este",
+  "barrio": "Punta del Este",
+  "addr": "Calle 17, El estrecho, entre Gorlero y calle 24",
+  "hours": [
+   "18:00",
+   "21:00"
+  ],
+  "note": "Según la guía del MEC: figura sin encabezado de localidad propio, a continuación de PUNTA DEL ESTE.",
+  "discount": null,
+  "acts": [
+   {
+    "start": null,
+    "end": null,
+    "title": "Experiencia inmersiva con Magic Wonder",
+    "desc": "Experiencia inmersiva con Magic Wonder, donde varitas mágicas activan lecturas de libros.",
+    "tags": [
+     "lectura"
+    ],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Taller de escritura de fantasía, con Marcelo Reperger",
+    "desc": "Taller de escritura de fantasía a cargo de Marcelo Reperger (Goblin & Son).",
+    "tags": [
+     "taller"
+    ],
+    "people": [
+     "Marcelo Reperger"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Creación de un libro digital colectivo",
+    "desc": "Creación de un libro digital colectivo.",
+    "tags": [],
+    "people": []
+   }
+  ]
+ },
+ {
+  "name": "Sapere Vedere",
+  "dept": "Maldonado",
+  "city": "San Carlos",
+  "barrio": "San Carlos",
+  "addr": "18 de julio 830",
+  "hours": [
+   "19:30",
+   "22:00"
+  ],
+  "note": null,
+  "discount": null,
+  "acts": [
+   {
+    "start": "19:30",
+    "end": null,
+    "title": "Charla sobre Federico García Lorca",
+    "desc": "Charla sobre Federico García Lorca a cargo de los profesores Samanta Carlos y Juan Martín Sánchez.",
+    "tags": [
+     "charla"
+    ],
+    "people": [
+     "Samanta Carlos",
+     "Juan Martín Sánchez"
+    ]
+   },
+   {
+    "start": "20:15",
+    "end": null,
+    "title": "Lectura de poemas de Nadia Pereira",
+    "desc": "Lectura de poemas de su autoría, Nadia Pereira (horario aproximado).",
+    "tags": [
+     "lectura"
+    ],
+    "people": [
+     "Nadia Pereira"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "«Entre libros y canciones»",
+    "desc": "Cierre con “Entre libros y canciones” a cargo de Fernando Cortizo y María Noel.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Fernando Cortizo",
+     "María Noel"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "El Prisma de Lunares",
+  "dept": "Paysandú",
+  "city": "Paysandú",
+  "barrio": "Paysandú",
+  "addr": "18 de Julio 876",
+  "hours": [
+   "19:00",
+   "00:00"
+  ],
+  "note": "Gastronomía, feria de emprendedores y fiesta en la calle. Según la guía del MEC: no se indica ciudad; se asume Paysandú.",
+  "discount": null,
+  "acts": [
+   {
+    "start": null,
+    "end": null,
+    "title": "«Caballo», de Agustín Lucas",
+    "desc": "Presentación del libro “Caballo” de Agustín Lucas (Club Editora).",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Agustín Lucas"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "«Interioranos», de Editora del Norte",
+    "desc": "Presentación del libro “Interioranos” de Editora del Norte.",
+    "tags": [
+     "presentacion"
+    ],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "«Averno Represión», de Santiago Meloni",
+    "desc": "Presentación del libro “Averno Represión” de Santiago Meloni.",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Santiago Meloni"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Conversatorio sobre Anne Carson",
+    "desc": "Conversatorio Buenos días, “Anne Carson: desacralizar lo sagrado, arqueología de la última premio Nobel”, a cargo de la Profa. Valeria Rodríguez.",
+    "tags": [
+     "charla"
+    ],
+    "people": [
+     "Valeria Rodríguez"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Lecturas en vivo: Lectores del Norte",
+    "desc": "Lecturas en vivo a cargo del colectivo “Lectores del Norte”.",
+    "tags": [
+     "lectura"
+    ],
+    "people": [
+     "Lectores del Norte"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Lanzamiento del Festival Canción de Río",
+    "desc": "Lanzamiento del Festival Canción de Río.",
+    "tags": [],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Música en vivo: Hey Mujik! y La Crisis Uruguaya",
+    "desc": "Música en vivo: Hey Mujik! y La Crisis Uruguaya.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Hey Mujik!",
+     "La Crisis Uruguaya"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Posta del Libro",
+  "dept": "Paysandú",
+  "city": "Paysandú",
+  "barrio": "Paysandú",
+  "addr": "Ituzaingó 1240",
+  "hours": [
+   "18:30",
+   "00:30"
+  ],
+  "note": "Venta de libros y plaza de comidas. Según la guía del MEC: no se indica ciudad; se asume Paysandú.",
+  "discount": null,
+  "acts": [
+   {
+    "start": "18:30",
+    "end": "19:15",
+    "title": "Animación a la lectura, con Mabel De Agostini",
+    "desc": "Animación a la lectura a cargo de Mabel De Agostini.",
+    "tags": [
+     "lectura"
+    ],
+    "people": [
+     "Mabel De Agostini"
+    ]
+   },
+   {
+    "start": "19:00",
+    "end": "19:30",
+    "title": "Escuela de Canto Bruno Pina",
+    "desc": "Presentación de la Escuela de Canto Bruno Pina.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Escuela de Canto Bruno Pina"
+    ]
+   },
+   {
+    "start": "19:30",
+    "end": "20:15",
+    "title": "«Tinto y Pinta», de Rodolfo Lacava",
+    "desc": "Presentación del libro “Tinto y Pinta”, de Rodolfo Lacava.",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Rodolfo Lacava"
+    ]
+   },
+   {
+    "start": "20:30",
+    "end": "21:00",
+    "title": "«Bailando se mueve Paysandú»",
+    "desc": "“Bailando se mueve Paysandú”.",
+    "tags": [],
+    "people": []
+   },
+   {
+    "start": "21:30",
+    "end": "22:30",
+    "title": "«El infinito caballero», de Marcelo Estefanell",
+    "desc": "Presentación del libro “El infinito caballero: Don Quijote de la Mancha y la aventura de leerlo”, de Marcelo Estefanell.",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Marcelo Estefanell"
+    ]
+   },
+   {
+    "start": "22:30",
+    "end": null,
+    "title": "Cierre musical: Delfi Falco y su banda",
+    "desc": "Cierre musical con Delfi Falco y su banda.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Delfi Falco"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Ajedrez",
+    "desc": "Actividad complementaria: ajedrez.",
+    "tags": [],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Robótica",
+    "desc": "Actividad complementaria: robótica.",
+    "tags": [],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Exposición de artistas locales",
+    "desc": "Exposición de obras de artistas locales.",
+    "tags": [],
+    "people": []
+   }
+  ]
+ },
+ {
+  "name": "Eclipsamor Libros",
+  "dept": "Rivera",
+  "city": "Rivera",
+  "barrio": "Rivera",
+  "addr": "Brasil 920",
+  "hours": [
+   "19:00",
+   "02:00"
+  ],
+  "note": "Según la guía del MEC: no se indica ciudad; se asume Rivera.",
+  "discount": "Todos los libros con 20 % de descuento",
+  "acts": [
+   {
+    "start": null,
+    "end": null,
+    "title": "Talleres de reciclaje y pintura",
+    "desc": "Talleres de reciclaje y pintura (arriba).",
+    "tags": [
+     "taller"
+    ],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Concurso de narración en la vereda",
+    "desc": "Concurso de narración en la vereda.",
+    "tags": [
+     "lectura"
+    ],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Hip Hop y micrófono libre",
+    "desc": "Presentación de artistas del Hip Hop, micrófono libre.",
+    "tags": [
+     "musica"
+    ],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Muestra de arte de estudiantes de Figari",
+    "desc": "Muestra de arte del colectivo artístico de estudiantes de Figari y artistas emergentes.",
+    "tags": [],
+    "people": []
+   }
+  ]
+ },
+ {
+  "name": "Tadi Libros",
+  "dept": "Rocha",
+  "city": "Rocha",
+  "barrio": "Rocha",
+  "addr": "25 de Agosto 140 esquina Treinta y Tres",
+  "hours": [
+   "18:00",
+   "21:00"
+  ],
+  "note": null,
+  "discount": null,
+  "acts": [
+   {
+    "start": null,
+    "end": null,
+    "title": "Experiencia inmersiva Harry Potter",
+    "desc": "La librería se transforma en una experiencia literaria inmersiva inspirada en el universo Harry Potter y la literatura fantástica.",
+    "tags": [],
+    "people": []
+   }
+  ]
+ },
+ {
+  "name": "Bolivar",
+  "dept": "Rocha",
+  "city": "La Paloma",
+  "barrio": "La Paloma",
+  "addr": "Avenida Solari 5829",
+  "hours": [
+   "19:00",
+   "23:00"
+  ],
+  "note": null,
+  "discount": null,
+  "acts": [
+   {
+    "start": null,
+    "end": null,
+    "title": "Micrófono abierto",
+    "desc": "Bolivar en tres actos: voces, poemas y repiques. Comienza con micrófono abierto: el público se acerca a leer textos propios o seleccionados.",
+    "tags": [
+     "lectura"
+    ],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "«Farmear aura, poesía en el siglo XXI», de Nicolas Alberte",
+    "desc": "Farmear aura, poesía en el siglo XXI, por Nicolas Alberte.",
+    "tags": [
+     "lectura"
+    ],
+    "people": [
+     "Nicolas Alberte"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "«Tres cuartos», candombe con todos",
+    "desc": "Tres cuartos, candombe con todos.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Tres cuartos"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Librería 33",
+  "dept": "Salto",
+  "city": "Salto",
+  "barrio": "Salto",
+  "addr": "Treinta y Tres 32",
+  "hours": [
+   "09:30",
+   "22:30"
+  ],
+  "note": "Según la guía del MEC: el horario general es 09:30 – 22:30 h, pero la primera actividad figura de 9:00 a 22:00 h.",
+  "discount": null,
+  "acts": [
+   {
+    "start": "09:00",
+    "end": "22:00",
+    "title": "Juegos literarios y registro de escritores salteños",
+    "desc": "Juegos literarios en vidrieras y construcción colectiva de un registro de escritores salteños.",
+    "tags": [],
+    "people": []
+   },
+   {
+    "start": "09:00",
+    "end": "22:00",
+    "title": "Convocatoria abierta de lectura de poesía",
+    "desc": "Convocatoria abierta de lectura de poesía, con sorteo de un ejemplar autografiado de “Los restos que fuimos”, de Luis Do Santos.",
+    "tags": [
+     "lectura"
+    ],
+    "people": []
+   },
+   {
+    "start": "17:00",
+    "end": "19:00",
+    "title": "Taller de escritura creativa (desde 16 años)",
+    "desc": "Taller de escritura creativa para jóvenes y adultos desde los 16 años.",
+    "tags": [
+     "taller"
+    ],
+    "people": []
+   },
+   {
+    "start": "19:30",
+    "end": null,
+    "title": "Presentación del último libro de Marcos Llemes",
+    "desc": "Presentación del último libro del escritor salteño Marcos Llemes.",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Marcos Llemes"
+    ]
+   },
+   {
+    "start": "21:00",
+    "end": null,
+    "title": "Cierre musical: Mario Castro y Denis Dutra",
+    "desc": "Cierre musical con el cantautor Mario Castro y el percusionista Denis Dutra.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Mario Castro",
+     "Denis Dutra"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Bellota Libros",
+  "dept": "San José",
+  "city": "Ciudad del Plata",
+  "barrio": "Ciudad del Plata",
+  "addr": "Rivera M79 S15, San Fernando",
+  "hours": [
+   "20:00",
+   "00:00"
+  ],
+  "note": "Otras actividades y propuestas por confirmar.",
+  "discount": "Descuentos especiales en todos los libros del catálogo, durante el horario de las actividades",
+  "acts": [
+   {
+    "start": null,
+    "end": null,
+    "title": "Flash Day de tatuajes",
+    "desc": "Flash Day de tatuajes.",
+    "tags": [],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Lecturas de escritores locales",
+    "desc": "Lecturas de escritores locales y allegados a la librería.",
+    "tags": [
+     "lectura"
+    ],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Charlas con autores",
+    "desc": "Charlas e intercambios con autores, para compartir ideas, reflexiones y conversaciones en torno a la literatura y sus historias.",
+    "tags": [
+     "charla"
+    ],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "«Nada parecido a la felicidad», de Leonardo Vidal",
+    "desc": "Presentación de “Nada parecido a la felicidad”, la última novela de Leonardo Vidal.",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Leonardo Vidal"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Encuentro con Tres Tintas",
+    "desc": "Encuentro con Tres Tintas, un nuevo proyecto de corrección de estilo, para conocer más sobre el trabajo con la lengua, la escritura y la importancia de encontrar las palabras adecuadas para comunicar mejor.",
+    "tags": [
+     "charla"
+    ],
+    "people": []
+   }
+  ]
+ },
+ {
+  "name": "Entre Libros",
+  "dept": "San José",
+  "city": "San José de Mayo",
+  "barrio": "San José de Mayo",
+  "addr": "Batlle y Ordoñez 643",
+  "hours": [
+   "18:00",
+   "00:00"
+  ],
+  "note": null,
+  "discount": null,
+  "acts": [
+   {
+    "start": "18:00",
+    "end": null,
+    "title": "Jazz con Nadia Florio y Edgardo Nieves",
+    "desc": "Jazz con Nadia Florio y Edgardo Nieves.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Nadia Florio",
+     "Edgardo Nieves"
+    ]
+   },
+   {
+    "start": "18:15",
+    "end": null,
+    "title": "Taller «Supervoz», con Clarisa Prince",
+    "desc": "Taller de Clarisa Prince para las infancias basado en su libro “Supervoz”.",
+    "tags": [
+     "taller",
+     "ninos"
+    ],
+    "people": [
+     "Clarisa Prince"
+    ]
+   },
+   {
+    "start": "19:00",
+    "end": null,
+    "title": "Tango: Minas, fulanas y pebetas y Gimena Batista",
+    "desc": "Baila el colectivo de tango Minas, fulanas y pebetas y canta Gimena Batista.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Minas, fulanas y pebetas",
+     "Gimena Batista"
+    ]
+   },
+   {
+    "start": "19:30",
+    "end": null,
+    "title": "Dardo Sellanes lee relatos",
+    "desc": "Dardo Sellanes lee relatos de su debut literario.",
+    "tags": [
+     "lectura"
+    ],
+    "people": [
+     "Dardo Sellanes"
+    ]
+   },
+   {
+    "start": "19:45",
+    "end": null,
+    "title": "«Milagros para Leandro», de Carolina Silva",
+    "desc": "Carolina Silva presenta “Milagros para Leandro”, su novela infantil ganadora del Premio Onetti.",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Carolina Silva"
+    ]
+   },
+   {
+    "start": "20:45",
+    "end": null,
+    "title": "Versiones de Rada con Florio & Nieves",
+    "desc": "Versiones de Rada con Florio & Nieves.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Florio & Nieves"
+    ]
+   },
+   {
+    "start": "21:00",
+    "end": null,
+    "title": "Irma Álvarez lee un adelanto de su segundo libro",
+    "desc": "Irma Álvarez lee un adelanto de su segundo libro.",
+    "tags": [
+     "lectura"
+    ],
+    "people": [
+     "Irma Álvarez"
+    ]
+   },
+   {
+    "start": "21:45",
+    "end": null,
+    "title": "«Cosas que nadie me explicó», de César Altamirano",
+    "desc": "César Altamirano presenta su primer libro “Cosas que nadie me explicó”.",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "César Altamirano"
+    ]
+   },
+   {
+    "start": "22:00",
+    "end": null,
+    "title": "Versiones de Los Beatles con Florio & Nieves",
+    "desc": "Versiones de Los Beatles con Florio & Nieves.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Florio & Nieves"
+    ]
+   },
+   {
+    "start": "22:15",
+    "end": null,
+    "title": "Boris Faingola comenta el último libro sobre los Beatles",
+    "desc": "Boris Faingola comenta el último libro sobre los Beatles.",
+    "tags": [
+     "charla"
+    ],
+    "people": [
+     "Boris Faingola"
+    ]
+   },
+   {
+    "start": "23:00",
+    "end": null,
+    "title": "Canta La Gata Mara",
+    "desc": "Canta La Gata Mara, ganadora de Murga Joven.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "La Gata Mara"
+    ]
+   },
+   {
+    "start": "23:30",
+    "end": null,
+    "title": "Leo Carlini (Pecho e’ Fierro), solista",
+    "desc": "Leo Carlini de Pecho e’ Fierro toca en formato solista sus clásicos y poemas musicalizados.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Leo Carlini"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "La Canasta",
+  "dept": "San José",
+  "city": "San José de Mayo",
+  "barrio": "San José de Mayo",
+  "addr": "Asamblea 700",
+  "hours": [
+   "18:00",
+   "23:00"
+  ],
+  "note": "Según la guía del MEC: figura sin encabezado de localidad propio, a continuación de SAN JOSÉ DE MAYO.",
+  "discount": null,
+  "acts": [
+   {
+    "start": null,
+    "end": null,
+    "title": "«El Monstruo de Colores: Doctor de Emociones»",
+    "desc": "Presentación del libro “El Monstruo de Colores: Doctor de Emociones”, actividad con taller para niños a cargo de la psicóloga Flavia González.",
+    "tags": [
+     "presentacion",
+     "taller",
+     "ninos"
+    ],
+    "people": [
+     "Flavia González"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Puro Cuento Libercafé",
+  "dept": "San José",
+  "city": "San José de Mayo",
+  "barrio": "San José de Mayo",
+  "addr": "18 de julio 570",
+  "hours": [
+   "18:30",
+   "00:00"
+  ],
+  "note": "Según la guía del MEC: figura sin encabezado de localidad propio, a continuación de SAN JOSÉ DE MAYO.",
+  "discount": null,
+  "acts": [
+   {
+    "start": "18:30",
+    "end": null,
+    "title": "Narración de literatura infantil, con Bettina Ceriani",
+    "desc": "Narración de literatura infantil: selección de cuentos de los libros de antología de Banda Oriental a cargo de Bettina Ceriani.",
+    "tags": [
+     "ninos",
+     "lectura"
+    ],
+    "people": [
+     "Bettina Ceriani"
+    ]
+   },
+   {
+    "start": "19:15",
+    "end": null,
+    "title": "Charla: educación sexual infantil y consentimiento",
+    "desc": "Charla de educación sexual infantil, temática “el consentimiento”, a cargo de la Dra. y sexóloga Yamila Díaz.",
+    "tags": [
+     "charla"
+    ],
+    "people": [
+     "Yamila Díaz"
+    ]
+   },
+   {
+    "start": "20:15",
+    "end": null,
+    "title": "«Andenes», de Tatiana Oroño",
+    "desc": "Presentación del libro “Andenes” de la escritora Tatiana Oroño, a cargo del escritor Pedro Peña con la presencia de la autora.",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Tatiana Oroño",
+     "Pedro Peña"
+    ]
+   },
+   {
+    "start": "21:00",
+    "end": null,
+    "title": "«Paisaje criollo»: Damián Cabrera y Pedro Peña",
+    "desc": "Paisaje criollo, música e interpretación: Damián Cabrera; letras: Pedro Peña.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Damián Cabrera",
+     "Pedro Peña"
+    ]
+   },
+   {
+    "start": "22:00",
+    "end": null,
+    "title": "Orquesta Escarlata: «La música de Federico García Lorca»",
+    "desc": "Orquesta Escarlata presenta “La música de Federico García Lorca”, presentación artístico musical a cargo de Martin Lazaroff.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Orquesta Escarlata",
+     "Martin Lazaroff"
+    ]
+   },
+   {
+    "start": "23:00",
+    "end": null,
+    "title": "Libros y canciones",
+    "desc": "El público de la librería expondrá sobre un texto escogido a su elección y su vínculo con una canción en especial, que será escuchada a continuación en la librería café.",
+    "tags": [
+     "lectura",
+     "musica"
+    ],
+    "people": []
+   }
+  ]
+ },
+ {
+  "name": "JoaFel Tienda de Libros",
+  "dept": "Soriano",
+  "city": "Dolores",
+  "barrio": "Dolores",
+  "addr": "José Enrique Rodó 1280",
+  "hours": [
+   "17:00",
+   "00:00"
+  ],
+  "note": "Según la guía del MEC: “Lectura autor El Ratón Tintón” no aclara si es el título del libro o el nombre del autor.",
+  "discount": null,
+  "acts": [
+   {
+    "start": null,
+    "end": null,
+    "title": "Música e invitación por micrófono",
+    "desc": "Música e invitación por micrófono.",
+    "tags": [
+     "musica"
+    ],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Canto: alumnos de la Escuela Paso a Paso",
+    "desc": "Canto de alumno de la Escuela Paso a Paso (dos momentos durante la jornada).",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Escuela Paso a Paso"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "«El Ratón Tintón» y taller para niños, con Lucía Alayón",
+    "desc": "Lectura autor El Ratón Tintón y taller para niños a cargo de Lucía Alayón.",
+    "tags": [
+     "lectura",
+     "taller",
+     "ninos"
+    ],
+    "people": [
+     "Lucía Alayón"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Lectura de Raquel Silvetti",
+    "desc": "Lectura de la autora Raquel Silvetti: “Un viaje fantástico” y “La oreja del revés”.",
+    "tags": [
+     "lectura"
+    ],
+    "people": [
+     "Raquel Silvetti"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "«No llegué, me elegí», de Erika Veilandics",
+    "desc": "Presentación del libro “No llegué, me elegí” de la autora local Erika Veilandics.",
+    "tags": [
+     "presentacion"
+    ],
+    "people": [
+     "Erika Veilandics"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Autores Alejandro del Pino y Gonzalo Asencio",
+    "desc": "Autores Alejandro del Pino y Gonzalo Asencio.",
+    "tags": [],
+    "people": [
+     "Alejandro del Pino",
+     "Gonzalo Asencio"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Cierre: Grupo Vocal Dolores",
+    "desc": "Finaliza Grupo Vocal Dolores.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Grupo Vocal Dolores"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Minico",
+  "dept": "Soriano",
+  "city": "Mercedes",
+  "barrio": "Mercedes",
+  "addr": "Jose Enrique Rodó 814",
+  "hours": [
+   "19:00",
+   "21:30"
+  ],
+  "note": null,
+  "discount": null,
+  "acts": [
+   {
+    "start": null,
+    "end": null,
+    "title": "Santiago Zefferino para niños y adolescentes",
+    "desc": "El Prof. Santiago Zefferino comparte su experiencia como escritor, recorriendo pasajes de sus libros. Propuesta para niños y adolescentes.",
+    "tags": [
+     "ninos",
+     "charla"
+    ],
+    "people": [
+     "Santiago Zefferino"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Santiago Zefferino para adultos",
+    "desc": "Luego, otra propuesta del Prof. Santiago Zefferino para adultos.",
+    "tags": [
+     "charla"
+    ],
+    "people": [
+     "Santiago Zefferino"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Librería Difusión Ltda.",
+  "dept": "Tacuarembó",
+  "city": "Tacuarembó",
+  "barrio": "Tacuarembó",
+  "addr": "18 de Julio 316 bis",
+  "hours": [
+   "19:00",
+   "23:00"
+  ],
+  "note": "Feria de libros, cantina y emprendedores. Según la guía del MEC: no se indica ciudad; se asume Tacuarembó.",
+  "discount": null,
+  "acts": [
+   {
+    "start": null,
+    "end": null,
+    "title": "«El árbol de Anna», de Susana Aliano Casales",
+    "desc": "Presentación de la novela “El árbol de Anna”, por su autora Susana Aliano Casales, con la música de Maira Vann.",
+    "tags": [
+     "presentacion",
+     "musica"
+    ],
+    "people": [
+     "Susana Aliano Casales",
+     "Maira Vann"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Lectura infantil con Susana Aliano",
+    "desc": "Actividad de lectura infantil a cargo de Susana Aliano.",
+    "tags": [
+     "lectura",
+     "ninos"
+    ],
+    "people": [
+     "Susana Aliano"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Música pop: Catalina Habermelh",
+    "desc": "Catalina Habermelh, música pop.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "Catalina Habermelh"
+    ]
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Estaciones de juegos educativos",
+    "desc": "Estaciones de juegos educativos.",
+    "tags": [],
+    "people": []
+   },
+   {
+    "start": null,
+    "end": null,
+    "title": "Murga La Marchanta",
+    "desc": "Murga La Marchanta.",
+    "tags": [
+     "musica"
+    ],
+    "people": [
+     "La Marchanta"
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,1510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Noche de las Librerías 2026 📖</name>
+    <description>El viernes 13 de noviembre podés disfrutar de la Noche de las Librerías, con actividades culturales y descuentos en librerías de Montevideo y del interior.</description>
+    <Style id="icon-1526-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1526-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1526-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1526-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1526-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Librerías con actividades</name>
+      <Placemark>
+        <name>Adagio Librería Café</name>
+        <address>Gral. Gregorio Suárez 2741, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Gral. Gregorio Suárez 2741, Montevideo, Uruguay<br>Barrio: Punta Carretas<br>Actividades: 18:30 a 01:00 h | Cartas pendientes. Adagio Librería Café celebra la primera edición de este encuentro dedicado a la literatura y la escritura. Invitación a escribir una carta, participar en un concurso literario y compartir palabras e historias. También habrá micrófono abierto de poesía y música en vivo.<br>Participantes:<br>dirección: Gral. Gregorio Suárez 2741, Montevideo, Uruguay<br>Dirección: Gral. Gregorio Suárez 2741, Montevideo, Uruguay<br>Barrio: Punta Carretas<br>Actividades: 18:30 a 01:00 h | Cartas pendientes. Adagio Librería Café celebra la primera edición de este encuentro dedicado a la literatura y la escritura. Invitación a escribir una carta, participar en un concurso literario y compartir palabras e historias. También habrá micrófono abierto de poesía y música en vivo.<br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Gral. Gregorio Suárez 2741, Montevideo, Uruguay
+Barrio: Punta Carretas
+Actividades: 18:30 a 01:00 h | Cartas pendientes. Adagio Librería Café celebra la primera edición de este encuentro dedicado a la literatura y la escritura. Invitación a escribir una carta, participar en un concurso literario y compartir palabras e historias. También habrá micrófono abierto de poesía y música en vivo.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Gral. Gregorio Suárez 2741, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Gral. Gregorio Suárez 2741, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Punta Carretas</value>
+          </Data>
+          <Data name="Actividades">
+            <value>18:30 a 01:00 h | Cartas pendientes. Adagio Librería Café celebra la primera edición de este encuentro dedicado a la literatura y la escritura. Invitación a escribir una carta, participar en un concurso literario y compartir palabras e historias. También habrá micrófono abierto de poesía y música en vivo.</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Afrodita Libros</name>
+        <address>Dr. Tristán Narvaja 1528, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Dr. Tristán Narvaja 1528, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 22:30 h | Noche de jazz. Presentación musical en vivo de un dúo de contrabajo y guitarra.<br>Participantes:<br>dirección: Dr. Tristán Narvaja 1528, Montevideo, Uruguay<br>Dirección: Dr. Tristán Narvaja 1528, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 22:30 h | Noche de jazz. Presentación musical en vivo de un dúo de contrabajo y guitarra.<br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Dr. Tristán Narvaja 1528, Montevideo, Uruguay
+Barrio: Cordón
+Actividades: 22:30 h | Noche de jazz. Presentación musical en vivo de un dúo de contrabajo y guitarra.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Dr. Tristán Narvaja 1528, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Dr. Tristán Narvaja 1528, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Cordón</value>
+          </Data>
+          <Data name="Actividades">
+            <value>22:30 h | Noche de jazz. Presentación musical en vivo de un dúo de contrabajo y guitarra.</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Amazonia</name>
+        <address>Maldonado 1775, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Maldonado 1775, Montevideo, Uruguay<br>Barrio: Palermo<br>Actividades: 19:00 h | Narrativas del miedo: terror y suspenso en la literatura uruguaya contemporánea. <br><br>19:45 h | Los epílogos: música en vivo con versiones de canciones inspiradas en clásicos de la literatura. <br><br>20:30 h | Ya ni siquiera miraba las puertas: Claudio Invernizzi conversa con Sofía Romano sobre su último libro. <br><br>21:15 h | Supongamos que el mundo es: Gabriel Calderón presenta su libro y reflexiona sobre el teatro y la vida. <br><br>22:00 h | Algo prestado en vivo: Tamara Tenembaum y Malena Rey presentan su podcast en vivo desde Argentina. <br><br>23:00 h | Ninguna Higuera en vivo: cierre musical con la banda nominada a los Premios Graffiti 2026.<br>Participantes:<br><br>dirección: Maldonado 1775, Montevideo, Uruguay<br>Dirección: Maldonado 1775, Montevideo, Uruguay<br>Barrio: Palermo<br>Actividades: 19:45 h | Los epílogos: música en vivo con versiones de canciones inspiradas en clásicos de la literatura.<br><br>20:30 h | Ya ni siquiera miraba las puertas: Claudio Invernizzi conversa con Sofía Romano sobre su último libro.<br><br>21:15 h | Supongamos que el mundo es: Gabriel Calderón presenta su libro y reflexiona sobre el teatro y la vida.<br><br>22:00 h | Algo prestado en vivo: Tamara Tenembaum y Malena Rey presentan su podcast en vivo desde Argentina.<br><br>23:00 h | Ninguna Higuera en vivo: cierre musical con la banda nominada a los Premios Graffiti 2026.<br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Maldonado 1775, Montevideo, Uruguay
+Barrio: Palermo
+Actividades: 19:00 h | Narrativas del miedo: terror y suspenso en la literatura uruguaya contemporánea. 
+
+19:45 h | Los epílogos: música en vivo con versiones de canciones inspiradas en clásicos de la literatura. 
+
+20:30 h | Ya ni siquiera miraba las puertas: Claudio Invernizzi conversa con Sofía Romano sobre su último libro. 
+
+21:15 h | Supongamos que el mundo es: Gabriel Calderón presenta su libro y reflexiona sobre el teatro y la vida. 
+
+22:00 h | Algo prestado en vivo: Tamara Tenembaum y Malena Rey presentan su podcast en vivo desde Argentina. 
+
+23:00 h | Ninguna Higuera en vivo: cierre musical con la banda nominada a los Premios Graffiti 2026.
+Participantes:
+</value>
+          </Data>
+          <Data name="dirección">
+            <value>Maldonado 1775, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Maldonado 1775, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Palermo</value>
+          </Data>
+          <Data name="Actividades">
+            <value>19:45 h | Los epílogos: música en vivo con versiones de canciones inspiradas en clásicos de la literatura.
+
+20:30 h | Ya ni siquiera miraba las puertas: Claudio Invernizzi conversa con Sofía Romano sobre su último libro.
+
+21:15 h | Supongamos que el mundo es: Gabriel Calderón presenta su libro y reflexiona sobre el teatro y la vida.
+
+22:00 h | Algo prestado en vivo: Tamara Tenembaum y Malena Rey presentan su podcast en vivo desde Argentina.
+
+23:00 h | Ninguna Higuera en vivo: cierre musical con la banda nominada a los Premios Graffiti 2026.</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>América Latina</name>
+        <address>Av. 18 de Julio 2089, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Av. 18 de Julio 2089, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 19:00 h | Cinco claves inútiles para elegir un libro para otro. El Colectivo Migas de Papel propone un laboratorio para conversar sobre los criterios, las sensibilidades y las dimensiones que intervienen al elegir una lectura para regalar o recomendar. 21:00 h | Hacia un tejido lector. Joanna Peluffo y Maite González Vallejo, impulsoras de la Red Nacional de Clubes de Lectura, conversan sobre su libro y la importancia de crear y sostener espacios de lectura compartida.<br>Participantes:<br>dirección: Av. 18 de Julio 2089, Montevideo, Uruguay<br>Dirección: Av. 18 de Julio 2089, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 19:00 h | Cinco claves inútiles para elegir un libro para otro. El Colectivo Migas de Papel propone un laboratorio para conversar sobre los criterios, las sensibilidades y las dimensiones que intervienen al elegir una lectura para regalar o recomendar. <br><br>21:00 h | Hacia un tejido lector. Joanna Peluffo y Maite González Vallejo, impulsoras de la Red Nacional de Clubes de Lectura, conversan sobre su libro y la importancia de crear y sostener espacios de lectura compartida.<br><br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Av. 18 de Julio 2089, Montevideo, Uruguay
+Barrio: Cordón
+Actividades: 19:00 h | Cinco claves inútiles para elegir un libro para otro. El Colectivo Migas de Papel propone un laboratorio para conversar sobre los criterios, las sensibilidades y las dimensiones que intervienen al elegir una lectura para regalar o recomendar. 21:00 h | Hacia un tejido lector. Joanna Peluffo y Maite González Vallejo, impulsoras de la Red Nacional de Clubes de Lectura, conversan sobre su libro y la importancia de crear y sostener espacios de lectura compartida.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Av. 18 de Julio 2089, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Av. 18 de Julio 2089, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Cordón</value>
+          </Data>
+          <Data name="Actividades">
+            <value>19:00 h | Cinco claves inútiles para elegir un libro para otro. El Colectivo Migas de Papel propone un laboratorio para conversar sobre los criterios, las sensibilidades y las dimensiones que intervienen al elegir una lectura para regalar o recomendar. 
+
+21:00 h | Hacia un tejido lector. Joanna Peluffo y Maite González Vallejo, impulsoras de la Red Nacional de Clubes de Lectura, conversan sobre su libro y la importancia de crear y sostener espacios de lectura compartida.
+</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Amuleto – Libros de la Arena</name>
+        <address>Orinoco 4964, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Orinoco 4964, Montevideo, Uruguay<br>Barrio: Malvín<br>Actividades: 19:00 h | Hacé tu historieta de ciencia ficción con Arghyla y Mario Pester. Taller creativo para inventar una aventura protagonizada por una niña ingeniera y un gato hacker que viven en Uruguay en el año 2170. 20:00 h | Belleza química: historias de autocuidado y transformación. Lucía Vázquez Sica presenta su libro y propone una conversación sobre belleza, ciencia, género y salud. 21:00 h | Máxima Pureza. Fernando Butazzoni conversa con la editora Luisina Ríos sobre su libro, en un encuentro organizado junto al Espacio Corto Buscaglia. 22:00 h | Parque hotel. Carlos Rehermann presenta su novela, ambientada en el carnaval montevideano de los años treinta. 23:00 h | En defensa de la mojarra. El compositor y productor Fede Graña presenta su libro, una obra que reúne textos e ilustraciones vinculados a su último lanzamiento musical.<br>Participantes:<br>dirección: Orinoco 4964, Montevideo, Uruguay<br>Dirección: Orinoco 4964, Montevideo, Uruguay<br>Barrio: Malvín<br>Actividades: 19:00 h | Hacé tu historieta de ciencia ficción con Arghyla y Mario Pester. Taller creativo para inventar una aventura protagonizada por una niña ingeniera y un gato hacker que viven en Uruguay en el año 2170. <br><br>20:00 h | Belleza química: historias de autocuidado y transformación. Lucía Vázquez Sica presenta su libro y propone una conversación sobre belleza, ciencia, género y salud.<br><br> 20:30 | Presentación del libro Belleza química Historias de autocuidado y transformación Marcos Rey presenta su libro Pachequistas. Derecha política y dictadura en Uruguay (1973-1985). Una investigación sobre el papel de Jorge Pacheco Areco y sus dirigentes políticos durante la dictadura, que aporta nuevas claves para comprender la participación de las derechas civiles en el régimen y sus relaciones con los militares<br><br>21:00 h | Máxima Pureza. Fernando Butazzoni conversa con la editora Luisina Ríos sobre su libro, en un encuentro organizado junto al Espacio Corto Buscaglia. <br><br>22:00 h | Parque hotel. Carlos Rehermann presenta su novela, ambientada en el carnaval montevideano de los años treinta. <br><br>23:00 h | En defensa de la mojarra. El compositor y productor Fede Graña presenta su libro, una obra que reúne textos e ilustraciones vinculados a su último lanzamiento musical.<br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Orinoco 4964, Montevideo, Uruguay
+Barrio: Malvín
+Actividades: 19:00 h | Hacé tu historieta de ciencia ficción con Arghyla y Mario Pester. Taller creativo para inventar una aventura protagonizada por una niña ingeniera y un gato hacker que viven en Uruguay en el año 2170. 20:00 h | Belleza química: historias de autocuidado y transformación. Lucía Vázquez Sica presenta su libro y propone una conversación sobre belleza, ciencia, género y salud. 21:00 h | Máxima Pureza. Fernando Butazzoni conversa con la editora Luisina Ríos sobre su libro, en un encuentro organizado junto al Espacio Corto Buscaglia. 22:00 h | Parque hotel. Carlos Rehermann presenta su novela, ambientada en el carnaval montevideano de los años treinta. 23:00 h | En defensa de la mojarra. El compositor y productor Fede Graña presenta su libro, una obra que reúne textos e ilustraciones vinculados a su último lanzamiento musical.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Orinoco 4964, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Orinoco 4964, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Malvín</value>
+          </Data>
+          <Data name="Actividades">
+            <value>19:00 h | Hacé tu historieta de ciencia ficción con Arghyla y Mario Pester. Taller creativo para inventar una aventura protagonizada por una niña ingeniera y un gato hacker que viven en Uruguay en el año 2170. 
+
+20:00 h | Belleza química: historias de autocuidado y transformación. Lucía Vázquez Sica presenta su libro y propone una conversación sobre belleza, ciencia, género y salud.
+
+ 20:30 | Presentación del libro Belleza química Historias de autocuidado y transformación Marcos Rey presenta su libro Pachequistas. Derecha política y dictadura en Uruguay (1973-1985). Una investigación sobre el papel de Jorge Pacheco Areco y sus dirigentes políticos durante la dictadura, que aporta nuevas claves para comprender la participación de las derechas civiles en el régimen y sus relaciones con los militares
+
+21:00 h | Máxima Pureza. Fernando Butazzoni conversa con la editora Luisina Ríos sobre su libro, en un encuentro organizado junto al Espacio Corto Buscaglia. 
+
+22:00 h | Parque hotel. Carlos Rehermann presenta su novela, ambientada en el carnaval montevideano de los años treinta. 
+
+23:00 h | En defensa de la mojarra. El compositor y productor Fede Graña presenta su libro, una obra que reúne textos e ilustraciones vinculados a su último lanzamiento musical.</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Club Cultural Charco</name>
+        <address>Maldonado 1477, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Maldonado 1477, Montevideo, Uruguay<br>Barrio: Palermo<br>Actividades: 19:00 a 20:00 h | Contesto absolutamente cualquier pregunta. Pablo Casacuberta propone un micrófono abierto para responder preguntas sobre el sentido de la vida, el futuro y los laberintos de la experiencia humana. 20:30 a 21:30 h | Sostener la paradoja. El psicoanalista Santiago Lanza conversa con las escritoras Eugenia Ladra y Martín Otegui Piñeyrúa sobre la paradoja y sus vínculos con la literatura y la experiencia humana. 22:00 a 22:30 h | Camila Ferrari solista. Recital íntimo bajo el ficus de la librería. Durante la noche: propuesta gastronómica en el patio, con platitos y tapas de Peperoncino.<br>Participantes:<br>dirección: Maldonado 1477, Montevideo, Uruguay<br>Dirección: Maldonado 1477, Montevideo, Uruguay<br>Barrio: Palermo<br>Actividades: 19:00 a 20:00 h | Contesto absolutamente cualquier pregunta. Pablo Casacuberta propone un micrófono abierto para responder preguntas sobre el sentido de la vida, el futuro y los laberintos de la experiencia humana. <br><br>20:30 a 21:30 h | Sostener la paradoja. El psicoanalista Santiago Lanza conversa con las escritoras Eugenia Ladra y Martín Otegui Piñeyrúa sobre la paradoja y sus vínculos con la literatura y la experiencia humana. <br><br>22:00 a 22:30 h | Camila Ferrari solista. Recital íntimo bajo el ficus de la librería. Durante la noche: propuesta gastronómica en el patio, con platitos y tapas de Peperoncino.<br><br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Maldonado 1477, Montevideo, Uruguay
+Barrio: Palermo
+Actividades: 19:00 a 20:00 h | Contesto absolutamente cualquier pregunta. Pablo Casacuberta propone un micrófono abierto para responder preguntas sobre el sentido de la vida, el futuro y los laberintos de la experiencia humana. 20:30 a 21:30 h | Sostener la paradoja. El psicoanalista Santiago Lanza conversa con las escritoras Eugenia Ladra y Martín Otegui Piñeyrúa sobre la paradoja y sus vínculos con la literatura y la experiencia humana. 22:00 a 22:30 h | Camila Ferrari solista. Recital íntimo bajo el ficus de la librería. Durante la noche: propuesta gastronómica en el patio, con platitos y tapas de Peperoncino.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Maldonado 1477, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Maldonado 1477, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Palermo</value>
+          </Data>
+          <Data name="Actividades">
+            <value>19:00 a 20:00 h | Contesto absolutamente cualquier pregunta. Pablo Casacuberta propone un micrófono abierto para responder preguntas sobre el sentido de la vida, el futuro y los laberintos de la experiencia humana. 
+
+20:30 a 21:30 h | Sostener la paradoja. El psicoanalista Santiago Lanza conversa con las escritoras Eugenia Ladra y Martín Otegui Piñeyrúa sobre la paradoja y sus vínculos con la literatura y la experiencia humana. 
+
+22:00 a 22:30 h | Camila Ferrari solista. Recital íntimo bajo el ficus de la librería. Durante la noche: propuesta gastronómica en el patio, con platitos y tapas de Peperoncino.
+</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Librería Cultural Alfabeta</name>
+        <address>Miguel Barreiro 3231, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Miguel Barreiro 3231, Montevideo, Uruguay<br>Barrio: Pocitos<br>Actividades: 20:00 h | Leyendas en poesía y música. Relato inspirado en la mitología celta, con la historia de Angus y el cisne, recitada y acompañada por flauta. 20:30 h | Otra que yo, con ellos. Elisa Lieber presenta su libro junto a Nole Marrone, Gonzalo Cammarota y Salvador Banchero. Un encuentro sobre las distintas versiones de una misma mujer, los mandatos y las contradicciones. 21:15 h | Música con notas. Paola Larrama propone un recorrido en el que la literatura y la música se entrelazan. 22:00 h | Las ciudades de Mario. Mauro Libertella y Gabriel Peveroni conversan sobre Mario Levrero y el libro Un hombre entre paréntesis. 22:45 h | Escritoras del riesgo: escritura con el cuerpo adentro. Conversación sobre experiencia, cuerpo, verdad y lenguaje. 23:30 h | Una cartografía de la extrañeza: Ciudad de México, Jujuy, Minas. Encuentro sobre herencias, transformaciones e identidades. 00:30 h | Cierre musical con Tallo, entre la post milonga y la psicodelia.<br>Participantes:<br>dirección: Miguel Barreiro 3231, Montevideo, Uruguay<br>Dirección: Miguel Barreiro 3231, Montevideo, Uruguay<br>Barrio: Pocitos<br>Actividades: 20:00 h | Leyendas en poesía y música. Relato inspirado en la mitología celta, con la historia de Angus y el cisne, recitada y acompañada por flauta. <br><br>20:30 h | Otra que yo, con ellos. Elisa Lieber presenta su libro junto a Nole Marrone, Gonzalo Cammarota y Salvador Banchero. Un encuentro sobre las distintas versiones de una misma mujer, los mandatos y las contradicciones. <br><br>21:15 h | Música con notas. Paola Larrama propone un recorrido en el que la literatura y la música se entrelazan. <br><br>22:00 h | Las ciudades de Mario. Mauro Libertella y Gabriel Peveroni conversan sobre Mario Levrero y el libro Un hombre entre paréntesis. <br><br>22:45 h | Escritoras del riesgo: escritura con el cuerpo adentro. Conversación sobre experiencia, cuerpo, verdad y lenguaje. <br><br>23:30 h | Una cartografía de la extrañeza: Ciudad de México, Jujuy, Minas. Encuentro sobre herencias, transformaciones e identidades. <br><br>00:30 h | Cierre musical con Tallo, entre la post milonga y la psicodelia.<br><br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Miguel Barreiro 3231, Montevideo, Uruguay
+Barrio: Pocitos
+Actividades: 20:00 h | Leyendas en poesía y música. Relato inspirado en la mitología celta, con la historia de Angus y el cisne, recitada y acompañada por flauta. 20:30 h | Otra que yo, con ellos. Elisa Lieber presenta su libro junto a Nole Marrone, Gonzalo Cammarota y Salvador Banchero. Un encuentro sobre las distintas versiones de una misma mujer, los mandatos y las contradicciones. 21:15 h | Música con notas. Paola Larrama propone un recorrido en el que la literatura y la música se entrelazan. 22:00 h | Las ciudades de Mario. Mauro Libertella y Gabriel Peveroni conversan sobre Mario Levrero y el libro Un hombre entre paréntesis. 22:45 h | Escritoras del riesgo: escritura con el cuerpo adentro. Conversación sobre experiencia, cuerpo, verdad y lenguaje. 23:30 h | Una cartografía de la extrañeza: Ciudad de México, Jujuy, Minas. Encuentro sobre herencias, transformaciones e identidades. 00:30 h | Cierre musical con Tallo, entre la post milonga y la psicodelia.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Miguel Barreiro 3231, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Miguel Barreiro 3231, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Pocitos</value>
+          </Data>
+          <Data name="Actividades">
+            <value>20:00 h | Leyendas en poesía y música. Relato inspirado en la mitología celta, con la historia de Angus y el cisne, recitada y acompañada por flauta. 
+
+20:30 h | Otra que yo, con ellos. Elisa Lieber presenta su libro junto a Nole Marrone, Gonzalo Cammarota y Salvador Banchero. Un encuentro sobre las distintas versiones de una misma mujer, los mandatos y las contradicciones. 
+
+21:15 h | Música con notas. Paola Larrama propone un recorrido en el que la literatura y la música se entrelazan. 
+
+22:00 h | Las ciudades de Mario. Mauro Libertella y Gabriel Peveroni conversan sobre Mario Levrero y el libro Un hombre entre paréntesis. 
+
+22:45 h | Escritoras del riesgo: escritura con el cuerpo adentro. Conversación sobre experiencia, cuerpo, verdad y lenguaje. 
+
+23:30 h | Una cartografía de la extrañeza: Ciudad de México, Jujuy, Minas. Encuentro sobre herencias, transformaciones e identidades. 
+
+00:30 h | Cierre musical con Tallo, entre la post milonga y la psicodelia.
+</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>DAP Libros</name>
+        <address>Jackson 1307 bis, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Jackson 1307 bis, Montevideo, Uruguay<br>Barrio: Parque Rodó<br>Actividades: 18:00 a 21:00 h | Taller de dibujo y pintura. Creación de personajes y elaboración de guiones para cómics y manga. 21:00 a 22:00 h | Taller de cosplay. Actividad para crear accesorios y elementos de vestuario inspirados en personajes, como máscaras, cascos y espadas.<br>Participantes:<br>dirección: Jackson 1307 bis, Montevideo, Uruguay<br>Dirección: Jackson 1307 bis, Montevideo, Uruguay<br>Barrio: Parque Rodó<br>Actividades: 18:00 a 21:00 h | Taller de dibujo y pintura. Creación de personajes y elaboración de guiones para cómics y manga. <br><br>21:00 a 22:00 h | Taller de cosplay. Actividad para crear accesorios y elementos de vestuario inspirados en personajes, como máscaras, cascos y espadas.<br><br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Jackson 1307 bis, Montevideo, Uruguay
+Barrio: Parque Rodó
+Actividades: 18:00 a 21:00 h | Taller de dibujo y pintura. Creación de personajes y elaboración de guiones para cómics y manga. 21:00 a 22:00 h | Taller de cosplay. Actividad para crear accesorios y elementos de vestuario inspirados en personajes, como máscaras, cascos y espadas.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Jackson 1307 bis, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Jackson 1307 bis, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Parque Rodó</value>
+          </Data>
+          <Data name="Actividades">
+            <value>18:00 a 21:00 h | Taller de dibujo y pintura. Creación de personajes y elaboración de guiones para cómics y manga. 
+
+21:00 a 22:00 h | Taller de cosplay. Actividad para crear accesorios y elementos de vestuario inspirados en personajes, como máscaras, cascos y espadas.
+</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Diomedes Libros</name>
+        <address>Bulevar España 2129, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Bulevar España 2129, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 21:00 a 22:00 h | Música en vivo con Garo Arakelian. Una presentación que recupera canciones clásicas del artista y adelanta su última producción musical.<br>Participantes:<br>dirección: Bulevar España 2129, Montevideo, Uruguay<br>Dirección: Bulevar España 2129, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 21:00 a 22:00 h | Música en vivo con Garo Arakelian. Una presentación que recupera canciones clásicas del artista y adelanta su última producción musical.<br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Bulevar España 2129, Montevideo, Uruguay
+Barrio: Cordón
+Actividades: 21:00 a 22:00 h | Música en vivo con Garo Arakelian. Una presentación que recupera canciones clásicas del artista y adelanta su última producción musical.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Bulevar España 2129, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Bulevar España 2129, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Cordón</value>
+          </Data>
+          <Data name="Actividades">
+            <value>21:00 a 22:00 h | Música en vivo con Garo Arakelian. Una presentación que recupera canciones clásicas del artista y adelanta su última producción musical.</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>El Yelmo de Mambrino</name>
+        <address>Canelones 1716, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Canelones 1716, Montevideo, Uruguay<br>Barrio: Palermo<br>Actividades: 19:30 h | Patrimoñarte: descubrí Montevideo jugando. Niñas, niños y familias podrán explorar el patrimonio de la ciudad a través de juegos, imágenes, historias y desafíos. Una propuesta junto a Chinela para descubrir Montevideo con otra mirada. 20:30 h | La Doña Blues Band. Presentación en vivo de este sexteto de blues y rock. 22:30 h | El Peyote Asesino. Pablo Izmirlian presenta su libro sobre la banda y conversa sobre su historia y el proceso de investigación.<br>Participantes:<br>dirección: Canelones 1716, Montevideo, Uruguay<br>Dirección: Canelones 1716, Montevideo, Uruguay<br>Barrio: Palermo<br>Actividades: 19:30 h | Patrimoñarte: descubrí Montevideo jugando. Niñas, niños y familias podrán explorar el patrimonio de la ciudad a través de juegos, imágenes, historias y desafíos. Una propuesta junto a Chinela para descubrir Montevideo con otra mirada. <br><br>20:30 h | La Doña Blues Band. Presentación en vivo de este sexteto de blues y rock. <br><br>22:30 h | El Peyote Asesino. Pablo Izmirlian presenta su libro sobre la banda y conversa sobre su historia y el proceso de investigación.<br><br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Canelones 1716, Montevideo, Uruguay
+Barrio: Palermo
+Actividades: 19:30 h | Patrimoñarte: descubrí Montevideo jugando. Niñas, niños y familias podrán explorar el patrimonio de la ciudad a través de juegos, imágenes, historias y desafíos. Una propuesta junto a Chinela para descubrir Montevideo con otra mirada. 20:30 h | La Doña Blues Band. Presentación en vivo de este sexteto de blues y rock. 22:30 h | El Peyote Asesino. Pablo Izmirlian presenta su libro sobre la banda y conversa sobre su historia y el proceso de investigación.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Canelones 1716, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Canelones 1716, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Palermo</value>
+          </Data>
+          <Data name="Actividades">
+            <value>19:30 h | Patrimoñarte: descubrí Montevideo jugando. Niñas, niños y familias podrán explorar el patrimonio de la ciudad a través de juegos, imágenes, historias y desafíos. Una propuesta junto a Chinela para descubrir Montevideo con otra mirada. 
+
+20:30 h | La Doña Blues Band. Presentación en vivo de este sexteto de blues y rock. 
+
+22:30 h | El Peyote Asesino. Pablo Izmirlian presenta su libro sobre la banda y conversa sobre su historia y el proceso de investigación.
+</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Escaramuza</name>
+        <address>Dr. Pablo de María 1185, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Dr. Pablo de María 1185, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 20:00 h | Lucrecia Martel presenta "Un destino común". Encuentro sobre universos sonoros y dispositivos narrativos para imaginar futuros colectivos. 20:00 h | Una ciudad fracturada: reimaginar Montevideo. Conversación sobre alquileres, transporte público y vecindad. 21:00 h | Guadalupe Nettel: la belleza del monstruo. Entrevista en tres partes. 21:00 h | Fragmentos sin lugar, metapaisajes. Cruce de voces e imágenes. 21:30 h | Cruzar el umbral: reminiscencias y fantasías en el limbo. Conversación. 22:00 h | Alejandro Zambra en primera persona: jugar, garabatear, escribir. Entrevista al escritor. 22:30 h | Esto también es tarot. Elisa Carricajo presenta su libro y propone una tirada colectiva de cartas. 23:00 h | Martín Buscaglia junto a sus Bochamakers. Presentación musical. 23:30 h | Boni: avant-première musical. 00:00 h | Karibe con K. Presentación musical. Durante la noche: feria de libros y vinilos, DJ set de LBR y propuestas gastronómicas. Participan Discomoda y La Mesa de los Discos.<br>Participantes:<br>dirección: Dr. Pablo de María 1185, Montevideo, Uruguay<br>Dirección: Dr. Pablo de María 1185, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 20:00 h | Lucrecia Martel presenta Un destino común. Encuentro sobre universos sonoros y dispositivos narrativos para imaginar futuros colectivos. Participan Lucrecia Martel y Natalia Ortiz Maldonado (entrevista).<br><br>20:00 h | Una ciudad fracturada: reimaginar Montevideo. Conversación sobre alquileres, transporte público y vecindad. Participan Fernando Filgueira, Víctor Borrás Ramos, Anabel Rieiro y Sebastián Aguiar.<br><br>21:00 h | Fernando Cabrera y su dulzura distante. Presentación musical con guitarra y voz a cargo de Fernando Cabrera.<br><br>21:00 h | Fragmentos sin lugar, metapaisajes. Cruce de voces e imágenes. Participan Lourdes Silva y Leo Giráldez.<br><br>21:30 h | Cruzar el umbral: reminiscencias y fantasías en el limbo. Conversación con Salomé Esper, Leticia Jorge y Gonzalo Deniz (Franny Glass). Modera Laura Amaya.<br><br>22:00 h | Guadalupe Nettel: la belleza del monstruo. Entrevista en tres partes con Guadalupe Nettel, Noelia Carrancio, Soledad Gago y Tania de Tomas.<br><br>22:30 h | Performática de Lina Meruane (Chile): Coloquio de las quiltras.<br><br>23:00 h | Esto también es tarot. Elisa Carricajo presenta su libro y propone una tirada colectiva de cartas. Participan Elisa Carricajo, Federica Folco y Mercedes Dellatorre.<br><br>23:00 h | Martín Buscaglia junto a sus Bochamakers. Presentación musical con Martín Buscaglia, Martín Ibarburu, Coby Acosta, Juana Buscaglia, Facundo Guiondjian y Tomás Nieves.<br><br>23:30 h | Boni: avant-première musical. Presentación musical con Emiliano Aquino, Diego Pollovero, Agustina Canavesi, Álvaro Cardoso y Nicolás Grieco.<br><br>00:00 h | Karibe con K. Presentación musical.<br><br>Durante la noche: feria de libros y vinilos, DJ set de LBR y propuestas gastronómicas.<br><br>Participan Discomoda y La Mesa de los Discos.<br><br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value><![CDATA[Dirección: Dr. Pablo de María 1185, Montevideo, Uruguay
+Barrio: Cordón
+Actividades: 20:00 h | Lucrecia Martel presenta "Un destino común". Encuentro sobre universos sonoros y dispositivos narrativos para imaginar futuros colectivos. 20:00 h | Una ciudad fracturada: reimaginar Montevideo. Conversación sobre alquileres, transporte público y vecindad. 21:00 h | Guadalupe Nettel: la belleza del monstruo. Entrevista en tres partes. 21:00 h | Fragmentos sin lugar, metapaisajes. Cruce de voces e imágenes. 21:30 h | Cruzar el umbral: reminiscencias y fantasías en el limbo. Conversación. 22:00 h | Alejandro Zambra en primera persona: jugar, garabatear, escribir. Entrevista al escritor. 22:30 h | Esto también es tarot. Elisa Carricajo presenta su libro y propone una tirada colectiva de cartas. 23:00 h | Martín Buscaglia junto a sus Bochamakers. Presentación musical. 23:30 h | Boni: avant-première musical. 00:00 h | Karibe con K. Presentación musical. Durante la noche: feria de libros y vinilos, DJ set de LBR y propuestas gastronómicas. Participan Discomoda y La Mesa de los Discos.
+Participantes:]]></value>
+          </Data>
+          <Data name="dirección">
+            <value>Dr. Pablo de María 1185, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Dr. Pablo de María 1185, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Cordón</value>
+          </Data>
+          <Data name="Actividades">
+            <value>20:00 h | Lucrecia Martel presenta Un destino común. Encuentro sobre universos sonoros y dispositivos narrativos para imaginar futuros colectivos. Participan Lucrecia Martel y Natalia Ortiz Maldonado (entrevista).
+
+20:00 h | Una ciudad fracturada: reimaginar Montevideo. Conversación sobre alquileres, transporte público y vecindad. Participan Fernando Filgueira, Víctor Borrás Ramos, Anabel Rieiro y Sebastián Aguiar.
+
+21:00 h | Fernando Cabrera y su dulzura distante. Presentación musical con guitarra y voz a cargo de Fernando Cabrera.
+
+21:00 h | Fragmentos sin lugar, metapaisajes. Cruce de voces e imágenes. Participan Lourdes Silva y Leo Giráldez.
+
+21:30 h | Cruzar el umbral: reminiscencias y fantasías en el limbo. Conversación con Salomé Esper, Leticia Jorge y Gonzalo Deniz (Franny Glass). Modera Laura Amaya.
+
+22:00 h | Guadalupe Nettel: la belleza del monstruo. Entrevista en tres partes con Guadalupe Nettel, Noelia Carrancio, Soledad Gago y Tania de Tomas.
+
+22:30 h | Performática de Lina Meruane (Chile): Coloquio de las quiltras.
+
+23:00 h | Esto también es tarot. Elisa Carricajo presenta su libro y propone una tirada colectiva de cartas. Participan Elisa Carricajo, Federica Folco y Mercedes Dellatorre.
+
+23:00 h | Martín Buscaglia junto a sus Bochamakers. Presentación musical con Martín Buscaglia, Martín Ibarburu, Coby Acosta, Juana Buscaglia, Facundo Guiondjian y Tomás Nieves.
+
+23:30 h | Boni: avant-première musical. Presentación musical con Emiliano Aquino, Diego Pollovero, Agustina Canavesi, Álvaro Cardoso y Nicolás Grieco.
+
+00:00 h | Karibe con K. Presentación musical.
+
+Durante la noche: feria de libros y vinilos, DJ set de LBR y propuestas gastronómicas.
+
+Participan Discomoda y La Mesa de los Discos.
+</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Germina</name>
+        <address>Carlos Roxlo 1370 bis, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Carlos Roxlo 1370 bis, Montevideo, Uruguay<br>Barrio: Centro<br>Actividades: 18:30 h | Soñando y jugando con Magda Dos Santos. Propuesta musical para toda la familia, especialmente para los más pequeños, con canciones de su disco Soñando y jugando. 19:30 h | Creá y dibujá con Nico Peruzzo. Encuentro para dibujar y conversar con el creador de Pancho el Pit Bull.<br>Participantes:<br>dirección: Carlos Roxlo 1370 bis, Montevideo, Uruguay<br>Dirección: Carlos Roxlo 1370 bis, Montevideo, Uruguay<br>Barrio: Centro<br>Actividades: 18:30 h | Soñando y jugando con Magda Dos Santos. Propuesta musical para toda la familia, especialmente para los más pequeños, con canciones de su disco Soñando y jugando. <br><br>19:30 h | Creá y dibujá con Nico Peruzzo. Encuentro para dibujar y conversar con el creador de Pancho el Pit Bull.<br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Carlos Roxlo 1370 bis, Montevideo, Uruguay
+Barrio: Centro
+Actividades: 18:30 h | Soñando y jugando con Magda Dos Santos. Propuesta musical para toda la familia, especialmente para los más pequeños, con canciones de su disco Soñando y jugando. 19:30 h | Creá y dibujá con Nico Peruzzo. Encuentro para dibujar y conversar con el creador de Pancho el Pit Bull.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Carlos Roxlo 1370 bis, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Carlos Roxlo 1370 bis, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Centro</value>
+          </Data>
+          <Data name="Actividades">
+            <value>18:30 h | Soñando y jugando con Magda Dos Santos. Propuesta musical para toda la familia, especialmente para los más pequeños, con canciones de su disco Soñando y jugando. 
+
+19:30 h | Creá y dibujá con Nico Peruzzo. Encuentro para dibujar y conversar con el creador de Pancho el Pit Bull.</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Guarida, Casa de Libros</name>
+        <address>Héctor Miranda 2410, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Héctor Miranda 2410, Montevideo, Uruguay<br>Barrio: Punta Carretas<br>Actividades: 18:00 h | Poesía ultrajoven. Taller abierto de poesía y creatividad a cargo de jóvenes menores de 18 años del taller En Una. 19:00 a 20:00 h | Club de clubes, café literario. Traé un libro para compartir, recomendar o hacer circular. Un espacio de conversación, café e intercambio de lecturas. 20:00 a 21:30 h | Cámara, libros, souvenirs literarios y nuevos autores. Entrevistas abiertas a escritores y escritoras, con intervenciones breves para conocer sus trabajos. También habrá una mesa de nuevos autores con fragmentos de libros para descubrir nuevas voces. 22:00 h | Micrófono abierto, con apertura de Viviane, de Poeta Soporta Poeta. 23:00 a 23:45 h | Serenata literaria con Juan Solá. Lectura desde el balcón para compartir historias con quienes estén dentro de la librería y en la calle. 00:00 h | Cierre musical con el Coro Guarida. Concierto en completa oscuridad, en la Caverna. Durante la noche: Rincón del Haiku, espacio de escritura y observación en la sala exterior; y Mate y escritura, propuesta con consignas para escribir en el patio.<br>Participantes:<br>dirección: Héctor Miranda 2410, Montevideo, Uruguay<br>Dirección: Héctor Miranda 2410, Montevideo, Uruguay<br>Barrio: Punta Carretas<br>Actividades: 18:00 h | Poesía ultrajoven. Taller abierto de poesía y creatividad a cargo de jóvenes menores de 18 años del taller En Una. <br><br>19:00 a 20:00 h | Club de clubes, café literario. Traé un libro para compartir, recomendar o hacer circular. Un espacio de conversación, café e intercambio de lecturas. <br><br>20:00 a 21:30 h | Cámara, libros, souvenirs literarios y nuevos autores. Entrevistas abiertas a escritores y escritoras, con intervenciones breves para conocer sus trabajos. También habrá una mesa de nuevos autores con fragmentos de libros para descubrir nuevas voces. <br><br>22:00 h | Micrófono abierto, con apertura de Viviane, de Poeta Soporta Poeta. <br><br>23:00 a 23:45 h | Serenata literaria con Juan Solá. Lectura desde el balcón para compartir historias con quienes estén dentro de la librería y en la calle. <br><br>00:00 h | Cierre musical con el Coro Guarida. Concierto en completa oscuridad, en la Caverna. Durante la noche: Rincón del Haiku, espacio de escritura y observación en la sala exterior; y Mate y escritura, propuesta con consignas para escribir en el patio.<br><br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Héctor Miranda 2410, Montevideo, Uruguay
+Barrio: Punta Carretas
+Actividades: 18:00 h | Poesía ultrajoven. Taller abierto de poesía y creatividad a cargo de jóvenes menores de 18 años del taller En Una. 19:00 a 20:00 h | Club de clubes, café literario. Traé un libro para compartir, recomendar o hacer circular. Un espacio de conversación, café e intercambio de lecturas. 20:00 a 21:30 h | Cámara, libros, souvenirs literarios y nuevos autores. Entrevistas abiertas a escritores y escritoras, con intervenciones breves para conocer sus trabajos. También habrá una mesa de nuevos autores con fragmentos de libros para descubrir nuevas voces. 22:00 h | Micrófono abierto, con apertura de Viviane, de Poeta Soporta Poeta. 23:00 a 23:45 h | Serenata literaria con Juan Solá. Lectura desde el balcón para compartir historias con quienes estén dentro de la librería y en la calle. 00:00 h | Cierre musical con el Coro Guarida. Concierto en completa oscuridad, en la Caverna. Durante la noche: Rincón del Haiku, espacio de escritura y observación en la sala exterior; y Mate y escritura, propuesta con consignas para escribir en el patio.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Héctor Miranda 2410, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Héctor Miranda 2410, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Punta Carretas</value>
+          </Data>
+          <Data name="Actividades">
+            <value>18:00 h | Poesía ultrajoven. Taller abierto de poesía y creatividad a cargo de jóvenes menores de 18 años del taller En Una. 
+
+19:00 a 20:00 h | Club de clubes, café literario. Traé un libro para compartir, recomendar o hacer circular. Un espacio de conversación, café e intercambio de lecturas. 
+
+20:00 a 21:30 h | Cámara, libros, souvenirs literarios y nuevos autores. Entrevistas abiertas a escritores y escritoras, con intervenciones breves para conocer sus trabajos. También habrá una mesa de nuevos autores con fragmentos de libros para descubrir nuevas voces. 
+
+22:00 h | Micrófono abierto, con apertura de Viviane, de Poeta Soporta Poeta. 
+
+23:00 a 23:45 h | Serenata literaria con Juan Solá. Lectura desde el balcón para compartir historias con quienes estén dentro de la librería y en la calle. 
+
+00:00 h | Cierre musical con el Coro Guarida. Concierto en completa oscuridad, en la Caverna. Durante la noche: Rincón del Haiku, espacio de escritura y observación en la sala exterior; y Mate y escritura, propuesta con consignas para escribir en el patio.
+</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Idea Librería</name>
+        <address>Dr. Tristán Narvaja 1578, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Dr. Tristán Narvaja 1578, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 19:00 a 01:00 h | Noche de las Librerías 2026. Encuentro con poetas locales, espectáculos musicales, bandas y DJ durante toda la noche.<br>Participantes:<br>dirección: Dr. Tristán Narvaja 1578, Montevideo, Uruguay<br>Dirección: Dr. Tristán Narvaja 1578, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 19:00 a 01:00 h | Noche de las Librerías 2026. Encuentro con poetas locales, espectáculos musicales, bandas y DJ durante toda la noche.<br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Dr. Tristán Narvaja 1578, Montevideo, Uruguay
+Barrio: Cordón
+Actividades: 19:00 a 01:00 h | Noche de las Librerías 2026. Encuentro con poetas locales, espectáculos musicales, bandas y DJ durante toda la noche.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Dr. Tristán Narvaja 1578, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Dr. Tristán Narvaja 1578, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Cordón</value>
+          </Data>
+          <Data name="Actividades">
+            <value>19:00 a 01:00 h | Noche de las Librerías 2026. Encuentro con poetas locales, espectáculos musicales, bandas y DJ durante toda la noche.</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Isadora Libros</name>
+        <address>José Ellauri 661, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: José Ellauri 661, Montevideo, Uruguay<br>Barrio: Punta Carretas<br>Actividades: 20:30 h | Cuentos que se escapan de los libros. Narración y juegos para niñas y niños, con historias, humor y participación del público. Una propuesta para imaginar personajes, crear sonidos y descubrir finales inesperados. 21:30 h | Lecturas fracasantes. Romina Serrano, Daniela Trimarco, Ivonne Calderón y voces invitadas comparten fragmentos de literatura fracasante.<br>Participantes:<br>dirección: José Ellauri 661, Montevideo, Uruguay<br>Dirección: José Ellauri 661, Montevideo, Uruguay<br>Barrio: Punta Carretas<br>Actividades: 20:30 h | Cuentos que se escapan de los libros. Narración y juegos para niñas y niños, con historias, humor y participación del público. Una propuesta para imaginar personajes, crear sonidos y descubrir finales inesperados. <br><br>21:30 h | Lecturas fracasantes. Romina Serrano, Daniela Trimarco, Ivonne Calderón y voces invitadas comparten fragmentos de literatura fracasante.<br><br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: José Ellauri 661, Montevideo, Uruguay
+Barrio: Punta Carretas
+Actividades: 20:30 h | Cuentos que se escapan de los libros. Narración y juegos para niñas y niños, con historias, humor y participación del público. Una propuesta para imaginar personajes, crear sonidos y descubrir finales inesperados. 21:30 h | Lecturas fracasantes. Romina Serrano, Daniela Trimarco, Ivonne Calderón y voces invitadas comparten fragmentos de literatura fracasante.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>José Ellauri 661, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>José Ellauri 661, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Punta Carretas</value>
+          </Data>
+          <Data name="Actividades">
+            <value>20:30 h | Cuentos que se escapan de los libros. Narración y juegos para niñas y niños, con historias, humor y participación del público. Una propuesta para imaginar personajes, crear sonidos y descubrir finales inesperados. 
+
+21:30 h | Lecturas fracasantes. Romina Serrano, Daniela Trimarco, Ivonne Calderón y voces invitadas comparten fragmentos de literatura fracasante.
+</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[La Libélula Libros & Café]]></name>
+        <address>Av. Gral. Rivera 2298, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Av. Gral. Rivera 2298, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 17:50 h | Arcos Unidos: música con Cecilia, Juan y compañía. Presentación musical con violas, violonchelos, acordeones y otros instrumentos. 18:15 h | Cuentos con Grace. Grace Cuentacuentos comparte historias para disfrutar en familia, con música antes y después de la narración. 19:00 h | Dulces Trillizas con Sandra Escames. La autora presenta su libro, dirigido a niñas y niños a partir de 7 años, y firma ejemplares. 21:00 h | Belleza química con Lucía Vázquez Sica. Conversación sobre su libro Historias de autocuidado y transformación, con espacio para preguntas y firma de ejemplares.<br>Participantes:<br>dirección: Av. Gral. Rivera 2298, Montevideo, Uruguay<br>Dirección: Av. Gral. Rivera 2298, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 17:50 h | Arcos Unidos: música con Cecilia, Juan y compañía. Presentación musical con violas, violonchelos, acordeones y otros instrumentos. <br><br>18:15 h | Cuentos con Grace. Grace Cuentacuentos comparte historias para disfrutar en familia, con música antes y después de la narración. <br><br>19:00 h | Dulces Trillizas con Sandra Escames. La autora presenta su libro, dirigido a niñas y niños a partir de 7 años, y firma ejemplares. <br><br>21:00 h | Belleza química con Lucía Vázquez Sica. Conversación sobre su libro Historias de autocuidado y transformación, con espacio para preguntas y firma de ejemplares.<br><br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Av. Gral. Rivera 2298, Montevideo, Uruguay
+Barrio: Cordón
+Actividades: 17:50 h | Arcos Unidos: música con Cecilia, Juan y compañía. Presentación musical con violas, violonchelos, acordeones y otros instrumentos. 18:15 h | Cuentos con Grace. Grace Cuentacuentos comparte historias para disfrutar en familia, con música antes y después de la narración. 19:00 h | Dulces Trillizas con Sandra Escames. La autora presenta su libro, dirigido a niñas y niños a partir de 7 años, y firma ejemplares. 21:00 h | Belleza química con Lucía Vázquez Sica. Conversación sobre su libro Historias de autocuidado y transformación, con espacio para preguntas y firma de ejemplares.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Av. Gral. Rivera 2298, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Av. Gral. Rivera 2298, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Cordón</value>
+          </Data>
+          <Data name="Actividades">
+            <value>17:50 h | Arcos Unidos: música con Cecilia, Juan y compañía. Presentación musical con violas, violonchelos, acordeones y otros instrumentos. 
+
+18:15 h | Cuentos con Grace. Grace Cuentacuentos comparte historias para disfrutar en familia, con música antes y después de la narración. 
+
+19:00 h | Dulces Trillizas con Sandra Escames. La autora presenta su libro, dirigido a niñas y niños a partir de 7 años, y firma ejemplares. 
+
+21:00 h | Belleza química con Lucía Vázquez Sica. Conversación sobre su libro Historias de autocuidado y transformación, con espacio para preguntas y firma de ejemplares.
+</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Las Karamazov</name>
+        <address>Av. Gral. Rivera 2670, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Av. Gral. Rivera 2670, Montevideo, Uruguay<br>Barrio: Pocitos<br>Actividades: 20:00 a 21:30 h | Introducción a la mística femenina en la Edad Media, con Atrio. Recorrido histórico y cultural por mujeres que transformaron sus experiencias espirituales en escritos, visiones e imágenes. 20:00 a 23:00 h | Intervención artística colectiva con Pulso Negro. Creación participativa de una pegatina para intervenir la fachada de la librería, en el marco de sus 10 años. Actividad para todas las edades. 22:00 h | Música en vivo con Emilia Olmedo. Presentación de la cantante y guitarrista, integrante de la murga joven Amarga.<br>Participantes:<br>dirección: Av. Gral. Rivera 2670, Montevideo, Uruguay<br>Dirección: Av. Gral. Rivera 2670, Montevideo, Uruguay<br>Barrio: Pocitos<br>Actividades: 20:00 a 21:30 h | Introducción a la mística femenina en la Edad Media, con Atrio. Recorrido histórico y cultural por mujeres que transformaron sus experiencias espirituales en escritos, visiones e imágenes. <br><br>20:00 a 23:00 h | Intervención artística colectiva con Pulso Negro. Creación participativa de una pegatina para intervenir la fachada de la librería, en el marco de sus 10 años. Actividad para todas las edades. <br><br>22:00 h | Música en vivo con Emilia Olmedo. Presentación de la cantante y guitarrista, integrante de la murga joven Amarga.<br><br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Av. Gral. Rivera 2670, Montevideo, Uruguay
+Barrio: Pocitos
+Actividades: 20:00 a 21:30 h | Introducción a la mística femenina en la Edad Media, con Atrio. Recorrido histórico y cultural por mujeres que transformaron sus experiencias espirituales en escritos, visiones e imágenes. 20:00 a 23:00 h | Intervención artística colectiva con Pulso Negro. Creación participativa de una pegatina para intervenir la fachada de la librería, en el marco de sus 10 años. Actividad para todas las edades. 22:00 h | Música en vivo con Emilia Olmedo. Presentación de la cantante y guitarrista, integrante de la murga joven Amarga.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Av. Gral. Rivera 2670, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Av. Gral. Rivera 2670, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Pocitos</value>
+          </Data>
+          <Data name="Actividades">
+            <value>20:00 a 21:30 h | Introducción a la mística femenina en la Edad Media, con Atrio. Recorrido histórico y cultural por mujeres que transformaron sus experiencias espirituales en escritos, visiones e imágenes. 
+
+20:00 a 23:00 h | Intervención artística colectiva con Pulso Negro. Creación participativa de una pegatina para intervenir la fachada de la librería, en el marco de sus 10 años. Actividad para todas las edades. 
+
+22:00 h | Música en vivo con Emilia Olmedo. Presentación de la cantante y guitarrista, integrante de la murga joven Amarga.
+</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Lautréamont Librería</name>
+        <address>Maldonado 2045, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Maldonado 2045, Montevideo, Uruguay<br>Barrio: Parque Rodó<br>Actividades: 22:00 a 23:00 h | Música en vivo con Chino. Presentación musical en Lautréamont.<br>Participantes:<br>dirección: Maldonado 2045, Montevideo, Uruguay<br>Dirección: Maldonado 2045, Montevideo, Uruguay<br>Barrio: Parque Rodó<br>Actividades: 22:00 a 23:00 h | Música en vivo con Chino. Presentación musical en Lautréamont.<br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Maldonado 2045, Montevideo, Uruguay
+Barrio: Parque Rodó
+Actividades: 22:00 a 23:00 h | Música en vivo con Chino. Presentación musical en Lautréamont.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Maldonado 2045, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Maldonado 2045, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Parque Rodó</value>
+          </Data>
+          <Data name="Actividades">
+            <value>22:00 a 23:00 h | Música en vivo con Chino. Presentación musical en Lautréamont.</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Librería Areté</name>
+        <address>Dr. Tristán Narvaja 1641, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Dr. Tristán Narvaja 1641, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 21:00 a 00:00 h | DJ en vivo. Música para acompañar una noche de libros y actividades culturales.<br>Participantes:<br>dirección: Dr. Tristán Narvaja 1641, Montevideo, Uruguay<br>Dirección: Dr. Tristán Narvaja 1641, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 21:00 a 00:00 h | DJ en vivo. Música para acompañar una noche de libros y actividades culturales.<br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Dr. Tristán Narvaja 1641, Montevideo, Uruguay
+Barrio: Cordón
+Actividades: 21:00 a 00:00 h | DJ en vivo. Música para acompañar una noche de libros y actividades culturales.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Dr. Tristán Narvaja 1641, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Dr. Tristán Narvaja 1641, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Cordón</value>
+          </Data>
+          <Data name="Actividades">
+            <value>21:00 a 00:00 h | DJ en vivo. Música para acompañar una noche de libros y actividades culturales.</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Librería El Virrey</name>
+        <address>21 de Setiembre 2747, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: 21 de Setiembre 2747, Montevideo, Uruguay<br>Barrio: Punta Carretas<br>Actividades: 19:00 h | ¿Cuántas mujeres caben en una misma mujer? Elisa Lieber conversa sobre su libro Otra que yo y las distintas versiones de nosotras mismas: los mandatos, las expectativas y la identidad. 20:15 h | Charla sobre la adultez y otras imperfecciones. Camila Suárez presenta su libro Metamorfosis y conversa sobre la adultez, el amor y la construcción de la identidad. 21:00 h | A cara de perro. Presentación del libro de Alfonso Lessa y conversación con el autor. 22:30 h | El tridente: poder narco en Uruguay. Antonio Ladra presenta su libro y conversa sobre el poder del narcotráfico en el país.<br>Participantes:<br>dirección: 21 de Setiembre 2747, Montevideo, Uruguay<br>Dirección: 21 de Setiembre 2747, Montevideo, Uruguay<br>Barrio: Punta Carretas<br>Actividades: 19:00 h | ¿Cuántas mujeres caben en una misma mujer? Elisa Lieber conversa sobre su libro Otra que yo y las distintas versiones de nosotras mismas: los mandatos, las expectativas y la identidad. <br><br>20:15 h | Charla sobre la adultez y otras imperfecciones. Camila Suárez presenta su libro Metamorfosis y conversa sobre la adultez, el amor y la construcción de la identidad. <br><br>21:00 h | A cara de perro. Presentación del libro de Alfonso Lessa y conversación con el autor. <br><br>22:30 h | El tridente: poder narco en Uruguay. Antonio Ladra presenta su libro y conversa sobre el poder del narcotráfico en el país.<br><br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: 21 de Setiembre 2747, Montevideo, Uruguay
+Barrio: Punta Carretas
+Actividades: 19:00 h | ¿Cuántas mujeres caben en una misma mujer? Elisa Lieber conversa sobre su libro Otra que yo y las distintas versiones de nosotras mismas: los mandatos, las expectativas y la identidad. 20:15 h | Charla sobre la adultez y otras imperfecciones. Camila Suárez presenta su libro Metamorfosis y conversa sobre la adultez, el amor y la construcción de la identidad. 21:00 h | A cara de perro. Presentación del libro de Alfonso Lessa y conversación con el autor. 22:30 h | El tridente: poder narco en Uruguay. Antonio Ladra presenta su libro y conversa sobre el poder del narcotráfico en el país.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>21 de Setiembre 2747, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>21 de Setiembre 2747, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Punta Carretas</value>
+          </Data>
+          <Data name="Actividades">
+            <value>19:00 h | ¿Cuántas mujeres caben en una misma mujer? Elisa Lieber conversa sobre su libro Otra que yo y las distintas versiones de nosotras mismas: los mandatos, las expectativas y la identidad. 
+
+20:15 h | Charla sobre la adultez y otras imperfecciones. Camila Suárez presenta su libro Metamorfosis y conversa sobre la adultez, el amor y la construcción de la identidad. 
+
+21:00 h | A cara de perro. Presentación del libro de Alfonso Lessa y conversación con el autor. 
+
+22:30 h | El tridente: poder narco en Uruguay. Antonio Ladra presenta su libro y conversa sobre el poder del narcotráfico en el país.
+</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Librería Fundación de Cultura Universitaria</name>
+        <address>25 de Mayo 553, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: 25 de Mayo 553, Montevideo, Uruguay<br>Barrio: Ciudad Vieja<br>Actividades: 09:00 a 20:00 h | Fundación de Cultura Universitaria. Exposición y presentación por los 60 años de la institución.<br>Participantes:<br>dirección: 25 de Mayo 553, Montevideo, Uruguay<br>Dirección: 25 de Mayo 553, Montevideo, Uruguay<br>Barrio: Ciudad Vieja<br>Actividades: 09:00 a 20:00 h | Fundación de Cultura Universitaria. Exposición y presentación por los 60 años de la institución.<br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: 25 de Mayo 553, Montevideo, Uruguay
+Barrio: Ciudad Vieja
+Actividades: 09:00 a 20:00 h | Fundación de Cultura Universitaria. Exposición y presentación por los 60 años de la institución.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>25 de Mayo 553, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>25 de Mayo 553, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Ciudad Vieja</value>
+          </Data>
+          <Data name="Actividades">
+            <value>09:00 a 20:00 h | Fundación de Cultura Universitaria. Exposición y presentación por los 60 años de la institución.</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Librería Guyunusa</name>
+        <address>Dr. Tristán Narvaja 1601, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Dr. Tristán Narvaja 1601, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 21:30 h | El living del goce. Guyunusa lleva su living a la calle para conversar sobre literatura, sexualidad, humor y activismo. Un encuentro sobre el derecho a desear, decidir y habitar el propio cuerpo sin culpas. 22:30 h | ¡El goce suena! Cierre musical con tres propuestas de mujeres músicas: Charlie Cromo a las 22:30, Espíritu Olímpico a las 23:00 y Las Toscas a las 23:30.<br>Participantes:<br>dirección: Dr. Tristán Narvaja 1601, Montevideo, Uruguay<br>Dirección: Dr. Tristán Narvaja 1601, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 21:30 h | El living del goce. Guyunusa lleva su living a la calle para conversar sobre literatura, sexualidad, humor y activismo. Un encuentro sobre el derecho a desear, decidir y habitar el propio cuerpo sin culpas. <br><br>22:30 h | ¡El goce suena! Cierre musical con tres propuestas de mujeres músicas: Charlie Cromo a las 22:30, Espíritu Olímpico a las 23:00 y Las Toscas a las 23:30.<br><br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Dr. Tristán Narvaja 1601, Montevideo, Uruguay
+Barrio: Cordón
+Actividades: 21:30 h | El living del goce. Guyunusa lleva su living a la calle para conversar sobre literatura, sexualidad, humor y activismo. Un encuentro sobre el derecho a desear, decidir y habitar el propio cuerpo sin culpas. 22:30 h | ¡El goce suena! Cierre musical con tres propuestas de mujeres músicas: Charlie Cromo a las 22:30, Espíritu Olímpico a las 23:00 y Las Toscas a las 23:30.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Dr. Tristán Narvaja 1601, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Dr. Tristán Narvaja 1601, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Cordón</value>
+          </Data>
+          <Data name="Actividades">
+            <value>21:30 h | El living del goce. Guyunusa lleva su living a la calle para conversar sobre literatura, sexualidad, humor y activismo. Un encuentro sobre el derecho a desear, decidir y habitar el propio cuerpo sin culpas. 
+
+22:30 h | ¡El goce suena! Cierre musical con tres propuestas de mujeres músicas: Charlie Cromo a las 22:30, Espíritu Olímpico a las 23:00 y Las Toscas a las 23:30.
+</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Lannister Comics & Libros]]></name>
+        <address>Av. 18 de Julio 892, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Av. 18 de Julio 892, Montevideo, Uruguay<br>Barrio: Centro<br>Actividades: 19:00 a 21:00 h | Taller de storytelling. El guionista Diego Vázquez propone un taller de creación de historias cortas y escritura creativa. Podés llevar una historia empezada o crear una desde cero. Inscripción por redes sociales o WhatsApp.<br>Participantes:<br>dirección: Av. 18 de Julio 892, Montevideo, Uruguay<br>Dirección: Av. 18 de Julio 892, Montevideo, Uruguay<br>Barrio: Centro<br>Actividades: 19:00 a 21:00 h | Taller de storytelling. El guionista Diego Vázquez propone un taller de creación de historias cortas y escritura creativa. Podés llevar una historia empezada o crear una desde cero. Inscripción por redes sociales o WhatsApp.<br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Av. 18 de Julio 892, Montevideo, Uruguay
+Barrio: Centro
+Actividades: 19:00 a 21:00 h | Taller de storytelling. El guionista Diego Vázquez propone un taller de creación de historias cortas y escritura creativa. Podés llevar una historia empezada o crear una desde cero. Inscripción por redes sociales o WhatsApp.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Av. 18 de Julio 892, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Av. 18 de Julio 892, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Centro</value>
+          </Data>
+          <Data name="Actividades">
+            <value>19:00 a 21:00 h | Taller de storytelling. El guionista Diego Vázquez propone un taller de creación de historias cortas y escritura creativa. Podés llevar una historia empezada o crear una desde cero. Inscripción por redes sociales o WhatsApp.</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Librería Mundos Invisibles</name>
+        <address>Av. Gral. Rivera 2205, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Av. Gral. Rivera 2205, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 20:00 a 23:30 h | Encuentro con escritores de Editorial Moa Demkroff. Participan Ana María Rappanello, Mauricio Zieleniec, Olga Armand Ugon, Martín Olivera, Edison Aguiar, Cecilia Charquero y Giselle Petrides, quienes compartirán sus libros y experiencias creativas. Coordina Daniel Corch. 20:30 a 21:30 h | Más de un nacimiento en una misma vida. Encuentro para reflexionar sobre la percepción, la existencia y las posibilidades del presente. 22:15 a 23:15 h | Música y palabras para el encuentro. Experiencia musical íntima que combina canciones de autor, poesía, narrativa, cánticos y mantras, con momentos de reflexión y meditación.<br>Participantes:<br>dirección: Av. Gral. Rivera 2205, Montevideo, Uruguay<br>Dirección: Av. Gral. Rivera 2205, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 20:30 a 21:30 h | Más de un nacimiento en una misma vida. Invitación a mirar más allá de lo evidente, trascender los límites de nuestra percepción, cuestionar el sentido de la existencia y descubrir las posibilidades que encierra el presente. A cargo de Lauro Alonso.<br><br>22:15 a 23:15 h | Música y palabras para el encuentro. Experiencia musical íntima que integra canciones de autor, poesía, narrativa, cánticos y mantras, junto con breves momentos de reflexión y meditación. A cargo de Florencia Slyomovich, creadora de Ambhar Music.<br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Av. Gral. Rivera 2205, Montevideo, Uruguay
+Barrio: Cordón
+Actividades: 20:00 a 23:30 h | Encuentro con escritores de Editorial Moa Demkroff. Participan Ana María Rappanello, Mauricio Zieleniec, Olga Armand Ugon, Martín Olivera, Edison Aguiar, Cecilia Charquero y Giselle Petrides, quienes compartirán sus libros y experiencias creativas. Coordina Daniel Corch. 20:30 a 21:30 h | Más de un nacimiento en una misma vida. Encuentro para reflexionar sobre la percepción, la existencia y las posibilidades del presente. 22:15 a 23:15 h | Música y palabras para el encuentro. Experiencia musical íntima que combina canciones de autor, poesía, narrativa, cánticos y mantras, con momentos de reflexión y meditación.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Av. Gral. Rivera 2205, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Av. Gral. Rivera 2205, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Cordón</value>
+          </Data>
+          <Data name="Actividades">
+            <value>20:30 a 21:30 h | Más de un nacimiento en una misma vida. Invitación a mirar más allá de lo evidente, trascender los límites de nuestra percepción, cuestionar el sentido de la existencia y descubrir las posibilidades que encierra el presente. A cargo de Lauro Alonso.
+
+22:15 a 23:15 h | Música y palabras para el encuentro. Experiencia musical íntima que integra canciones de autor, poesía, narrativa, cánticos y mantras, junto con breves momentos de reflexión y meditación. A cargo de Florencia Slyomovich, creadora de Ambhar Music.</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Libros de la Arena Pocitos</name>
+        <address>Juan Benito Blanco 962, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Juan Benito Blanco 962, Montevideo, Uruguay<br>Barrio: Pocitos<br>Actividades: 19:30 a 20:30 h | A texto en cuello: micrófono abierto a lecturas. Lectura de cuentos breves seleccionados del concurso realizado en redes sociales, además de poemas y fragmentos de libros y autores que dejaron huella. <br><br>21:00 a 22:00 h | Trabaja para no cerrar. Conversatorio con Germán Di Pierro sobre su libro Efectos especiales, las ideas que impulsan su escritura y el rol del artista en la actualidad. <br><br>22:30 h | Alias Tuk. Un personaje de otro planeta llega a Libros de la Arena Pocitos con canciones y un mensaje de paz, amor y esperanza.<br>Participantes:<br><br>dirección: Juan Benito Blanco 962, Montevideo, Uruguay<br>Dirección: Juan Benito Blanco 962, Montevideo, Uruguay<br>Barrio: Pocitos<br>Actividades: 19:30 a 20:30 h | A texto en cuello: micrófono abierto a lecturas. Lectura de cuentos breves seleccionados del concurso realizado en redes sociales, además de poemas y fragmentos de libros y autores que dejaron huella. <br><br>21:00 a 22:00 h | Trabaja para no cerrar. Conversatorio con Germán Di Pierro sobre su libro Efectos especiales, las ideas que impulsan su escritura y el rol del artista en la actualidad. <br><br>22:30 h | Alias Tuk. Un personaje de otro planeta llega a Libros de la Arena Pocitos con canciones y un mensaje de paz, amor y esperanza.<br><br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Juan Benito Blanco 962, Montevideo, Uruguay
+Barrio: Pocitos
+Actividades: 19:30 a 20:30 h | A texto en cuello: micrófono abierto a lecturas. Lectura de cuentos breves seleccionados del concurso realizado en redes sociales, además de poemas y fragmentos de libros y autores que dejaron huella. 
+
+21:00 a 22:00 h | Trabaja para no cerrar. Conversatorio con Germán Di Pierro sobre su libro Efectos especiales, las ideas que impulsan su escritura y el rol del artista en la actualidad. 
+
+22:30 h | Alias Tuk. Un personaje de otro planeta llega a Libros de la Arena Pocitos con canciones y un mensaje de paz, amor y esperanza.
+Participantes:
+</value>
+          </Data>
+          <Data name="dirección">
+            <value>Juan Benito Blanco 962, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Juan Benito Blanco 962, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Pocitos</value>
+          </Data>
+          <Data name="Actividades">
+            <value>19:30 a 20:30 h | A texto en cuello: micrófono abierto a lecturas. Lectura de cuentos breves seleccionados del concurso realizado en redes sociales, además de poemas y fragmentos de libros y autores que dejaron huella. 
+
+21:00 a 22:00 h | Trabaja para no cerrar. Conversatorio con Germán Di Pierro sobre su libro Efectos especiales, las ideas que impulsan su escritura y el rol del artista en la actualidad. 
+
+22:30 h | Alias Tuk. Un personaje de otro planeta llega a Libros de la Arena Pocitos con canciones y un mensaje de paz, amor y esperanza.
+</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Libros del Paso</name>
+        <address>Av. 18 de Julio 1308, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Av. 18 de Julio 1308, Montevideo, Uruguay<br>Barrio: Centro<br>Actividades: 22:00 h | Charla: El libro de terror en Uruguay. Un encuentro para conversar sobre la literatura de terror en el país. 23:00 h | Concurso de disfraces: viernes trece, noche de terror. Participá con tu disfraz y descubrí cuál es el más original.<br>Participantes:<br>dirección: Av. 18 de Julio 1308, Montevideo, Uruguay<br>Dirección: Av. 18 de Julio 1308, Montevideo, Uruguay<br>Barrio: Centro<br>Actividades: 22:00 h | Charla: El libro de terror en Uruguay. Un encuentro para conversar sobre la literatura de terror en el país. <br><br>23:00 h | Concurso de disfraces: viernes trece, noche de terror. Participá con tu disfraz y descubrí cuál es el más original.<br><br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Av. 18 de Julio 1308, Montevideo, Uruguay
+Barrio: Centro
+Actividades: 22:00 h | Charla: El libro de terror en Uruguay. Un encuentro para conversar sobre la literatura de terror en el país. 23:00 h | Concurso de disfraces: viernes trece, noche de terror. Participá con tu disfraz y descubrí cuál es el más original.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Av. 18 de Julio 1308, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Av. 18 de Julio 1308, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Centro</value>
+          </Data>
+          <Data name="Actividades">
+            <value>22:00 h | Charla: El libro de terror en Uruguay. Un encuentro para conversar sobre la literatura de terror en el país. 
+
+23:00 h | Concurso de disfraces: viernes trece, noche de terror. Participá con tu disfraz y descubrí cuál es el más original.
+</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Mercadito Eureka</name>
+        <address>San Salvador 1981, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: San Salvador 1981, Montevideo, Uruguay<br>Barrio: Parque Rodó<br>Actividades: 19:00 h | Presentación de Susurros insistentes ante la crueldad y Atisbo/Abismo. Presentación de las obras de Susurro Resistente (Leticia Pérez de Sierra) y Lilián Toledo. 21:00 h | Presentación de Aparta/mientos, libro de Santiago Ferreira. 22:00 h | Presentación del Tarot de las Videntes, de Lidia Martínez Novoa.<br>Participantes:<br>dirección: San Salvador 1981, Montevideo, Uruguay<br>Dirección: San Salvador 1981, Montevideo, Uruguay<br>Barrio: Parque Rodó<br>Actividades: 19:00 h | Presentación de Susurros insistentes ante la crueldad y Atisbo/Abismo. Presentación de las obras de Susurro Resistente (Leticia Pérez de Sierra) y Lilián Toledo. <br><br>21:00 h | Presentación de Aparta/mientos, libro de Santiago Ferreira. <br><br>22:00 h | Presentación del Tarot de las Videntes, de Lidia Martínez Novoa.<br><br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: San Salvador 1981, Montevideo, Uruguay
+Barrio: Parque Rodó
+Actividades: 19:00 h | Presentación de Susurros insistentes ante la crueldad y Atisbo/Abismo. Presentación de las obras de Susurro Resistente (Leticia Pérez de Sierra) y Lilián Toledo. 21:00 h | Presentación de Aparta/mientos, libro de Santiago Ferreira. 22:00 h | Presentación del Tarot de las Videntes, de Lidia Martínez Novoa.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>San Salvador 1981, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>San Salvador 1981, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Parque Rodó</value>
+          </Data>
+          <Data name="Actividades">
+            <value>19:00 h | Presentación de Susurros insistentes ante la crueldad y Atisbo/Abismo. Presentación de las obras de Susurro Resistente (Leticia Pérez de Sierra) y Lilián Toledo. 
+
+21:00 h | Presentación de Aparta/mientos, libro de Santiago Ferreira. 
+
+22:00 h | Presentación del Tarot de las Videntes, de Lidia Martínez Novoa.
+</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Minerva Libros</name>
+        <address>Dr. Tristán Narvaja 1679, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Dr. Tristán Narvaja 1679, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 20:00 h | Alfonso Lessa presenta su último libro, A cara de perro. 20:45 h | Presentación del coro coordinado por Santiago Wirth, integrado por aproximadamente 20 participantes. 21:30 h | Constelación del Navío: poesía completa de Amanda Berenguer (1952-2010). Presentación a cargo de Luis Bravo y Raquel Diana. 22:30 h | Manuel Pérez Bravo conversa con Sergio Israel sobre su libro ¿Quién se llevó mis vacas?, acerca del caso Conexión Ganadera. 23:30 h | Lanzamiento de la revista literaria Fuga.<br>Participantes:<br>dirección: Dr. Tristán Narvaja 1679, Montevideo, Uruguay<br>Dirección: Dr. Tristán Narvaja 1679, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 20:00 h | Alfonso Lessa presenta su último libro, A cara de perro. <br><br>20:45 h | Presentación del coro coordinado por Santiago Wirth, integrado por aproximadamente 20 participantes.<br><br> 21:30 h | Constelación del Navío: poesía completa de Amanda Berenguer (1952-2010). Presentación a cargo de Luis Bravo y Raquel Diana. <br><br>22:30 h | Manuel Pérez Bravo conversa con Sergio Israel sobre su libro ¿Quién se llevó mis vacas?, acerca del caso Conexión Ganadera. <br><br>23:30 h | Lanzamiento de la revista literaria Fuga.<br><br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Dr. Tristán Narvaja 1679, Montevideo, Uruguay
+Barrio: Cordón
+Actividades: 20:00 h | Alfonso Lessa presenta su último libro, A cara de perro. 20:45 h | Presentación del coro coordinado por Santiago Wirth, integrado por aproximadamente 20 participantes. 21:30 h | Constelación del Navío: poesía completa de Amanda Berenguer (1952-2010). Presentación a cargo de Luis Bravo y Raquel Diana. 22:30 h | Manuel Pérez Bravo conversa con Sergio Israel sobre su libro ¿Quién se llevó mis vacas?, acerca del caso Conexión Ganadera. 23:30 h | Lanzamiento de la revista literaria Fuga.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Dr. Tristán Narvaja 1679, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Dr. Tristán Narvaja 1679, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Cordón</value>
+          </Data>
+          <Data name="Actividades">
+            <value>20:00 h | Alfonso Lessa presenta su último libro, A cara de perro. 
+
+20:45 h | Presentación del coro coordinado por Santiago Wirth, integrado por aproximadamente 20 participantes.
+
+ 21:30 h | Constelación del Navío: poesía completa de Amanda Berenguer (1952-2010). Presentación a cargo de Luis Bravo y Raquel Diana. 
+
+22:30 h | Manuel Pérez Bravo conversa con Sergio Israel sobre su libro ¿Quién se llevó mis vacas?, acerca del caso Conexión Ganadera. 
+
+23:30 h | Lanzamiento de la revista literaria Fuga.
+</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Oruga Libros</name>
+        <address>Constituyente 2022, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Constituyente 2022, Montevideo, Uruguay<br>Barrio: Parque Rodó<br>Actividades: 09:00 a 23:00 h | El libro te elige. Elegí una lectura sorpresa: los libros estarán envueltos y solo podrás conocerlos a través de una breve descripción preparada por el equipo de la librería. 18:00 a 00:00 h | Poesía, rimas y algo más. Presentación de Palabras para jugar, con un taller de rimas y creación de títeres. 18:00 a 21:00 h | Pintacaritas. Maquillaje artístico para las infancias. 19:00 a 00:00 h | ¡Oh, sí! Una historia invertida. Espectáculo interactivo que combina narración oral y teatro, con cuentos, imaginación y juegos. 20:00 a 00:00 h | Animales Bien Contados y Dibujamos Estrafalarias Fieras. Presentación del libro Animales Bien Contados y taller para jugar con palabras e inventar animales fantásticos.<br>Participantes:<br>dirección: Constituyente 2022, Montevideo, Uruguay<br>Dirección: Constituyente 2022, Montevideo, Uruguay<br>Barrio: Parque Rodó<br>Actividades: 09:00 a 23:00 h | El libro te elige. Elegí una lectura sorpresa: los libros estarán envueltos y solo podrás conocerlos a través de una breve descripción preparada por el equipo de la librería. <br><br>18:00 a 00:00 h | Poesía, rimas y algo más. Presentación de Palabras para jugar, con un taller de rimas y creación de títeres. <br><br>18:00 a 21:00 h | Pintacaritas. Maquillaje artístico para las infancias. <br><br>19:00 a 00:00 h | ¡Oh, sí! Una historia invertida. Espectáculo interactivo que combina narración oral y teatro, con cuentos, imaginación y juegos.<br><br> 20:00 a 00:00 h | Animales Bien Contados y Dibujamos Estrafalarias Fieras. Presentación del libro Animales Bien Contados y taller para jugar con palabras e inventar animales fantásticos.<br><br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Constituyente 2022, Montevideo, Uruguay
+Barrio: Parque Rodó
+Actividades: 09:00 a 23:00 h | El libro te elige. Elegí una lectura sorpresa: los libros estarán envueltos y solo podrás conocerlos a través de una breve descripción preparada por el equipo de la librería. 18:00 a 00:00 h | Poesía, rimas y algo más. Presentación de Palabras para jugar, con un taller de rimas y creación de títeres. 18:00 a 21:00 h | Pintacaritas. Maquillaje artístico para las infancias. 19:00 a 00:00 h | ¡Oh, sí! Una historia invertida. Espectáculo interactivo que combina narración oral y teatro, con cuentos, imaginación y juegos. 20:00 a 00:00 h | Animales Bien Contados y Dibujamos Estrafalarias Fieras. Presentación del libro Animales Bien Contados y taller para jugar con palabras e inventar animales fantásticos.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Constituyente 2022, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Constituyente 2022, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Parque Rodó</value>
+          </Data>
+          <Data name="Actividades">
+            <value>09:00 a 23:00 h | El libro te elige. Elegí una lectura sorpresa: los libros estarán envueltos y solo podrás conocerlos a través de una breve descripción preparada por el equipo de la librería. 
+
+18:00 a 00:00 h | Poesía, rimas y algo más. Presentación de Palabras para jugar, con un taller de rimas y creación de títeres. 
+
+18:00 a 21:00 h | Pintacaritas. Maquillaje artístico para las infancias. 
+
+19:00 a 00:00 h | ¡Oh, sí! Una historia invertida. Espectáculo interactivo que combina narración oral y teatro, con cuentos, imaginación y juegos.
+
+ 20:00 a 00:00 h | Animales Bien Contados y Dibujamos Estrafalarias Fieras. Presentación del libro Animales Bien Contados y taller para jugar con palabras e inventar animales fantásticos.
+</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Plaza Café</name>
+        <address>Jackson 885, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Jackson 885, Montevideo, Uruguay<br>Barrio: Parque Rodó<br>Actividades: 15:00 a 23:00 h | Micrófono abierto. Un espacio para compartir lecturas y expresiones artísticas. 19:00 h | Presentación de Nenúfar. Antología poética uruguaya publicada en 2026 por Ediciones Venado Real, que reúne textos de 13 autoras y autores.<br>Participantes:<br>dirección: Jackson 885, Montevideo, Uruguay<br>Dirección: Jackson 885, Montevideo, Uruguay<br>Barrio: Parque Rodó<br>Actividades: 09:00 a 23:00 h | El libro te elige. Cada lector elige un libro envuelto, sin conocer su título ni temática, a partir de una breve descripción preparada por nuestro personal.<br><br>15:00 a 23:00 h | Micrófono abierto.<br><br>19:00 h | Presentación de Nenúfar. Antología poética uruguaya publicada en 2026 por Ediciones Venado Real, que reúne textos de 13 autoras y autores de la escena literaria nacional.<br><br>19:40 h | Presentación de Sofía Aguerre y Camila Silva. Encuentro con las escritoras uruguayas para conocer sus obras y recorridos literarios. Sofía Aguerre explora la fantasía, la ciencia ficción y el misterio. Camila Silva se destaca por su escritura sensible y poética. Entre sus obras se encuentran Entre relojes, Las lunas de marzo, Las noches perdidas, Felicia y los bosques olvidados, Adagio y El año de los girasoles.<br><br>20:30 h | Franco Bitancort, Martina Ramos y Diana García Techera. Encuentro con tres jóvenes escritores que compartirán sus experiencias, obras y procesos creativos. Una conversación sobre las nuevas voces de la literatura uruguaya y los distintos caminos para llegar a los lectores, desde Wattpad y la autopublicación hasta las editoriales tradicionales.<br><br>21:30 h | Celebramos el cómic nacional con los autores de Maldito Canario y La Modernidad Editorial. Encuentro para conversar sobre sus obras, los desafíos de publicar en Uruguay y la escena nacional de la historieta. Participan, por La Modernidad Editorial: Diego Vázquez, Catalina Rodríguez, Gabriel Ameijenda, Lucas Roselli y Carolina Duarte; por Maldito Canario: Olimarvile Lumaga y Sebastián Navas.<br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Jackson 885, Montevideo, Uruguay
+Barrio: Parque Rodó
+Actividades: 15:00 a 23:00 h | Micrófono abierto. Un espacio para compartir lecturas y expresiones artísticas. 19:00 h | Presentación de Nenúfar. Antología poética uruguaya publicada en 2026 por Ediciones Venado Real, que reúne textos de 13 autoras y autores.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Jackson 885, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Jackson 885, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Parque Rodó</value>
+          </Data>
+          <Data name="Actividades">
+            <value>09:00 a 23:00 h | El libro te elige. Cada lector elige un libro envuelto, sin conocer su título ni temática, a partir de una breve descripción preparada por nuestro personal.
+
+15:00 a 23:00 h | Micrófono abierto.
+
+19:00 h | Presentación de Nenúfar. Antología poética uruguaya publicada en 2026 por Ediciones Venado Real, que reúne textos de 13 autoras y autores de la escena literaria nacional.
+
+19:40 h | Presentación de Sofía Aguerre y Camila Silva. Encuentro con las escritoras uruguayas para conocer sus obras y recorridos literarios. Sofía Aguerre explora la fantasía, la ciencia ficción y el misterio. Camila Silva se destaca por su escritura sensible y poética. Entre sus obras se encuentran Entre relojes, Las lunas de marzo, Las noches perdidas, Felicia y los bosques olvidados, Adagio y El año de los girasoles.
+
+20:30 h | Franco Bitancort, Martina Ramos y Diana García Techera. Encuentro con tres jóvenes escritores que compartirán sus experiencias, obras y procesos creativos. Una conversación sobre las nuevas voces de la literatura uruguaya y los distintos caminos para llegar a los lectores, desde Wattpad y la autopublicación hasta las editoriales tradicionales.
+
+21:30 h | Celebramos el cómic nacional con los autores de Maldito Canario y La Modernidad Editorial. Encuentro para conversar sobre sus obras, los desafíos de publicar en Uruguay y la escena nacional de la historieta. Participan, por La Modernidad Editorial: Diego Vázquez, Catalina Rodríguez, Gabriel Ameijenda, Lucas Roselli y Carolina Duarte; por Maldito Canario: Olimarvile Lumaga y Sebastián Navas.</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Pocho Kids</name>
+        <address>Juan Paullier 1546, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Juan Paullier 1546, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 19:00 a 22:00 h | El Taller de Naiat. Actividades recreativas y artísticas para infancias, jóvenes y familias, inspiradas en el cuento El vestido más lindo del mundo, de Mónica Dos Santos y Colectivo Nzinga. 19:40 h | Encuentro con Sofía Aguerre y Camila Silva. Las escritoras comparten sus obras y experiencias en la literatura juvenil uruguaya. 20:30 h | Nuevas voces de la literatura uruguaya. Franco Bitancort, Martina Ramos y Diana García Techera conversan sobre sus obras y recorridos creativos, desde la poesía y la narrativa hasta Wattpad, la autopublicación y la edición tradicional. 21:30 h | Cómic nacional: Maldito Canario y La Modernidad Editorial. Encuentro con sus autores para conversar sobre sus obras, los desafíos de publicar en Uruguay y el presente de la historieta nacional.<br>Participantes:<br>dirección: Juan Paullier 1546, Montevideo, Uruguay<br>Dirección: Juan Paullier 1546, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 19:00 a 22:00 h | El Taller de Naiat. Actividades recreativas y artísticas para infancias, jóvenes y familias, inspiradas en el cuento El vestido más lindo del mundo, de Mónica Dos Santos y Colectivo Nzinga. <br><br>19:40 h | Encuentro con Sofía Aguerre y Camila Silva. Las escritoras comparten sus obras y experiencias en la literatura juvenil uruguaya. <br><br>20:30 h | Nuevas voces de la literatura uruguaya. Franco Bitancort, Martina Ramos y Diana García Techera conversan sobre sus obras y recorridos creativos, desde la poesía y la narrativa hasta Wattpad, la autopublicación y la edición tradicional. <br><br>21:30 h | Cómic nacional: Maldito Canario y La Modernidad Editorial. Encuentro con sus autores para conversar sobre sus obras, los desafíos de publicar en Uruguay y el presente de la historieta nacional.<br><br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Juan Paullier 1546, Montevideo, Uruguay
+Barrio: Cordón
+Actividades: 19:00 a 22:00 h | El Taller de Naiat. Actividades recreativas y artísticas para infancias, jóvenes y familias, inspiradas en el cuento El vestido más lindo del mundo, de Mónica Dos Santos y Colectivo Nzinga. 19:40 h | Encuentro con Sofía Aguerre y Camila Silva. Las escritoras comparten sus obras y experiencias en la literatura juvenil uruguaya. 20:30 h | Nuevas voces de la literatura uruguaya. Franco Bitancort, Martina Ramos y Diana García Techera conversan sobre sus obras y recorridos creativos, desde la poesía y la narrativa hasta Wattpad, la autopublicación y la edición tradicional. 21:30 h | Cómic nacional: Maldito Canario y La Modernidad Editorial. Encuentro con sus autores para conversar sobre sus obras, los desafíos de publicar en Uruguay y el presente de la historieta nacional.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Juan Paullier 1546, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Juan Paullier 1546, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Cordón</value>
+          </Data>
+          <Data name="Actividades">
+            <value>19:00 a 22:00 h | El Taller de Naiat. Actividades recreativas y artísticas para infancias, jóvenes y familias, inspiradas en el cuento El vestido más lindo del mundo, de Mónica Dos Santos y Colectivo Nzinga. 
+
+19:40 h | Encuentro con Sofía Aguerre y Camila Silva. Las escritoras comparten sus obras y experiencias en la literatura juvenil uruguaya. 
+
+20:30 h | Nuevas voces de la literatura uruguaya. Franco Bitancort, Martina Ramos y Diana García Techera conversan sobre sus obras y recorridos creativos, desde la poesía y la narrativa hasta Wattpad, la autopublicación y la edición tradicional. 
+
+21:30 h | Cómic nacional: Maldito Canario y La Modernidad Editorial. Encuentro con sus autores para conversar sobre sus obras, los desafíos de publicar en Uruguay y el presente de la historieta nacional.
+</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Puro Verso</name>
+        <address>Av. 18 de Julio 1199, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Av. 18 de Julio 1199, Montevideo, Uruguay<br>Barrio: Centro<br>Actividades: 20:00 a 20:45 h | Dolor de rambla, de Pedro Dalton. El músico y escritor presenta su nuevo poemario, publicado por Estuario, en conversación con Mateo Piaggio. 20:45 a 21:30 h | Contra el antisemitismo y sus instrumentalizaciones. Lucía Erlich, Victoria de Mello y Alejandro Joysz conversan sobre voces judías, no judías y judeo-palestinas frente a los discursos y pactos de poder. 21:30 h | Premio de los Libreros de Puro Verso. Diálogo con quien recibió el primer premio a la Mejor Novela Nacional 2026. 22:15 h | Anna Paola Rossi: regreso de Sanar desde el alma. Charla abierta sobre su libro y los registros akáshicos. 23:00 h | Cantate una. Autores del libro conversan sobre el cancionero murguista, con interpretación de sus letras.<br>Participantes:<br>dirección: Av. 18 de Julio 1199, Montevideo, Uruguay<br>Dirección: Av. 18 de Julio 1199, Montevideo, Uruguay<br>Barrio: Centro<br>Actividades: 19:00 a 22:00 h | El Taller de Naiat. Actividades recreativas y artísticas para infancias, jóvenes y toda la familia, en torno al cuento El vestido más lindo del mundo, de Mónica Dos Santos y Colectivo Nzinga.<br><br>20:00 a 20:45 h | Dolor de rambla (Estuario), de Pedro Dalton. Presentación de su nuevo poemario en una charla con el escritor Mateo Piaggio.<br><br>20:45 a 21:30 h | Contra el antisemitismo y sus instrumentalizaciones (Mentirosa Editora). Charla junto a Lucía Erlich, Victoria de Mello y Alejandro Joysz sobre las voces judías, no judías y judeo-palestinas y el funcionamiento de los pactos radicales diseñados por los poderes imperiales.<br><br>21:30 h | Diálogo con el ganador del Premio de los Libreros de Puro Verso. Conversación con el ganador del primer Premio de los Libreros de Puro Verso a la Mejor Novela Nacional 2026.<br><br>22:15 h | Anna Paola Rossi: regreso de Sanar desde el alma. Charla abierta sobre el regreso de su libro, publicado por Grijalbo, y cómo sanar a través de los registros akáshicos.<br><br>23:00 h | Cantate una. Autores del libro publicado por Acercándonos Ediciones conversan sobre el cancionero murguista, con interpretación de letras.<br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Av. 18 de Julio 1199, Montevideo, Uruguay
+Barrio: Centro
+Actividades: 20:00 a 20:45 h | Dolor de rambla, de Pedro Dalton. El músico y escritor presenta su nuevo poemario, publicado por Estuario, en conversación con Mateo Piaggio. 20:45 a 21:30 h | Contra el antisemitismo y sus instrumentalizaciones. Lucía Erlich, Victoria de Mello y Alejandro Joysz conversan sobre voces judías, no judías y judeo-palestinas frente a los discursos y pactos de poder. 21:30 h | Premio de los Libreros de Puro Verso. Diálogo con quien recibió el primer premio a la Mejor Novela Nacional 2026. 22:15 h | Anna Paola Rossi: regreso de Sanar desde el alma. Charla abierta sobre su libro y los registros akáshicos. 23:00 h | Cantate una. Autores del libro conversan sobre el cancionero murguista, con interpretación de sus letras.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Av. 18 de Julio 1199, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Av. 18 de Julio 1199, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Centro</value>
+          </Data>
+          <Data name="Actividades">
+            <value>19:00 a 22:00 h | El Taller de Naiat. Actividades recreativas y artísticas para infancias, jóvenes y toda la familia, en torno al cuento El vestido más lindo del mundo, de Mónica Dos Santos y Colectivo Nzinga.
+
+20:00 a 20:45 h | Dolor de rambla (Estuario), de Pedro Dalton. Presentación de su nuevo poemario en una charla con el escritor Mateo Piaggio.
+
+20:45 a 21:30 h | Contra el antisemitismo y sus instrumentalizaciones (Mentirosa Editora). Charla junto a Lucía Erlich, Victoria de Mello y Alejandro Joysz sobre las voces judías, no judías y judeo-palestinas y el funcionamiento de los pactos radicales diseñados por los poderes imperiales.
+
+21:30 h | Diálogo con el ganador del Premio de los Libreros de Puro Verso. Conversación con el ganador del primer Premio de los Libreros de Puro Verso a la Mejor Novela Nacional 2026.
+
+22:15 h | Anna Paola Rossi: regreso de Sanar desde el alma. Charla abierta sobre el regreso de su libro, publicado por Grijalbo, y cómo sanar a través de los registros akáshicos.
+
+23:00 h | Cantate una. Autores del libro publicado por Acercándonos Ediciones conversan sobre el cancionero murguista, con interpretación de letras.</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Ronda Espacio Creativo</name>
+        <address>Bulevar España 2141, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Bulevar España 2141, Montevideo, Uruguay<br>Barrio: Parque Rodó<br>Actividades: 19:30 h | Taller de poesía. Una invitación a descubrir y compartir la poesía en un encuentro abierto en el café. 21:30 h | Escucha de vinilos. Selección musical en vinilo para acompañar el cierre de la jornada.<br>Participantes:<br>dirección: Bulevar España 2141, Montevideo, Uruguay<br>Dirección: Bulevar España 2141, Montevideo, Uruguay<br>Barrio: Parque Rodó<br>Actividades: 19:30 h | Taller de poesía. Una invitación a descubrir y compartir la poesía en un encuentro abierto en el café. <br><br>21:30 h | Escucha de vinilos. Selección musical en vinilo para acompañar el cierre de la jornada.<br><br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Bulevar España 2141, Montevideo, Uruguay
+Barrio: Parque Rodó
+Actividades: 19:30 h | Taller de poesía. Una invitación a descubrir y compartir la poesía en un encuentro abierto en el café. 21:30 h | Escucha de vinilos. Selección musical en vinilo para acompañar el cierre de la jornada.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Bulevar España 2141, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Bulevar España 2141, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Parque Rodó</value>
+          </Data>
+          <Data name="Actividades">
+            <value>19:30 h | Taller de poesía. Una invitación a descubrir y compartir la poesía en un encuentro abierto en el café. 
+
+21:30 h | Escucha de vinilos. Selección musical en vinilo para acompañar el cierre de la jornada.
+</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Librería Vila</name>
+        <address>Dr. Tristán Narvaja 1642, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Dr. Tristán Narvaja 1642, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 23:00 a 01:00 h | DJ en conjunto con Librería Areté. Música en vivo para acompañar el cierre de la noche.<br>Participantes:<br>dirección: Dr. Tristán Narvaja 1642, Montevideo, Uruguay<br>Dirección: Dr. Tristán Narvaja 1642, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 23:00 a 01:00 h | DJ en conjunto con Librería Areté. Música en vivo para acompañar el cierre de la noche.<br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Dr. Tristán Narvaja 1642, Montevideo, Uruguay
+Barrio: Cordón
+Actividades: 23:00 a 01:00 h | DJ en conjunto con Librería Areté. Música en vivo para acompañar el cierre de la noche.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Dr. Tristán Narvaja 1642, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Dr. Tristán Narvaja 1642, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Cordón</value>
+          </Data>
+          <Data name="Actividades">
+            <value>23:00 a 01:00 h | DJ en conjunto con Librería Areté. Música en vivo para acompañar el cierre de la noche.</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Pocitos Libros</name>
+        <address>Av. Brasil 2561, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Av. Brasil 2561, Montevideo, Uruguay<br>Barrio: Pocitos<br>Actividades: 19:30 h | Homenaje a Julio Sosa en el centenario de su nacimiento. Conversación sobre el libro El tango de mi barrio. 20:00 h | Bandoneón y versos. 20:30 h | Presentación de Julio Sosa pa’ que sepan cómo soy. 21:00 h | Presentación de Tanguitarra, con actuación musical en vivo. 21:30 h | Baile de tangos en la vereda. <br>Participantes:<br>dirección: Av. Brasil 2561, Montevideo, Uruguay<br>Dirección: Av. Brasil 2561, Montevideo, Uruguay<br>Barrio: Pocitos<br>Actividades: 19:30 h | Homenaje a Julio Sosa en el centenario de su nacimiento. Conversación sobre el libro El tango de mi barrio. <br><br>20:00 h | Bandoneón y versos. 20:30 h | Presentación de Julio Sosa pa’ que sepan cómo soy. <br><br>21:00 h | Presentación de Tanguitarra, con actuación musical en vivo. <br><br>21:30 h | Baile de tangos en la vereda.<br><br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Av. Brasil 2561, Montevideo, Uruguay
+Barrio: Pocitos
+Actividades: 19:30 h | Homenaje a Julio Sosa en el centenario de su nacimiento. Conversación sobre el libro El tango de mi barrio. 20:00 h | Bandoneón y versos. 20:30 h | Presentación de Julio Sosa pa’ que sepan cómo soy. 21:00 h | Presentación de Tanguitarra, con actuación musical en vivo. 21:30 h | Baile de tangos en la vereda. 
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Av. Brasil 2561, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Av. Brasil 2561, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Pocitos</value>
+          </Data>
+          <Data name="Actividades">
+            <value>19:30 h | Homenaje a Julio Sosa en el centenario de su nacimiento. Conversación sobre el libro El tango de mi barrio. 
+
+20:00 h | Bandoneón y versos. 20:30 h | Presentación de Julio Sosa pa’ que sepan cómo soy. 
+
+21:00 h | Presentación de Tanguitarra, con actuación musical en vivo. 
+
+21:30 h | Baile de tangos en la vereda.
+</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Feltrinelli</name>
+        <address>Sarandí 675, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Sarandí 675, Montevideo, Uruguay<br>Barrio: Ciudad Vieja<br>Actividades: 19:30 h | Un hombre entre paréntesis: retrato de Mario Levrero. El escritor argentino Mauro Libertella conversa con el periodista uruguayo Nicolás Tábarez sobre su libro dedicado a la vida y obra de Mario Levrero. 20:20 h | Soy tu groupie. Patricia Turnes, Naoko y Kristel Latecki conversan sobre rock, música y las historias que nacen entre artistas y seguidores. 21:10 h | Ino Guridi: show performático. Intervención en vivo que combina distintos lenguajes artísticos. 22:00 h | El Indio Solari y Oktubre: literatura, rock y revolución. Carolina Bello y Gustavo Rey conversan sobre el libro de Bello y el universo de Patricio Rey y sus Redonditos de Ricota. 23:10 h | Spuntone & Mendaro en vivo. Presentación musical para cerrar la noche.<br>Participantes:<br>dirección: Sarandí 675, Montevideo, Uruguay<br>Dirección: Sarandí 675, Montevideo, Uruguay<br>Barrio: Ciudad Vieja<br>Actividades: 19:30 h | Un hombre entre paréntesis: retrato de Mario Levrero. El escritor argentino Mauro Libertella conversa con el periodista uruguayo Nicolás Tábarez sobre su libro dedicado a la vida y obra de Mario Levrero. <br><br>20:20 h | Soy tu groupie. Patricia Turnes, Naoko y Kristel Latecki conversan sobre rock, música y las historias que nacen entre artistas y seguidores. <br><br>21:10 h | Ino Guridi: show performático. Intervención en vivo que combina distintos lenguajes artísticos. <br><br>22:00 h | El Indio Solari y Oktubre: literatura, rock y revolución<br>La escritora Carolina Bello y el periodista Gustavo Rey conversan sobre el Indio Solari y Oktubre, el libro de Bello inspirado en el universo de los Redondos. Una charla abierta sobre música, literatura y el imaginario de una de las figuras más emblemáticas del rock rioplatense.<br><br>23:10 h | Spuntone & Mendaro en vivo. Presentación musical para cerrar la noche.<br><br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value><![CDATA[Dirección: Sarandí 675, Montevideo, Uruguay
+Barrio: Ciudad Vieja
+Actividades: 19:30 h | Un hombre entre paréntesis: retrato de Mario Levrero. El escritor argentino Mauro Libertella conversa con el periodista uruguayo Nicolás Tábarez sobre su libro dedicado a la vida y obra de Mario Levrero. 20:20 h | Soy tu groupie. Patricia Turnes, Naoko y Kristel Latecki conversan sobre rock, música y las historias que nacen entre artistas y seguidores. 21:10 h | Ino Guridi: show performático. Intervención en vivo que combina distintos lenguajes artísticos. 22:00 h | El Indio Solari y Oktubre: literatura, rock y revolución. Carolina Bello y Gustavo Rey conversan sobre el libro de Bello y el universo de Patricio Rey y sus Redonditos de Ricota. 23:10 h | Spuntone & Mendaro en vivo. Presentación musical para cerrar la noche.
+Participantes:]]></value>
+          </Data>
+          <Data name="dirección">
+            <value>Sarandí 675, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Sarandí 675, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Ciudad Vieja</value>
+          </Data>
+          <Data name="Actividades">
+            <value><![CDATA[19:30 h | Un hombre entre paréntesis: retrato de Mario Levrero. El escritor argentino Mauro Libertella conversa con el periodista uruguayo Nicolás Tábarez sobre su libro dedicado a la vida y obra de Mario Levrero. 
+
+20:20 h | Soy tu groupie. Patricia Turnes, Naoko y Kristel Latecki conversan sobre rock, música y las historias que nacen entre artistas y seguidores. 
+
+21:10 h | Ino Guridi: show performático. Intervención en vivo que combina distintos lenguajes artísticos. 
+
+22:00 h | El Indio Solari y Oktubre: literatura, rock y revolución
+La escritora Carolina Bello y el periodista Gustavo Rey conversan sobre el Indio Solari y Oktubre, el libro de Bello inspirado en el universo de los Redondos. Una charla abierta sobre música, literatura y el imaginario de una de las figuras más emblemáticas del rock rioplatense.
+
+23:10 h | Spuntone & Mendaro en vivo. Presentación musical para cerrar la noche.
+]]></value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>La Lupa Libros</name>
+        <description><![CDATA[descripción: <br>dirección: <br>Dirección: Peatonal Bacacay 1318 bis, Montevideo, Uruguay<br>Barrio: Ciudad Vieja<br>Actividades: 19:30 h | Shanghai sonoro. Gabriel Peveroni y Sebastián Auyanet conversan sobre los paisajes musicales de Los desiertos se conectan entre sí y otras novelas del autor.<br><br>20:15 h | Urbanofilia, de El Gato y La Caja. Presentación del libro argentino sobre cómo transformar las ciudades y recuperar los espacios colectivos.<br><br>21:15 h | Un rayo cualquiera: historias sin héroe para reparar el desastre<br>Natalia Ortiz Maldonado (autora del libro y editora de Hekht) conversa con Lucía Naser (artista, docente, investigadora, militante) y Elisa Carricajo (actriz, dramaturga, autora y directora teatral).<br><br>22:15 h | Utopías feministas para una economía en crisis<br>Verónica Diz (editora de Madreselva) conversa con Daniela Osorio-Cabrera (Núcleo Economía Solidaria y Feminismos) y Mariana García Grisoni (Espacio de Economía Feminista de Uruguay).<br><br>23:00 h | Malditos planetas. Presentación musical para abrir la noche de rock.<br><br>23:45 h | ¡Habrá que construir otro modo de vivir! Cierre musical con La Tabaré en vivo.<br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value/>
+          </Data>
+          <Data name="dirección">
+            <value/>
+          </Data>
+          <Data name="Dirección">
+            <value>Peatonal Bacacay 1318 bis, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Ciudad Vieja</value>
+          </Data>
+          <Data name="Actividades">
+            <value>19:30 h | Shanghai sonoro. Gabriel Peveroni y Sebastián Auyanet conversan sobre los paisajes musicales de Los desiertos se conectan entre sí y otras novelas del autor.
+
+20:15 h | Urbanofilia, de El Gato y La Caja. Presentación del libro argentino sobre cómo transformar las ciudades y recuperar los espacios colectivos.
+
+21:15 h | Un rayo cualquiera: historias sin héroe para reparar el desastre
+Natalia Ortiz Maldonado (autora del libro y editora de Hekht) conversa con Lucía Naser (artista, docente, investigadora, militante) y Elisa Carricajo (actriz, dramaturga, autora y directora teatral).
+
+22:15 h | Utopías feministas para una economía en crisis
+Verónica Diz (editora de Madreselva) conversa con Daniela Osorio-Cabrera (Núcleo Economía Solidaria y Feminismos) y Mariana García Grisoni (Espacio de Economía Feminista de Uruguay).
+
+23:00 h | Malditos planetas. Presentación musical para abrir la noche de rock.
+
+23:45 h | ¡Habrá que construir otro modo de vivir! Cierre musical con La Tabaré en vivo.</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -56.2013156,-34.9070447,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Librería Montevideo </name>
+        <address>Tristán Narvaja 1536</address>
+        <description><![CDATA[descripción: <br>dirección: Tristán Narvaja 1536<br>Dirección: Tristán Narvaja 1536<br>Barrio: Cordón<br>Actividades: 20:15 h | Mesa sobre Tabaré Etcheverry, cantor y faro de nuestro canto popular. El escritor e investigador Juan Carlos Albarado departirá con el público presente sobre el derrotero de esa presencia insoslayable de nuestro folclore musical y presentará la nueva edición del libro «Tabaré Etcheverry. Vida y obra de un intérprete popular».<br><br>21:00 h |  Mesa: Nuestras cárceles, nuestros presos y nuestras políticas. Conversación sobre lo que se está haciendo y lo que falta hacer con nuestras cárceles, la educación y la reinserción de las personas privadas de libertad.<br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value/>
+          </Data>
+          <Data name="dirección">
+            <value>Tristán Narvaja 1536</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Tristán Narvaja 1536</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Cordón</value>
+          </Data>
+          <Data name="Actividades">
+            <value>20:15 h | Mesa sobre Tabaré Etcheverry, cantor y faro de nuestro canto popular. El escritor e investigador Juan Carlos Albarado departirá con el público presente sobre el derrotero de esa presencia insoslayable de nuestro folclore musical y presentará la nueva edición del libro «Tabaré Etcheverry. Vida y obra de un intérprete popular».
+
+21:00 h |  Mesa: Nuestras cárceles, nuestros presos y nuestras políticas. Conversación sobre lo que se está haciendo y lo que falta hacer con nuestras cárceles, la educación y la reinserción de las personas privadas de libertad.</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Biblioteca Popular El Cántaro Fresco</name>
+        <address>Altamirano esquina Luis Alberto de Herrera</address>
+        <description><![CDATA[descripción: <br>dirección: Altamirano esquina Luis Alberto de Herrera<br>Dirección: Altamirano esquina Luis Alberto de Herrera<br>Barrio: Buceo<br>Actividades: 19:30 h | Búsqueda del tesoro dedicada a niños y niñas<br>20:00 h | Partida de Club de detectives<br>20:30 h | Trueque de libros y secretos<br>19:00 a 22:00 h | Cadáver exquisito <br>19:00 a 22:00 h | Oráculo de la biblio<br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value/>
+          </Data>
+          <Data name="dirección">
+            <value>Altamirano esquina Luis Alberto de Herrera</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Altamirano esquina Luis Alberto de Herrera</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Buceo</value>
+          </Data>
+          <Data name="Actividades">
+            <value>19:30 h | Búsqueda del tesoro dedicada a niños y niñas
+20:00 h | Partida de Club de detectives
+20:30 h | Trueque de libros y secretos
+19:00 a 22:00 h | Cadáver exquisito 
+19:00 a 22:00 h | Oráculo de la biblio</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Centro de Fotografía de Montevideo</name>
+        <address>Av. 18 de Julio 885</address>
+        <description><![CDATA[descripción: <br>dirección: Av. 18 de Julio 885<br>Dirección: Av. 18 de Julio 885<br>Barrio: Centro<br>Actividades: 19:30 a 21:30 h  | Activación fanzinera: Desarmá y armá tu publicación. Confección de fanzines a partir de historias ya publicadas; libre participación hasta completar aforo.<br><br>Hasta 23:30	CdF se suma a la Noche de las Librerías. Acceso a la azotea verde y al balcón fotográfico; proyecciones; mesa especial de CdF Ediciones; mediateca y libros fotográficos; taller de fanzines; exposiciones fotográficas. Público general. El espacio no cuenta con accesibilidad universal.<br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value/>
+          </Data>
+          <Data name="dirección">
+            <value>Av. 18 de Julio 885</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Av. 18 de Julio 885</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Centro</value>
+          </Data>
+          <Data name="Actividades">
+            <value>19:30 a 21:30 h  | Activación fanzinera: Desarmá y armá tu publicación. Confección de fanzines a partir de historias ya publicadas; libre participación hasta completar aforo.
+
+Hasta 23:30	CdF se suma a la Noche de las Librerías. Acceso a la azotea verde y al balcón fotográfico; proyecciones; mesa especial de CdF Ediciones; mediateca y libros fotográficos; taller de fanzines; exposiciones fotográficas. Público general. El espacio no cuenta con accesibilidad universal.</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Librería Linardi y Risso</name>
+        <address>Juan Carlos Gómez 1435</address>
+        <description><![CDATA[descripción: <br>dirección: Juan Carlos Gómez 1435<br>Dirección: Juan Carlos Gómez 1435<br>Barrio: Ciudad Vieja<br>Actividades: Durante toda la noche está la exposición de primeras ediciones y otras publicaciones raras de Joaquín Torres García<br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value/>
+          </Data>
+          <Data name="dirección">
+            <value>Juan Carlos Gómez 1435</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Juan Carlos Gómez 1435</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Ciudad Vieja</value>
+          </Data>
+          <Data name="Actividades">
+            <value>Durante toda la noche está la exposición de primeras ediciones y otras publicaciones raras de Joaquín Torres García</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Librería Trazo</name>
+        <description><![CDATA[descripción: <br>dirección: <br>Dirección: Bv. Gral. Artigas 1031<br>Barrio: Parque Rodó<br>Actividades: La propuesta reúne actividades varias en diferentes espacios de la sede central de FADU: presentación de publicaciones, exposiciones, feria de libros y emprendedores e intervenciones artísticas/musicales.<br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value/>
+          </Data>
+          <Data name="dirección">
+            <value/>
+          </Data>
+          <Data name="Dirección">
+            <value>Bv. Gral. Artigas 1031</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Parque Rodó</value>
+          </Data>
+          <Data name="Actividades">
+            <value>La propuesta reúne actividades varias en diferentes espacios de la sede central de FADU: presentación de publicaciones, exposiciones, feria de libros y emprendedores e intervenciones artísticas/musicales.</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -56.1637003,-34.909655,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Librería Pocho</name>
+        <address>Av. 18 de Julio 2198, Montevideo, Uruguay</address>
+        <description><![CDATA[descripción: Dirección: Av. 18 de Julio 2198, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 19:00 a 00:00 h | Noche de las Librerías en FADU. La Facultad de Arquitectura, Diseño y Urbanismo reúne actividades en distintos espacios de su sede central: presentaciones de publicaciones, exposiciones, feria de libros y emprendimientos e intervenciones artísticas y musicales.<br>Participantes:<br>dirección: Av. 18 de Julio 2198, Montevideo, Uruguay<br>Dirección: Av. 18 de Julio 2198, Montevideo, Uruguay<br>Barrio: Cordón<br>Actividades: 20:00 a 23:30 h | Encuentro con escritores de Editorial Moa Demkroff Ana María Rappanello con su ensayo, Creer para crear. Cómo conectar con el mundo creativo - Mauricio Zieleniec, con su ensayo filosófico, ¿Qué me estás diciendo? (La evolución humana y las religiones) - Olga Armand Ugon y Martín Olivera (dos artistas plásticos) conversaremos sobre el libro Proyecto Arte y el arte contemporáneo. - Edison Aguiar y su libro de cuentos, Volver al Polonio. - Cecilia Charquero con su ensayo sobre la educación en Uruguay. - Giselle Petrides con su poemario, Poemas amanecidos, una obra que nos lleva a reflexionar sobre las ausencias y las pérdidas forzosas. Coordina y articula Daniel Corch<br><br>19:00 a 00:00 h | Noche de las Librerías | FADU La propuesta reúne actividades varias en diferentes espacios de la sede central de FADU: presentación de publicaciones, exposiciones, feria de libros y emprendedores e intervenciones artísticas/musicales.<br><br>Participantes: ]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>Dirección: Av. 18 de Julio 2198, Montevideo, Uruguay
+Barrio: Cordón
+Actividades: 19:00 a 00:00 h | Noche de las Librerías en FADU. La Facultad de Arquitectura, Diseño y Urbanismo reúne actividades en distintos espacios de su sede central: presentaciones de publicaciones, exposiciones, feria de libros y emprendimientos e intervenciones artísticas y musicales.
+Participantes:</value>
+          </Data>
+          <Data name="dirección">
+            <value>Av. 18 de Julio 2198, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Dirección">
+            <value>Av. 18 de Julio 2198, Montevideo, Uruguay</value>
+          </Data>
+          <Data name="Barrio">
+            <value>Cordón</value>
+          </Data>
+          <Data name="Actividades">
+            <value>20:00 a 23:30 h | Encuentro con escritores de Editorial Moa Demkroff Ana María Rappanello con su ensayo, Creer para crear. Cómo conectar con el mundo creativo - Mauricio Zieleniec, con su ensayo filosófico, ¿Qué me estás diciendo? (La evolución humana y las religiones) - Olga Armand Ugon y Martín Olivera (dos artistas plásticos) conversaremos sobre el libro Proyecto Arte y el arte contemporáneo. - Edison Aguiar y su libro de cuentos, Volver al Polonio. - Cecilia Charquero con su ensayo sobre la educación en Uruguay. - Giselle Petrides con su poemario, Poemas amanecidos, una obra que nos lleva a reflexionar sobre las ausencias y las pérdidas forzosas. Coordina y articula Daniel Corch
+
+19:00 a 00:00 h | Noche de las Librerías | FADU La propuesta reúne actividades varias en diferentes espacios de la sede central de FADU: presentación de publicaciones, exposiciones, feria de libros y emprendedores e intervenciones artísticas/musicales.
+</value>
+          </Data>
+          <Data name="Participantes">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

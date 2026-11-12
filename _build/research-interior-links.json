@@ -1,0 +1,1000 @@
+{
+ "places": {
+  "Librería Quimera": {
+   "city": "Artigas",
+   "links": [
+    {
+     "label": "Instagram",
+     "url": "https://www.instagram.com/librosquimera/"
+    }
+   ],
+   "evidence": "@librosquimera en guía MEC 2025, nota de El País y ficha con Herrera 262."
+  },
+  "Librería Martín Fierro": {
+   "city": "Atlántida",
+   "links": [
+    {
+     "label": "Instagram",
+     "url": "https://www.instagram.com/libreriamartinfierro/"
+    },
+    {
+     "label": "Facebook",
+     "url": "https://www.facebook.com/libreria.martinfierro"
+    }
+   ],
+   "evidence": "IG handle publicado por el MEC en la programación oficial 2025; FB citado en ficha de Calle 1 y Ciudad de Montevideo."
+  },
+  "Ganesha Libros": {
+   "city": "Canelones",
+   "links": [
+    {
+     "label": "Instagram",
+     "url": "https://www.instagram.com/ganeshalibroscanelones/"
+    }
+   ],
+   "evidence": "IG handle publicado por el MEC en la programación oficial 2025. Web ganeshalibros.com.uy existe (Treinta y Tres 641) pero respondió 503/timeout al verificar: descartada."
+  },
+  "Libros De la Arena": {
+   "city": "El Pinar (Ciudad de la Costa)",
+   "links": [
+    {
+     "label": "Sitio web",
+     "url": "https://www.librosdelaarena.com/"
+    },
+    {
+     "label": "Instagram",
+     "url": "https://www.instagram.com/librosdelaarenauy/"
+    }
+   ],
+   "evidence": "Web propia lista el local El Pinar (Costanera esq. Pérez Butler), responde 200; IG handle publicado por el MEC en la programación oficial 2025 (cuenta de la cadena)."
+  },
+  "Mirlo": {
+   "city": "Jaureguiberry",
+   "links": [],
+   "evidence": "No se encontró presencia web de 'Mirlo' en Jaureguiberry; existe una Librería Mirlo en Las Piedras (otra ciudad), descartada."
+  },
+  "El Altillo": {
+   "city": "Lagomar (Ciudad de la Costa)",
+   "links": [
+    {
+     "label": "Instagram",
+     "url": "https://www.instagram.com/libreriaelaltillo/"
+    }
+   ],
+   "evidence": "IG handle publicado por el MEC en la programación oficial 2025 (El Altillo, Av. Giannattasio, Lagomar)."
+  },
+  "Salvando Libros": {
+   "city": "Las Piedras",
+   "links": [
+    {
+     "label": "Instagram",
+     "url": "https://www.instagram.com/salvando.libros/"
+    }
+   ],
+   "evidence": "IG handle publicado por el MEC en la programación oficial 2025 (Baltasar Brum 703)."
+  },
+  "Tienda Canica": {
+   "city": "Las Piedras",
+   "links": [
+    {
+     "label": "Instagram",
+     "url": "https://www.instagram.com/tiendacanica.uy/"
+    }
+   ],
+   "evidence": "IG handle publicado por el MEC en la programación oficial 2025. Web tiendacanica.uy respondió HTTP 500 al verificar: descartada."
+  },
+  "OfiPando": {
+   "city": "Pando",
+   "links": [
+    {
+     "label": "Instagram",
+     "url": "https://www.instagram.com/ofipandopapeleria/"
+    }
+   ],
+   "evidence": "IG handle publicado por el MEC en la programación oficial 2025."
+  },
+  "La Madriguera libros": {
+   "city": "Santa Lucía",
+   "links": [
+    {
+     "label": "Instagram",
+     "url": "https://www.instagram.com/lamadrigueralibros/"
+    }
+   ],
+   "evidence": "IG handle publicado por el MEC en la programación oficial 2025 (Rivera 480)."
+  },
+  "PALAM": {
+   "city": "Melo",
+   "links": [
+    {
+     "label": "Instagram",
+     "url": "https://www.instagram.com/palam.uy/"
+    }
+   ],
+   "evidence": "IG handle publicado por el MEC en la programación oficial 2025 (Muniz 808)."
+  },
+  "Ría Libre": {
+   "city": "Carmelo",
+   "links": [],
+   "evidence": "Librería existe (Uruguay 384, Alejandro Bombaci) pero no se halló web ni red social verificable."
+  },
+  "Río de Libros": {
+   "city": "Colonia del Sacramento",
+   "links": [],
+   "evidence": "Sin presencia web verificable. riolibros.com es una librería virtual distinta (sin vínculo con Colonia): descartada."
+  },
+  "Noctiluca kombi librería": {
+   "city": "Durazno (itinerante)",
+   "links": [
+    {
+     "label": "Sitio web",
+     "url": "https://noctiluca.uy/"
+    },
+    {
+     "label": "Instagram",
+     "url": "https://www.instagram.com/noctilucalibros/"
+    }
+   ],
+   "evidence": "Web propia responde 200; IG @noctilucalibros citado por El País. Ojo: la kombi tuvo rotura de motor y abrieron local en Montevideo (abr 2026)."
+  },
+  "Casa Muñiz": {
+   "city": "Trinidad",
+   "links": [
+    {
+     "label": "Instagram",
+     "url": "https://www.instagram.com/libreriamuniz/"
+    }
+   ],
+   "evidence": "IG handle publicado por el MEC en la programación oficial 2025 (Alfredo J. Puig 749)."
+  },
+  "Florida Tienda de Libros": {
+   "city": "Florida",
+   "links": [
+    {
+     "label": "Facebook",
+     "url": "https://www.facebook.com/495286541206593"
+    }
+   ],
+   "evidence": "Página de Facebook vinculada a la ficha de Independencia 608, Florida. No se halló web propia ni IG."
+  },
+  "RoMaCa Libros": {
+   "city": "Minas",
+   "links": [],
+   "evidence": "Librería confirmada (Av. Artigas 1153 bis; Roberto Bonilla). Tiene FB/IG 'Romaca Libros' según guías, pero no se obtuvo URL verificable."
+  },
+  "Cuéntame un Cuento": {
+   "city": "Las Flores",
+   "links": [
+    {
+     "label": "Instagram",
+     "url": "https://www.instagram.com/c.u.e.n.t.a.m.e_un_c.u.e.n.t.o/"
+    }
+   ],
+   "evidence": "IG handle publicado por el MEC en la programación oficial 2025 (Calle 5 y Ruta 71)."
+  },
+  "IRAKURRI libros": {
+   "city": "Maldonado (Madreselva y Ruta 10)",
+   "links": [],
+   "evidence": "Solo aparece en la cobertura 2026 (Maldonado Noticias); sin web ni redes verificables."
+  },
+  "La letra Libros": {
+   "city": "Piriápolis",
+   "links": [
+    {
+     "label": "Instagram",
+     "url": "https://www.instagram.com/laletralibros/"
+    }
+   ],
+   "evidence": "IG handle publicado por el MEC en la programación oficial 2025 (Celedonio Rojas 1018)."
+  },
+  "El Virrey Punta del Este": {
+   "city": "Punta del Este",
+   "links": [
+    {
+     "label": "Sitio web",
+     "url": "https://www.libreriaelvirrey.com.uy/"
+    },
+    {
+     "label": "Instagram",
+     "url": "https://www.instagram.com/libreriaelvirreypuntadeleste/"
+    }
+   ],
+   "evidence": "Web de la cadena El Virrey (responde 200; sucursal Calle 30 y Gorlero); IG handle publicado por el MEC en la programación oficial 2025."
+  },
+  "Librería Wonder Works": {
+   "city": "Punta del Este",
+   "links": [
+    {
+     "label": "Sitio web",
+     "url": "https://www.bewonderworks.com/es/"
+    }
+   ],
+   "evidence": "Web propia del hub Wonder Works (El Estrecho 17, con librería y café), responde 200."
+  },
+  "Sapere Vedere": {
+   "city": "San Carlos",
+   "links": [
+    {
+     "label": "Facebook",
+     "url": "https://www.facebook.com/profile.php?id=100069830014958"
+    }
+   ],
+   "evidence": "Perfil FB listado como sitio en ficha de 18 de Julio 830, San Carlos (Analía Martínez y Mónica Molinari). Sin web ni IG verificados."
+  },
+  "El Prisma de Lunares": {
+   "city": "Paysandú",
+   "links": [
+    {
+     "label": "Instagram",
+     "url": "https://www.instagram.com/elprismadelunares/"
+    }
+   ],
+   "evidence": "IG handle publicado por el MEC en la programación oficial 2025 (18 de Julio 876)."
+  },
+  "Posta del Libro": {
+   "city": "Paysandú",
+   "links": [
+    {
+     "label": "Instagram",
+     "url": "https://www.instagram.com/postadellibro.uy/"
+    }
+   ],
+   "evidence": "IG handle publicado por el MEC en la programación oficial 2025 (Ituzaingó 1240)."
+  },
+  "Eclipsamor Libros": {
+   "city": "Rivera",
+   "links": [
+    {
+     "label": "Instagram",
+     "url": "https://www.instagram.com/eclipsamorlibros/"
+    }
+   ],
+   "evidence": "IG handle publicado por el MEC en la programación oficial 2025 (Brasil 920)."
+  },
+  "Tadi Libros": {
+   "city": "Rocha",
+   "links": [
+    {
+     "label": "Instagram",
+     "url": "https://www.instagram.com/tadilibros/"
+    }
+   ],
+   "evidence": "IG @tadilibros (ficha 25 de Agosto 140 y campaña de Cultura Rocha)."
+  },
+  "Bolivar": {
+   "city": "La Paloma",
+   "links": [],
+   "evidence": "Es Bolivar Panadería y Café (Av. Solari 5829); sin web ni red social verificable."
+  },
+  "Librería 33": {
+   "city": "Salto",
+   "links": [
+    {
+     "label": "Instagram",
+     "url": "https://www.instagram.com/libreria33salto/"
+    }
+   ],
+   "evidence": "IG handle publicado por el MEC en la programación oficial 2025 (Treinta y Tres 32)."
+  },
+  "Bellota Libros": {
+   "city": "Ciudad del Plata",
+   "links": [
+    {
+     "label": "Instagram",
+     "url": "https://www.instagram.com/bellotalibros/"
+    }
+   ],
+   "evidence": "IG handle publicado por el MEC en la programación oficial 2025 (Rivera M79 S15, San Fernando)."
+  },
+  "Entre Libros": {
+   "city": "San José de Mayo",
+   "links": [],
+   "evidence": "Librería confirmada (Batlle y Ordóñez 643; Diego Maga, Laura Guerra) pero sin web ni redes verificables."
+  },
+  "La Canasta": {
+   "city": "San José de Mayo",
+   "links": [
+    {
+     "label": "Sitio web",
+     "url": "https://www.lacanastaonline.com/"
+    }
+   ],
+   "evidence": "Web propia (Asamblea esq. Rincón), responde 200."
+  },
+  "Puro Cuento Libercafé": {
+   "city": "San José de Mayo",
+   "links": [
+    {
+     "label": "Instagram",
+     "url": "https://www.instagram.com/purocuentolibercafe/"
+    }
+   ],
+   "evidence": "IG handle publicado por el MEC en la programación oficial 2025."
+  },
+  "JoaFel Tienda de Libros": {
+   "city": "Dolores",
+   "links": [],
+   "evidence": "Librería confirmada (José E. Rodó 1280) pero sin web ni redes verificables."
+  },
+  "Minico": {
+   "city": "Mercedes",
+   "links": [
+    {
+     "label": "Instagram",
+     "url": "https://www.instagram.com/tiendaminico/"
+    }
+   ],
+   "evidence": "IG handle publicado por el MEC en la programación oficial 2025 (José E. Rodó 814)."
+  },
+  "Librería Difusión Ltda.": {
+   "city": "Tacuarembó",
+   "links": [
+    {
+     "label": "Sitio web",
+     "url": "https://difusion.uy/"
+    },
+    {
+     "label": "Facebook",
+     "url": "https://www.facebook.com/452505964934486"
+    }
+   ],
+   "evidence": "Web propia (18 de Julio 316 bis) responde 200; FB vinculado en ficha."
+  },
+  "Cambalache Leonardo Librero": {
+   "city": "Parque del Plata",
+   "links": [
+    {
+     "label": "Sitio web",
+     "url": "https://cambalacheleonardolibrero.com/"
+    },
+    {
+     "label": "Instagram",
+     "url": "https://www.instagram.com/cambalache.leonardo/"
+    }
+   ],
+   "evidence": "Web propia responde 200 y enlaza @cambalache.leonardo."
+  }
+ },
+ "people": {
+  "Rubén Olivera": {
+   "url": "https://es.wikipedia.org/wiki/Rub%C3%A9n_Olivera_(m%C3%BAsico)",
+   "kind": "wikipedia",
+   "evidence": "Músico uruguayo (n. 1954); presenta libro en El Altillo."
+  },
+  "Samantha Navarro": {
+   "url": "https://es.wikipedia.org/wiki/Samantha_Navarro",
+   "kind": "wikipedia",
+   "evidence": "Cantautora uruguaya; 'Elefantín' (Alfaguara)."
+  },
+  "Martín Otheguy": {
+   "url": "https://es.wikipedia.org/wiki/Mart%C3%ADn_Otheguy",
+   "kind": "wikipedia",
+   "evidence": "Periodista y escritor uruguayo (n. 1978)."
+  },
+  "Marcelo Estefanell": {
+   "url": "https://es.wikipedia.org/wiki/Marcelo_Estefanell",
+   "kind": "wikipedia",
+   "evidence": "Escritor sanducero (n. 1950)."
+  },
+  "Tatiana Oroño": {
+   "url": "https://es.wikipedia.org/wiki/Tatiana_Oro%C3%B1o",
+   "kind": "wikipedia",
+   "evidence": "Poeta nacida en San José de Mayo (1947)."
+  },
+  "Circe Maia": {
+   "url": "https://es.wikipedia.org/wiki/Circe_Maia",
+   "kind": "wikipedia",
+   "evidence": "Poeta uruguaya, tema del taller en IRAKURRI."
+  },
+  "Gladys Castelvecchi": {
+   "url": "https://es.wikipedia.org/wiki/Gladys_Castelvecchi",
+   "kind": "wikipedia",
+   "evidence": "Poeta rochense (1922-2008), tema del taller en IRAKURRI."
+  },
+  "Marcos Llemes": {
+   "url": "https://es.wikipedia.org/wiki/Marcos_Llemes",
+   "kind": "wikipedia",
+   "evidence": "Escritor salteño (n. 1992); presenta 'California baby'."
+  },
+  "Luis Do Santos": {
+   "url": "https://es.wikipedia.org/wiki/Luis_Do_Santos",
+   "kind": "wikipedia",
+   "evidence": "Escritor uruguayo; autor de 'Los restos que fuimos'."
+  },
+  "Pecho e’ Fierro": {
+   "url": "https://es.wikipedia.org/wiki/Pecho_e%27_Fierro",
+   "kind": "wikipedia",
+   "evidence": "Banda de San José (1998)."
+  },
+  "Álvaro Ojeda": {
+   "url": "https://es.wikipedia.org/wiki/%C3%81lvaro_Ojeda_(escritor)",
+   "kind": "wikipedia",
+   "evidence": "Poeta y periodista uruguayo (n. 1958); poemario 'Desnudo'. Identidad probable, no confirmada por la librería."
+  },
+  "Susana Aliano Casales": {
+   "url": "https://susanaaliano.com/",
+   "kind": "site",
+   "evidence": "Web propia de la autora tacuaremboense de 'El árbol de Anna' (responde 200)."
+  },
+  "Lila Jan": {
+   "url": "https://www.instagram.com/lilahjan.music/",
+   "kind": "social",
+   "evidence": "Cantautora uruguaya (Lilah Jan) de 'Entretejidos'; IG citado en nota de prensa."
+  },
+  "La Crisis Uruguaya": {
+   "url": "https://www.instagram.com/la_crisis_uruguaya/",
+   "kind": "social",
+   "evidence": "Trío sanducero; handle citado en evento de El Prisma de Lunares."
+  },
+  "Sandra Costabel": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "4R Conventillo": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Inición Sesiada": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Jas Canziani": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Ismael Schiavone": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Jean Georges Almendras": {
+   "url": null,
+   "kind": null,
+   "evidence": "Periodista confirmado ('¡No te apretés, carajo!', Aguilar/Debate) pero sin web/red propia verificada."
+  },
+  "Tatiana Tree": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Al fondo hay espacio": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Marcelo Casacuberta": {
+   "url": null,
+   "kind": null,
+   "evidence": "Fotógrafo de fauna uruguayo confirmado; sin web/red propia verificada."
+  },
+  "Eduardo Blasina": {
+   "url": null,
+   "kind": null,
+   "evidence": "Autor confirmado ('El filtro de la evolución', Debate 2026); sin web/red/wiki verificada."
+  },
+  "Gaby Piña": {
+   "url": null,
+   "kind": null,
+   "evidence": "Narradora de 'Entretejidos' confirmada; red social no verificada."
+  },
+  "Isabel Pena": {
+   "url": null,
+   "kind": null,
+   "evidence": "Invitada de 'Entretejidos'; sin enlace verificable."
+  },
+  "Angelo Primon": {
+   "url": null,
+   "kind": null,
+   "evidence": "Músico brasileño (Porto Alegre) de 'Entretejidos'; sin web/red verificada."
+  },
+  "Sandra Escames": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Pablo Oroño": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Silvio Flores": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Los Aquí Presentes": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Verónica Horminoguez": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Luizana Fleitas": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Rocío Ruiz": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Nahual Santiago Cossarini": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "La Miel del Oso Murga": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Sol Rey": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "RABBIT": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Mónica Batalla": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Vulcana": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Camilo Baraibar": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Dúo Coames": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Yanina Urtiaga": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Alejandra Grifini": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Daniel Peluas": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Dante Carlini": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Diego Batiste": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Cuarteto Murmullo": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Juan Bellón": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Soledad Alfaro": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Grupo Tombe y Safe": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Salvador Biko": {
+   "url": null,
+   "kind": null,
+   "evidence": "Escritor carmelitano (Maximiliano García) confirmado en prensa; sin web/red verificada."
+  },
+  "Kundeké González": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Karina Sosa": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Juan Cruz Guido": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Tunda Prada": {
+   "url": null,
+   "kind": null,
+   "evidence": "Artista uruguayo de 'Duna' confirmado (Teatro Solís, Caras y Caretas); sin web/red verificada."
+  },
+  "Francisco Cuello": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Francisco Mattos": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Susana Besio": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Felipe Burgos": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Diego Rossberg": {
+   "url": null,
+   "kind": null,
+   "evidence": "Músico ex Cuatro Pesos de Propina confirmado; solo Spotify/prensa, sin web/red verificada."
+  },
+  "Paula Placeres": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Sebastián Pedroso": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Payaso Mañongo": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Juan Scuarcia": {
+   "url": null,
+   "kind": null,
+   "evidence": "Escritor minuano confirmado ('El Condenado'); sin web/red verificada."
+  },
+  "Juanchi Le Poe": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "María Saravia": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Electra Turk": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Gabriela Jiménez": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Virginia Cordovés Bella": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Sandro Foge": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Yurak Sisa": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Giorgina Cerutti": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Luciana Prudente": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Dos pájaros editorial": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Natacha Amaya": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Elena Risso": {
+   "url": null,
+   "kind": null,
+   "evidence": "Periodista y escritora confirmada ('Las primeras ciudadanas', Sudamericana 2026); sin web/red/wiki verificada."
+  },
+  "Santiago Cutinella": {
+   "url": null,
+   "kind": null,
+   "evidence": "Músico confirmado (dúo con Flo Lanzaro); sin web/red verificada."
+  },
+  "Florencia Lanzaro": {
+   "url": null,
+   "kind": null,
+   "evidence": "Cantante uruguaya confirmada; sin web/red verificada."
+  },
+  "Marcelo Reperger": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Samanta Carlos": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Juan Martín Sánchez": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Nadia Pereira": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Fernando Cortizo": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "María Noel": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Agustín Lucas": {
+   "url": null,
+   "kind": null,
+   "evidence": "Ex futbolista y poeta uruguayo, autor de 'Caballo' (Club); sin web/red/wiki verificada."
+  },
+  "Santiago Meloni": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Valeria Rodríguez": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Lectores del Norte": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Editora del Norte": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Hey Mujik!": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable (la diaria lo escribe 'Hey Mujic!')."
+  },
+  "Mabel De Agostini": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Bruno Pina": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Rodolfo Lacava": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable (la diaria lo nombra 'Fito Lacava')."
+  },
+  "Delfi Falco": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Nicolas Alberte": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Mario Castro": {
+   "url": null,
+   "kind": null,
+   "evidence": "Cantautor salteño; la página homónima de Wikipedia es de otra persona (periodista boliviano)."
+  },
+  "Denis Dutra": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Leonardo Vidal": {
+   "url": null,
+   "kind": null,
+   "evidence": "Autor de 'Nada parecido a la felicidad' (Orsai, 2026; Leonardo Vidal Ferreiro); sin web/red propia verificada."
+  },
+  "Tres Tintas": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Nadia Florio": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Edgardo Nieves": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Clarisa Prince": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Gimena Batista": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Dardo Sellanes": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Carolina Silva": {
+   "url": null,
+   "kind": null,
+   "evidence": "Escritora libertense (Carolina Silva Barbé), Premio Onetti 2025; sin web/red verificada."
+  },
+  "Irma Álvarez": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "César Altamirano": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Boris Faingola": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "La Gata Mara": {
+   "url": null,
+   "kind": null,
+   "evidence": "Murga joven de San José, ganadora de Murga Joven 2025; sin red verificada."
+  },
+  "Leo Carlini": {
+   "url": null,
+   "kind": null,
+   "evidence": "Líder de Pecho e' Fierro (ver enlace de la banda); sin enlace personal."
+  },
+  "Flavia González": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Bettina Ceriani": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Yamila Díaz": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Pedro Peña": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Damián Cabrera": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Orquesta Escarlata": {
+   "url": null,
+   "kind": null,
+   "evidence": "Orquesta de light music dirigida por Martín Lazaroff; sin web/red verificada."
+  },
+  "Martin Lazaroff": {
+   "url": null,
+   "kind": null,
+   "evidence": "Director de Orquesta Escarlata; solo LinkedIn (excluido)."
+  },
+  "Lucía Alayón": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Raquel Silvetti": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Erika Veilandics": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Alejandro del Pino": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Gonzalo Asencio": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Grupo Vocal Dolores": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Santiago Zefferino": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Maira Vann": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Catalina Habermelh": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  },
+  "Murga La Marchanta": {
+   "url": null,
+   "kind": null,
+   "evidence": "Sin enlace verificable."
+  }
+ }
+}
